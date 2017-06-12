@@ -7,7 +7,7 @@
       <class name="SignIn.FlockSignIn">
         <methods>
           <include name="beforeClass"/>
-          <include name="otpErrorMessage"/>
+          <include name="otpErrorMessage1"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- SignIn.FlockSignIn -->

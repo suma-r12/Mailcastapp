@@ -182,7 +182,7 @@ public class GenericMethods {
 			 log.info("The element: "+locator+" is displayed.");
 			 return true;
 		 }else{
-			 log.info("The element: "+locator+" is NOT displayed.");
+			 log.error("The element: "+locator+" is NOT displayed.");
 			 return false;
 		 }
 	}
@@ -194,12 +194,12 @@ public class GenericMethods {
 	public void clearField(By locator){
 		WebElement field = driver.findElement(locator);
 			field.clear();
+			log.info("The field is cleared");
 	}
 	
-	public String getText(By locator){
-		String Text = driver.findElement(locator).getText();
+	public void getText(By locator){
+		 String Text = driver.findElement(locator).getText();
 		log.info("THe text at locator: "+locator+" is "+Text);
-		return Text;
 	}
 	
 	public boolean compareText(By locator){
@@ -208,7 +208,7 @@ public class GenericMethods {
 			log.info("The text: "+Text+" displayed is correct");
 			return true;
 		}else{
-			log.info("The text: "+Text+" displayed is not correct");
+			log.error("The text: "+Text+" displayed is not correct");
 			return false;
 		}
 	}

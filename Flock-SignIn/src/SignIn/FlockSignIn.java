@@ -20,6 +20,7 @@ public class FlockSignIn {
 	static String hydraURL = "http://updates.flock.co/fl_hydra_web/2.1.0.64/?s=qa&config=preprod";
 	static GenericMethods gm;
 	static String testerEmail = "directitester002@directi.com";
+	static String testerOTP ="654321";
 
 	@Parameters("browserType")
 	@BeforeClass
@@ -47,7 +48,7 @@ public class FlockSignIn {
 	
 	@DataProvider(name="otp")
 	public static Object[][]otpInputs(){
-		return new Object[][]{{""},{"jffhfh"},{"1q2q3q5q"}};
+		return new Object[][]{{""},{"jffhfh"},{"1q2q3q"}};
 	}
 
 
@@ -211,12 +212,32 @@ public class FlockSignIn {
 	}
 	
 	@Test(priority = 21, dataProvider ="otp")
-	public void otpErrorMessage(String otp){
+	public void otpErrorMessage(String otp) throws Exception{
+		System.out.println("The otp vale: "+otp);
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, otp);
+		Thread.sleep(2000);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
 		gm.getText(By.xpath("//div[@class='errorMessage']"));
 		gm.clearField(By.xpath("//input[@class='input']"));
+	}
+	
+	@Test(priority = 22)
+	public void otpErrorMessage1() throws Exception{
+		
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, "123456");
+		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
+		Thread.sleep(2000);
+		gm.elementIsDisplayed(By.xpath("//span[@class='errorMessage']"));
+		gm.getText(By.xpath("//span[@class='errorMessage']"));
+		gm.clearField(By.xpath("//input[@class='input']"));
+	}
+	
+	@Test(priority = 23)
+	public void enterOTP() {
+		
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerOTP);
+		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 
 	@AfterClass
