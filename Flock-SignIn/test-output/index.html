@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MultiBrowser">
+              <span class="suite-name border-passed">MultiBrowser</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MultiBrowser">
+                    <span>C:\Users\farzan.s.DIRECTI\Desktop\FlockHydra-Automation\Flock-SignIn\XML\MultiBrowser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MultiBrowser">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MultiBrowser">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MultiBrowser">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MultiBrowser">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MultiBrowser">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MultiBrowser">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MultiBrowser" class="hide-methods passed suite-MultiBrowser"> (hide)</a> <!-- hide-methods passed suite-MultiBrowser -->
+                      <a href="#" panel-name="suite-MultiBrowser" class="show-methods passed suite-MultiBrowser"> (show)</a> <!-- show-methods passed suite-MultiBrowser -->
+                    </span>
+                    <div class="method-list-content passed suite-MultiBrowser">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="Heading">Heading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="clickSkipGoogleAuth">clickSkipGoogleAuth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="contactSupport">contactSupport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="emailPlaceHolder">emailPlaceHolder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="enterEmail">enterEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="errorMessage()">errorMessage()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="errorMessage(jffhfhfh)">errorMessage(jffhfhfh)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="errorMessage(jffhfhfh@jdjdjjdj)">errorMessage(jffhfhfh@jdjdjjdj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="googleAuthButton">googleAuthButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="googleAuthHeading">googleAuthHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="googleAuthNote">googleAuthNote</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="googleAuthSkipButton">googleAuthSkipButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="googleAuthSubHeading">googleAuthSubHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="onbaordingSideBar">onbaordingSideBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="subHeading">subHeading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="submitButton">submitButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MultiBrowser" title="SignIn.FlockSignIn" hash-for-method="windowTitle">windowTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MultiBrowser -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MultiBrowser" class="panel MultiBrowser">
+          <div class="suite-MultiBrowser-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SignIn.FlockSignIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Heading">
+                  </a> <!-- Heading -->
+                  <span class="method-name">Heading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSkipGoogleAuth">
+                  </a> <!-- clickSkipGoogleAuth -->
+                  <span class="method-name">clickSkipGoogleAuth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactSupport">
+                  </a> <!-- contactSupport -->
+                  <span class="method-name">contactSupport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailPlaceHolder">
+                  </a> <!-- emailPlaceHolder -->
+                  <span class="method-name">emailPlaceHolder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail">
+                  </a> <!-- enterEmail -->
+                  <span class="method-name">enterEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage()">
+                  </a> <!-- errorMessage() -->
+                  <span class="method-name">errorMessage</span>
+                  <span class="parameters">()</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage(jffhfhfh)">
+                  </a> <!-- errorMessage(jffhfhfh) -->
+                  <span class="method-name">errorMessage</span>
+                  <span class="parameters">(jffhfhfh)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessage(jffhfhfh@jdjdjjdj)">
+                  </a> <!-- errorMessage(jffhfhfh@jdjdjjdj) -->
+                  <span class="method-name">errorMessage</span>
+                  <span class="parameters">(jffhfhfh@jdjdjjdj)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleAuthButton">
+                  </a> <!-- googleAuthButton -->
+                  <span class="method-name">googleAuthButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleAuthHeading">
+                  </a> <!-- googleAuthHeading -->
+                  <span class="method-name">googleAuthHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleAuthNote">
+                  </a> <!-- googleAuthNote -->
+                  <span class="method-name">googleAuthNote</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleAuthSkipButton">
+                  </a> <!-- googleAuthSkipButton -->
+                  <span class="method-name">googleAuthSkipButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleAuthSubHeading">
+                  </a> <!-- googleAuthSubHeading -->
+                  <span class="method-name">googleAuthSubHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onbaordingSideBar">
+                  </a> <!-- onbaordingSideBar -->
+                  <span class="method-name">onbaordingSideBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subHeading">
+                  </a> <!-- subHeading -->
+                  <span class="method-name">subHeading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitButton">
+                  </a> <!-- submitButton -->
+                  <span class="method-name">submitButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowTitle">
+                  </a> <!-- windowTitle -->
+                  <span class="method-name">windowTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MultiBrowser-class-passed -->
+        </div> <!-- panel MultiBrowser -->
+        <div panel-name="test-xml-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\farzan.s.DIRECTI\Desktop\FlockHydra-Automation\Flock-SignIn\XML\MultiBrowser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MultiBrowser&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Chorme Browser&quot;&gt;
+    &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SignIn.FlockSignIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chorme Browser --&gt;
+&lt;/suite&gt; &lt;!-- MultiBrowser --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MultiBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chorme Browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MultiBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MultiBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MultiBrowser');
+function tableData_MultiBrowser() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'googleAuthHeading')
+data.setCell(0, 2, 'SignIn.FlockSignIn')
+data.setCell(0, 3, 1685);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'errorMessage')
+data.setCell(1, 2, 'SignIn.FlockSignIn')
+data.setCell(1, 3, 519);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'errorMessage')
+data.setCell(2, 2, 'SignIn.FlockSignIn')
+data.setCell(2, 3, 351);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Heading')
+data.setCell(3, 2, 'SignIn.FlockSignIn')
+data.setCell(3, 3, 272);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'errorMessage')
+data.setCell(4, 2, 'SignIn.FlockSignIn')
+data.setCell(4, 3, 269);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickSkipGoogleAuth')
+data.setCell(5, 2, 'SignIn.FlockSignIn')
+data.setCell(5, 3, 261);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'submitButton')
+data.setCell(6, 2, 'SignIn.FlockSignIn')
+data.setCell(6, 3, 243);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterEmail')
+data.setCell(7, 2, 'SignIn.FlockSignIn')
+data.setCell(7, 3, 240);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'emailPlaceHolder')
+data.setCell(8, 2, 'SignIn.FlockSignIn')
+data.setCell(8, 3, 222);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'contactSupport')
+data.setCell(9, 2, 'SignIn.FlockSignIn')
+data.setCell(9, 3, 207);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'googleAuthNote')
+data.setCell(10, 2, 'SignIn.FlockSignIn')
+data.setCell(10, 3, 153);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'googleAuthSkipButton')
+data.setCell(11, 2, 'SignIn.FlockSignIn')
+data.setCell(11, 3, 150);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'subHeading')
+data.setCell(12, 2, 'SignIn.FlockSignIn')
+data.setCell(12, 3, 131);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'googleAuthButton')
+data.setCell(13, 2, 'SignIn.FlockSignIn')
+data.setCell(13, 3, 121);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'googleAuthSubHeading')
+data.setCell(14, 2, 'SignIn.FlockSignIn')
+data.setCell(14, 3, 111);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'onbaordingSideBar')
+data.setCell(15, 2, 'SignIn.FlockSignIn')
+data.setCell(15, 3, 49);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'windowTitle')
+data.setCell(16, 2, 'SignIn.FlockSignIn')
+data.setCell(16, 3, 48);
+window.suiteTableData['MultiBrowser']= { tableData: data, tableDiv: 'times-div-MultiBrowser'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-MultiBrowser">
+              </div> <!-- times-div-MultiBrowser -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MultiBrowser</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MultiBrowser" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">SignIn.FlockSignIn</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">windowTitle</span>
+                <span class="method-start">11657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Heading</span>
+                <span class="method-start">11709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subHeading</span>
+                <span class="method-start">11983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">emailPlaceHolder</span>
+                <span class="method-start">12117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">submitButton</span>
+                <span class="method-start">12341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactSupport</span>
+                <span class="method-start">12587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">onbaordingSideBar</span>
+                <span class="method-start">12796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessage()</span>
+                <span class="method-start">12854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessage(jffhfhfh)</span>
+                <span class="method-start">13374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">errorMessage(jffhfhfh@jdjdjjdj)</span>
+                <span class="method-start">13726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail</span>
+                <span class="method-start">13997 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleAuthHeading</span>
+                <span class="method-start">14238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleAuthSubHeading</span>
+                <span class="method-start">15925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleAuthButton</span>
+                <span class="method-start">16039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleAuthSkipButton</span>
+                <span class="method-start">16163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">googleAuthNote</span>
+                <span class="method-start">16314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSkipGoogleAuth</span>
+                <span class="method-start">16468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">16730 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

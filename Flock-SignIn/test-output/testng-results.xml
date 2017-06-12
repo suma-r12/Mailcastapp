@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MultiBrowser" duration-ms="27824" started-at="2017-06-12T10:33:52Z" finished-at="2017-06-12T10:34:20Z">
+    <groups>
+    </groups>
+    <test name="Chorme Browser" duration-ms="27824" started-at="2017-06-12T10:33:52Z" finished-at="2017-06-12T10:34:20Z">
+      <class name="SignIn.FlockSignIn">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="beforeClass" is-config="true" duration-ms="11645" started-at="2017-06-12T16:03:52Z" finished-at="2017-06-12T16:04:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="windowTitle" duration-ms="48" started-at="2017-06-12T16:04:04Z" finished-at="2017-06-12T16:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowTitle -->
+        <test-method status="PASS" signature="Heading()[pri:1, instance:SignIn.FlockSignIn@6aaceffd]" name="Heading" duration-ms="272" started-at="2017-06-12T16:04:04Z" finished-at="2017-06-12T16:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Heading -->
+        <test-method status="PASS" signature="subHeading()[pri:2, instance:SignIn.FlockSignIn@6aaceffd]" name="subHeading" duration-ms="131" started-at="2017-06-12T16:04:04Z" finished-at="2017-06-12T16:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeading -->
+        <test-method status="PASS" signature="emailPlaceHolder()[pri:3, instance:SignIn.FlockSignIn@6aaceffd]" name="emailPlaceHolder" duration-ms="222" started-at="2017-06-12T16:04:04Z" finished-at="2017-06-12T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPlaceHolder -->
+        <test-method status="PASS" signature="submitButton()[pri:4, instance:SignIn.FlockSignIn@6aaceffd]" name="submitButton" duration-ms="243" started-at="2017-06-12T16:04:05Z" finished-at="2017-06-12T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButton -->
+        <test-method status="PASS" signature="contactSupport()[pri:5, instance:SignIn.FlockSignIn@6aaceffd]" name="contactSupport" duration-ms="207" started-at="2017-06-12T16:04:05Z" finished-at="2017-06-12T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactSupport -->
+        <test-method status="PASS" signature="onbaordingSideBar()[pri:6, instance:SignIn.FlockSignIn@6aaceffd]" name="onbaordingSideBar" duration-ms="49" started-at="2017-06-12T16:04:05Z" finished-at="2017-06-12T16:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onbaordingSideBar -->
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:7, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="519" started-at="2017-06-12T16:04:05Z" data-provider="emails" finished-at="2017-06-12T16:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:7, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="351" started-at="2017-06-12T16:04:06Z" data-provider="emails" finished-at="2017-06-12T16:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jffhfhfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:7, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="269" started-at="2017-06-12T16:04:06Z" data-provider="emails" finished-at="2017-06-12T16:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jffhfhfh@jdjdjjdj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="enterEmail()[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="enterEmail" duration-ms="240" started-at="2017-06-12T16:04:06Z" finished-at="2017-06-12T16:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="googleAuthHeading()[pri:9, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthHeading" duration-ms="1685" started-at="2017-06-12T16:04:06Z" finished-at="2017-06-12T16:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAuthHeading -->
+        <test-method status="PASS" signature="googleAuthSubHeading()[pri:10, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSubHeading" duration-ms="111" started-at="2017-06-12T16:04:08Z" finished-at="2017-06-12T16:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAuthSubHeading -->
+        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthButton" duration-ms="121" started-at="2017-06-12T16:04:08Z" finished-at="2017-06-12T16:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAuthButton -->
+        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSkipButton" duration-ms="150" started-at="2017-06-12T16:04:08Z" finished-at="2017-06-12T16:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAuthSkipButton -->
+        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthNote" duration-ms="153" started-at="2017-06-12T16:04:09Z" finished-at="2017-06-12T16:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleAuthNote -->
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6aaceffd]" name="clickSkipGoogleAuth" duration-ms="261" started-at="2017-06-12T16:04:09Z" finished-at="2017-06-12T16:04:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSkipGoogleAuth -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="afterClass" is-config="true" duration-ms="11083" started-at="2017-06-12T16:04:09Z" finished-at="2017-06-12T16:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- SignIn.FlockSignIn -->
+    </test> <!-- Chorme Browser -->
+  </suite> <!-- MultiBrowser -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MultiBrowser" parallel="tests">
+	<test name="Chorme Browser">
+		<parameter name="browserType" value="chrome" />
+		<classes>
+			<class name="SignIn.FlockSignIn">
+			</class>
+		</classes>
+	</test>
+<!-- 	<test name="Firefox Browser">
+		<parameter name="browserType" value="firefox" />
+		<classes>
+			<class name="SignIn.FlockSignIn">
+			</class>
+		</classes>
+	</test> -->
+</suite>
