@@ -71,3 +71,223 @@ Discover and add your colleagues
 Discover and add your colleagues displayed is not correct
 16:04:09.193 INFO  SignIn.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
 16:04:09.453 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:35.502 INFO  SignIn.GenericMethods -Browser Window Maximized
+16:55:41.942 INFO  SignIn.FlockSignIn -Opening the webclient
+16:55:42.031 INFO  SignIn.GenericMethods -The title of the Page is: Flock
+16:55:42.089 INFO  SignIn.GenericMethods -The Title is Correct
+16:55:42.139 INFO  SignIn.GenericMethods -Switched to iframe by int : 0
+16:55:42.142 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+16:55:42.340 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+16:55:42.447 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
+16:55:42.534 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
+16:55:42.603 INFO  SignIn.GenericMethods -The text: Get started with Flock displayed is correct
+16:55:42.658 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
+16:55:42.717 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
+16:55:42.788 INFO  SignIn.GenericMethods -The text: Enter your official email address to continue displayed is correct
+16:55:42.872 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+16:55:42.941 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+16:55:42.988 INFO  SignIn.GenericMethods -The text:  displayed is correct
+16:55:43.089 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+16:55:43.159 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
+16:55:43.242 INFO  SignIn.GenericMethods -The text: Login or Create a Team displayed is correct
+16:55:43.298 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
+16:55:43.358 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
+16:55:43.406 INFO  SignIn.GenericMethods -The text: Contact Support displayed is correct
+16:55:43.463 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
+16:55:43.472 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+16:55:43.638 INFO  SignIn.GenericMethods -Value Entered in the place holder
+16:55:43.638 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:43.912 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:43.980 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+16:55:44.049 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+16:55:44.108 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+16:55:44.237 INFO  SignIn.GenericMethods -Value Entered in the place holder
+16:55:44.237 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:44.403 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:44.436 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+16:55:44.465 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+16:55:44.496 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+16:55:44.648 INFO  SignIn.GenericMethods -Value Entered in the place holder
+16:55:44.648 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:44.759 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:44.791 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+16:55:44.836 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+16:55:44.873 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+16:55:45.139 INFO  SignIn.GenericMethods -Value Entered in the place holder
+16:55:45.139 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:45.253 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:45.266 INFO  SignIn.GenericMethods -Implicitly waiting for 10secs
+16:55:45.266 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+16:55:49.332 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+16:55:49.382 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
+16:55:49.428 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
+Google apps
+16:55:49.478 INFO  SignIn.GenericMethods -The text: directi.com uses
+Google apps displayed is not correct
+16:55:49.523 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
+16:55:49.580 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
+directitester002@directi.com
+16:55:49.638 INFO  SignIn.GenericMethods -The text: Connect with your Google account
+directitester002@directi.com displayed is not correct
+16:55:49.792 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
+16:55:49.904 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
+16:55:49.961 INFO  SignIn.GenericMethods -The text: Sign in with Google displayed is correct
+16:55:50.061 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
+16:55:50.112 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
+16:55:50.156 INFO  SignIn.GenericMethods -The text: Skip this step displayed is correct
+16:55:50.217 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
+16:55:50.270 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues
+16:55:50.315 INFO  SignIn.GenericMethods -The text: Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues displayed is not correct
+16:55:50.318 INFO  SignIn.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:55:50.592 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:50.605 INFO  SignIn.GenericMethods -Implicitly waiting for 10secs
+16:55:50.606 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+16:55:50.682 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+16:55:50.724 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
+16:55:50.773 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
+16:55:50.810 INFO  SignIn.GenericMethods -The text: Please verify your email displayed is correct
+16:55:50.902 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
+16:55:50.966 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit
+16:55:51.028 INFO  SignIn.GenericMethods -The text: We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit displayed is not correct
+16:55:51.088 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+16:55:51.154 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+16:55:51.194 INFO  SignIn.GenericMethods -The text:  displayed is correct
+16:55:51.244 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
+16:55:51.310 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
+16:55:51.363 INFO  SignIn.GenericMethods -The text: Didn't receive the pin? displayed is correct
+16:55:51.425 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
+16:55:51.474 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
+16:55:51.527 INFO  SignIn.GenericMethods -The text: Resend PIN displayed is correct
+16:55:51.529 INFO  SignIn.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:55:51.793 INFO  SignIn.GenericMethods -Element clicked on the webpage
+16:55:51.840 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
+16:55:51.903 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
+16:55:51.968 INFO  SignIn.GenericMethods -The text:  displayed is correct
+16:55:52.001 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+16:55:52.068 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
+16:55:52.112 INFO  SignIn.GenericMethods -The text: Verify displayed is correct
+17:03:15.799 INFO  SignIn.GenericMethods -Browser Window Maximized
+17:03:23.478 INFO  SignIn.FlockSignIn -Opening the webclient
+17:03:23.541 INFO  SignIn.GenericMethods -The title of the Page is: Flock
+17:03:23.568 INFO  SignIn.GenericMethods -The Title is Correct
+17:03:23.604 INFO  SignIn.GenericMethods -Switched to iframe by int : 0
+17:03:23.609 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+17:03:23.790 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+17:03:23.905 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
+17:03:24.005 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
+17:03:24.075 INFO  SignIn.GenericMethods -The text: Get started with Flock displayed is correct
+17:03:24.124 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
+17:03:24.179 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
+17:03:24.248 INFO  SignIn.GenericMethods -The text: Enter your official email address to continue displayed is correct
+17:03:24.330 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+17:03:24.396 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+17:03:24.455 INFO  SignIn.GenericMethods -The text:  displayed is correct
+17:03:24.546 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+17:03:24.638 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
+17:03:24.716 INFO  SignIn.GenericMethods -The text: Login or Create a Team displayed is correct
+17:03:24.781 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
+17:03:24.831 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
+17:03:24.885 INFO  SignIn.GenericMethods -The text: Contact Support displayed is correct
+17:03:25.016 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
+17:03:25.034 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:25.296 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:25.296 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:25.599 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:25.676 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+17:03:25.725 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+17:03:25.795 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:25.912 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:25.912 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:26.087 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:26.119 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+17:03:26.147 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+17:03:26.181 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:26.349 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:26.349 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:26.496 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:26.538 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+17:03:26.570 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+17:03:26.603 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:26.807 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:26.808 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:26.909 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:26.917 INFO  SignIn.GenericMethods -Implicitly waiting for 10secs
+17:03:26.918 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+17:03:29.080 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+17:03:29.132 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
+17:03:29.184 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
+Google apps
+17:03:29.228 INFO  SignIn.GenericMethods -The text: directi.com uses
+Google apps displayed is not correct
+17:03:29.298 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
+17:03:29.356 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
+directitester002@directi.com
+17:03:29.396 INFO  SignIn.GenericMethods -The text: Connect with your Google account
+directitester002@directi.com displayed is not correct
+17:03:29.465 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
+17:03:29.511 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
+17:03:29.561 INFO  SignIn.GenericMethods -The text: Sign in with Google displayed is correct
+17:03:29.623 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
+17:03:29.675 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
+17:03:29.709 INFO  SignIn.GenericMethods -The text: Skip this step displayed is correct
+17:03:29.788 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
+17:03:29.855 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues
+17:03:29.912 INFO  SignIn.GenericMethods -The text: Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues displayed is not correct
+17:03:29.917 INFO  SignIn.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:03:30.191 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:30.208 INFO  SignIn.GenericMethods -Implicitly waiting for 10secs
+17:03:30.209 INFO  SignIn.GenericMethods -Waiting for a max: 10 sec for the element to appear
+17:03:30.303 INFO  SignIn.GenericMethods -The Element that you waited for is now displayed on the webpage
+17:03:30.390 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
+17:03:30.438 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
+17:03:30.480 INFO  SignIn.GenericMethods -The text: Please verify your email displayed is correct
+17:03:30.535 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
+17:03:30.584 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit
+17:03:30.625 INFO  SignIn.GenericMethods -The text: We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit displayed is not correct
+17:03:30.655 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+17:03:30.700 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+17:03:30.745 INFO  SignIn.GenericMethods -The text:  displayed is correct
+17:03:30.791 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
+17:03:30.838 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
+17:03:30.879 INFO  SignIn.GenericMethods -The text: Didn't receive the pin? displayed is correct
+17:03:30.928 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
+17:03:30.976 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
+17:03:31.028 INFO  SignIn.GenericMethods -The text: Resend PIN displayed is correct
+17:03:31.031 INFO  SignIn.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:03:31.363 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:31.405 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
+17:03:31.450 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
+17:03:31.491 INFO  SignIn.GenericMethods -The text:  displayed is correct
+17:03:31.519 INFO  SignIn.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+17:03:31.576 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
+17:03:31.639 INFO  SignIn.GenericMethods -The text: Verify displayed is correct
+17:03:31.643 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:31.865 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:31.865 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:32.140 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:32.191 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+17:03:32.256 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+17:03:32.333 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:32.457 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:32.458 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:32.673 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:32.704 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+17:03:32.738 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+17:03:32.772 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+17:03:32.893 INFO  SignIn.GenericMethods -Value Entered in the place holder
+17:03:32.893 INFO  SignIn.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:03:33.015 INFO  SignIn.GenericMethods -Element clicked on the webpage
+17:03:33.093 INFO  SignIn.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
+17:03:33.139 INFO  SignIn.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 

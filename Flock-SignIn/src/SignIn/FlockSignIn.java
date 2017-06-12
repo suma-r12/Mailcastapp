@@ -19,6 +19,7 @@ public class FlockSignIn {
 	private static final Logger log = LogManager.getLogger(FlockSignIn.class.getName());
 	static String hydraURL = "http://updates.flock.co/fl_hydra_web/2.1.0.64/?s=qa&config=preprod";
 	static GenericMethods gm;
+	static String testerEmail = "directitester002@directi.com";
 
 	@Parameters("browserType")
 	@BeforeClass
@@ -43,6 +44,12 @@ public class FlockSignIn {
 	public static Object[][] emailInputs(){
 		return new Object[][]{{""},{"jffhfhfh"},{"jffhfhfh@jdjdjjdj"}};
 	}
+	
+	@DataProvider(name="otp")
+	public static Object[][]otpInputs(){
+		return new Object[][]{{""},{"jffhfh"},{"1q2q3q5q"}};
+	}
+
 
 	@Test(priority = 0)
 	public void windowTitle(){
@@ -105,7 +112,7 @@ public class FlockSignIn {
 	
 	@Test(priority =8)
 	public void enterEmail(){
-		gm.SendKey(By.xpath("//input[@class='input']"), 1, "directitester002@directi.com");
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerEmail);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	
@@ -151,8 +158,66 @@ public class FlockSignIn {
 		gm.click(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"), 2);
 	}
 	
+	@Test(priority = 14)
+	public void otpHeading(){
+		gm.implicitWait(10);
+		gm.waitForElement(By.xpath("//div[@id='uniqName_16_0']//h2"), 10);
+		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//h2"));
+		gm.getText(By.xpath("//div[@id='uniqName_16_0']//h2"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h2"));
+	}
 	
+	@Test(priority = 15)
+	public void otpSubHeading(){
+		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//h5"));
+		gm.getText(By.xpath("//div[@id='uniqName_16_0']//h5"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h5"));
+	}
 	
+	@Test(priority = 16)
+	public void otpPlaceHolder(){
+		gm.elementDisplayed(By.xpath("//input[@class='input']"));
+		gm.getText(By.xpath("//input[@class='input']"));
+		gm.compareText(By.xpath("//input[@class='input']"));
+	}
+	
+	@Test(priority = 17)
+	public void resendOtpText(){
+		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"));
+		gm.getText(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"));
+	}
+	
+	@Test(priority = 18)
+	public void resendOtpHook(){
+		gm.elementDisplayed(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"));
+		gm.getText(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"));
+		gm.compareText(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"));
+	}
+	
+	@Test(priority =19)
+	public void resendOtpHookClicked(){
+		gm.click(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"), 2);
+		gm.elementDisplayed(By.xpath("//div[@class='resend-status']"));
+		gm.getText(By.xpath("//div[@class='resend-status']"));
+		gm.compareText(By.xpath("//div[@class='resend-status']"));
+	}
+	
+	@Test(priority = 20)
+	public void verifyButton(){
+		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"));
+		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
+		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));
+	}
+	
+	@Test(priority = 21, dataProvider ="otp")
+	public void otpErrorMessage(String otp){
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, otp);
+		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
+		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
+		gm.getText(By.xpath("//div[@class='errorMessage']"));
+		gm.clearField(By.xpath("//input[@class='input']"));
+	}
 
 	@AfterClass
 	public void afterClass() throws InterruptedException {

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MultiBrowser]" parallel="tests">
+  <test name="Chorme Browser(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="SignIn.FlockSignIn">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="otpErrorMessage"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- SignIn.FlockSignIn -->
+    </classes>
+  </test> <!-- Chorme Browser(failed) -->
+</suite> <!-- Failed suite [MultiBrowser] -->
