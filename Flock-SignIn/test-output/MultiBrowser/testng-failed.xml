@@ -6,8 +6,8 @@
     <classes>
       <class name="SignIn.FlockSignIn">
         <methods>
+          <include name="contactSupport"/>
           <include name="beforeClass"/>
-          <include name="otpErrorMessage1"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- SignIn.FlockSignIn -->

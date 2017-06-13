@@ -69,31 +69,115 @@ public class FlockSignIn {
 	}
 	
 	@Test(priority = 2)
+	public void contactSupport() throws Exception{
+		gm.elementDisplayed(By.xpath("//span[@class='feedbackLinkSpan']"));
+		gm.getText(By.xpath("//span[@class='feedbackLinkSpan']"));
+		gm.compareText(By.xpath("//span[@class='feedbackLinkSpan']"));
+		gm.click(By.xpath("//span[@class='feedbackLinkSpan']"), 2);
+		
+		gm.elementDisplayed(By.xpath("//div[@class='title']"));
+		gm.getText(By.xpath("//div[@class='title']"));
+		gm.compareText(By.xpath("//div[@class='title']"));
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"));
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"));
+		
+		gm.elementDisplayed(By.xpath("//input[@placeholder='example@domain.com']"));
+		gm.getText(By.xpath("//input[@placeholder='example@domain.com']"));
+		gm.compareText(By.xpath("//input[@placeholder='example@domain.com']"));
+		gm.SendKey(By.xpath("//input[@placeholder='example@domain.com']"), 2, "Test@mailinator.com");
+		
+		gm.elementDisplayed(By.xpath("//input[@placeholder='Enter your name']"));
+		gm.getText(By.xpath("//input[@placeholder='Enter your name']"));
+		gm.compareText(By.xpath("//input[@placeholder='Enter your name']"));
+		gm.SendKey(By.xpath("//input[@placeholder='Enter your name']"), 2, "Test Automator");
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
+		gm.getText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
+		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
+		gm.click(By.xpath("//div[@id='widgets_RadioButton_0']//input"), 1);
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
+		gm.getText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
+		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
+		gm.click(By.xpath("//div[@id='widgets_RadioButton_1']//input"), 1);
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
+		gm.getText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
+		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
+		gm.click(By.xpath("//div[@id='widgets_RadioButton_2']//input"), 1);
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
+		gm.getText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
+		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
+		gm.click(By.xpath("//div[@id='widgets_RadioButton_3']//input"), 1);
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
+		gm.getText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
+		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
+		gm.click(By.xpath("//div[@id='widgets_RadioButton_4']//input"), 1);
+		
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		
+		gm.elementDisplayed(By.xpath("//textarea[@class='input']"));
+		gm.getText(By.xpath("//textarea[@class='input']"));
+		gm.compareText(By.xpath("//textarea[@class='input']"));
+		gm.SendKey(By.xpath("//textarea[@class='input']"), 2, "Test Message in the body");
+		
+		gm.elementDisplayed(By.xpath("//span[@class='attachFileLogo']"));
+		gm.elementDisplayed(By.xpath("//span[@class='uploadMessage']"));
+		gm.getText(By.xpath("//span[@class='uploadMessage']"));
+		gm.compareText(By.xpath("//span[@class='uploadMessage']"));
+		
+		gm.clearField(By.xpath("//input[@placeholder='example@domain.com']"));
+		gm.clearField(By.xpath("//input[@placeholder='Enter your name']"));
+		gm.clearField(By.xpath("//textarea[@class='input']"));
+		
+		gm.elementDisplayed(By.xpath("//button[@class='btn btn--action btn--reportBug']"));
+		gm.getText(By.xpath("//button[@class='btn btn--action btn--reportBug']"));
+		gm.compareText(By.xpath("//button[@class='btn btn--action btn--reportBug']"));
+		gm.click(By.xpath("//button[@class='btn btn--action btn--reportBug']"), 2);
+		
+		Thread.sleep(3000);
+		gm.elementDisplayed(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"));
+		gm.getText(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"));
+		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"));
+		gm.elementDisplayed(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"));
+		gm.getText(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"));
+		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"));
+		
+		gm.elementDisplayed(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"));
+		gm.getText(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"));
+		gm.compareText(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"));
+		gm.click(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"), 2);
+
+	}
+	@Test(priority = 3)
 	public void subHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h5"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h5"));
 		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h5"));
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void emailPlaceHolder(){
 		gm.elementDisplayed(By.xpath("//input[@class='input']"));
 		gm.getText(By.xpath("//input[@class='input']"));
 		gm.compareText(By.xpath("//input[@class='input']"));
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 5)
 	public void submitButton(){
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));	
-	}
-	
-	@Test(priority = 5)
-	public void contactSupport(){
-		gm.elementDisplayed(By.xpath("//span[@class='feedbackLinkSpan']"));
-		gm.getText(By.xpath("//span[@class='feedbackLinkSpan']"));
-		gm.compareText(By.xpath("//span[@class='feedbackLinkSpan']"));
 	}
 	
 	@Test(priority = 6)
@@ -239,7 +323,7 @@ public class FlockSignIn {
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerOTP);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
-
+	
 	@AfterClass
 	public void afterClass() throws InterruptedException {
 		Thread.sleep(10000);
