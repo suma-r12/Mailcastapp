@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="MultiBrowser" parallel="tests">
+<listeners>
+		<listener class-name="utilities.SeleniumListener">
+		</listener>
+	</listeners>
 	<test name="Chorme Browser">
 		<parameter name="browserType" value="chrome" />
 		<classes>

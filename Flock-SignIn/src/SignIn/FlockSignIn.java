@@ -21,6 +21,10 @@ public class FlockSignIn {
 	static GenericMethods gm;
 	static String testerEmail = "directitester002@directi.com";
 	static String testerOTP ="654321";
+	
+	public WebDriver getDriver(){
+		return driver;
+	}
 
 	@Parameters("browserType")
 	@BeforeClass
