@@ -62,17 +62,30 @@ public class FlockSignIn {
 		
 	}
 	
-	@Test(priority = 1) //check the heading content
-	public void Heading(){
-		//gm.implicitWait(30);
+	@Test(priority =1)
+	public void languageSwitcher(){
+		gm.implicitWait(40);
 		gm.SwitchToiFrameNo(0);
+		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode']"));
+		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"));
+		
+		gm.elementDisplayed(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
+		gm.getText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
+		gm.compareText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
+		gm.click(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"), 1);
+	}
+	
+	
+	@Test(priority = 2) //check the heading content
+	public void Heading(){
+
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h2"));
 		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h2"));
 	}
 	
-	@Test(priority = 2)//check all elements from the contact support blurb
+	@Test(priority = 3)//check all elements from the contact support blurb
 	public void contactSupport() throws Exception{
 		
 		gm.elementDisplayed(By.xpath("//span[@class='feedbackLinkSpan']"));
@@ -175,34 +188,35 @@ public class FlockSignIn {
 		gm.click(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"), 2);
 
 	}
-	@Test(priority = 3)
+	
+	@Test(priority = 4) //Subheading on Enter an email
 	public void subHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h5"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h5"));
 		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h5"));
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 5) //email place holder
 	public void emailPlaceHolder(){
 		gm.elementDisplayed(By.xpath("//input[@class='input']"));
 		gm.getText(By.xpath("//input[@class='input']"));
 		gm.compareText(By.xpath("//input[@class='input']"));
 	}
 	
-	@Test(priority = 5)
-	public void submitButton(){
+	@Test(priority = 6) //login Button
+	public void loginButton(){
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));	
 	}
 	
-	@Test(priority = 6)
+	@Test(priority = 7) //onboarding side bar
 	public void onbaordingSideBar(){
 		gm.elementDisplayed(By.xpath("//div[@class='onboarding-sidebar']"));
 	}
 	
 
-	@Test(priority = 7, dataProvider ="emails")
+	@Test(priority = 8, dataProvider ="emails") //Email Validations
 	public void errorMessage(String emailIDs){
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, emailIDs);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
@@ -211,13 +225,13 @@ public class FlockSignIn {
 		gm.clearField(By.xpath("//input[@class='input']"));
 	}
 	
-	@Test(priority =8)
+	@Test(priority =9)//Enter the email
 	public void enterEmail(){
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerEmail);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	
-	@Test(priority = 9)
+	@Test(priority = 10)
 	public void googleAuthHeading(){
 		gm.implicitWait(10);
 		gm.waitForElement(By.xpath("//div[@id='uniqName_17_0']//h2"), 10);
@@ -226,7 +240,7 @@ public class FlockSignIn {
 		gm.compareText(By.xpath("//div[@id='uniqName_17_0']//h2"));
 	}
 	
-	@Test(priority = 10)
+	@Test(priority = 11)
 	public void googleAuthSubHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_17_0']//h5"));
 		gm.getText(By.xpath("//div[@id='uniqName_17_0']//h5"));
@@ -309,6 +323,18 @@ public class FlockSignIn {
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
 		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));
+	}
+	
+	@Test(priority = 20)
+	public void checkEditButton() throws Exception{
+		gm.elementDisplayed(By.xpath("//a[@data-dojo-attach-point='backLink']"));
+		gm.getText(By.xpath("//a[@data-dojo-attach-point='backLink']"));
+		gm.compareText(By.xpath("//a[@data-dojo-attach-point='backLink']"));
+		gm.click(By.xpath("//a[@data-dojo-attach-point='backLink']"), 1);
+		Thread.sleep(2000);
+		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
+		Thread.sleep(3000);
+		gm.click(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"), 1);
 	}
 	
 	@Test(priority = 21, dataProvider ="otp")

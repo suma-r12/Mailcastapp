@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [MultiBrowser]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.SeleniumListener"/>
+  </listeners>
   <test name="Chorme Browser(failed)" parallel="tests">
     <parameter name="browserType" value="chrome"/>
     <classes>
       <class name="SignIn.FlockSignIn">
         <methods>
-          <include name="contactSupport"/>
           <include name="beforeClass"/>
+          <include name="languageSwitcher"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- SignIn.FlockSignIn -->
