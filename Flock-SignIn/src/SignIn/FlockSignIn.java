@@ -56,13 +56,13 @@ public class FlockSignIn {
 	}
 
 
-	@Test(priority = 0)
+	@Test(priority = 0) //Get title of the page
 	public void windowTitle(){
 		gm.getTitle();
 		
 	}
 	
-	@Test(priority = 1)
+	@Test(priority = 1) //check the heading content
 	public void Heading(){
 		//gm.implicitWait(30);
 		gm.SwitchToiFrameNo(0);
@@ -72,8 +72,9 @@ public class FlockSignIn {
 		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h2"));
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 2)//check all elements from the contact support blurb
 	public void contactSupport() throws Exception{
+		
 		gm.elementDisplayed(By.xpath("//span[@class='feedbackLinkSpan']"));
 		gm.getText(By.xpath("//span[@class='feedbackLinkSpan']"));
 		gm.compareText(By.xpath("//span[@class='feedbackLinkSpan']"));
@@ -105,27 +106,38 @@ public class FlockSignIn {
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_0']//input"), 1);
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_1']//input"), 1);
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_2']//input"), 1);
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_3']//input"), 1);
+		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_4']//input"), 1);
-		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
