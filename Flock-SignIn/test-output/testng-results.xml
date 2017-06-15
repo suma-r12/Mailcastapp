@@ -392,12 +392,12 @@
       <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
     </line>
   </reporter-output>
-  <suite name="MultiBrowser" duration-ms="68544" started-at="2017-06-14T18:43:33Z" finished-at="2017-06-14T18:44:41Z">
+  <suite name="MultiBrowser" duration-ms="127444" started-at="2017-06-15T09:57:59Z" finished-at="2017-06-15T10:00:06Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="68544" started-at="2017-06-14T18:43:33Z" finished-at="2017-06-14T18:44:41Z">
+    <test name="Chorme Browser" duration-ms="127444" started-at="2017-06-15T09:57:59Z" finished-at="2017-06-15T10:00:06Z">
       <class name="SignIn.FlockSignIn">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="beforeClass" is-config="true" duration-ms="14904" started-at="2017-06-15T00:13:33Z" finished-at="2017-06-15T00:13:48Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="beforeClass" is-config="true" duration-ms="28915" started-at="2017-06-15T15:27:59Z" finished-at="2017-06-15T15:28:28Z">
           <params>
             <param index="0">
               <value>
@@ -411,7 +411,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="windowTitle" duration-ms="68" started-at="2017-06-15T00:13:48Z" finished-at="2017-06-15T00:13:48Z">
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="windowTitle" duration-ms="189" started-at="2017-06-15T15:28:28Z" finished-at="2017-06-15T15:28:28Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
@@ -427,7 +427,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- windowTitle -->
-        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@c86b9e3]" name="languageSwitcher" duration-ms="1790" started-at="2017-06-15T00:13:48Z" finished-at="2017-06-15T00:13:50Z">
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@c86b9e3]" name="languageSwitcher" duration-ms="1560" started-at="2017-06-15T15:28:29Z" finished-at="2017-06-15T15:28:30Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
@@ -443,7 +443,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- languageSwitcher -->
-        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@c86b9e3]" name="Heading" duration-ms="378" started-at="2017-06-15T00:13:50Z" finished-at="2017-06-15T00:13:50Z">
+        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@c86b9e3]" name="Heading" duration-ms="673" started-at="2017-06-15T15:28:30Z" finished-at="2017-06-15T15:28:31Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.Heading]]>
@@ -459,7 +459,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Heading -->
-        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@c86b9e3]" name="contactSupport" duration-ms="11762" started-at="2017-06-15T00:13:51Z" finished-at="2017-06-15T00:14:02Z">
+        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@c86b9e3]" name="contactSupport" duration-ms="51041" started-at="2017-06-15T15:28:32Z" finished-at="2017-06-15T15:29:23Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport]]>
@@ -475,7 +475,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- contactSupport -->
-        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@c86b9e3]" name="subHeading" duration-ms="203" started-at="2017-06-15T00:14:03Z" finished-at="2017-06-15T00:14:03Z">
+        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@c86b9e3]" name="subHeading" duration-ms="290" started-at="2017-06-15T15:29:23Z" finished-at="2017-06-15T15:29:23Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.subHeading]]>
@@ -491,7 +491,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- subHeading -->
-        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@c86b9e3]" name="emailPlaceHolder" duration-ms="157" started-at="2017-06-15T00:14:03Z" finished-at="2017-06-15T00:14:03Z">
+        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@c86b9e3]" name="emailPlaceHolder" duration-ms="298" started-at="2017-06-15T15:29:24Z" finished-at="2017-06-15T15:29:24Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder]]>
@@ -507,7 +507,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- emailPlaceHolder -->
-        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@c86b9e3]" name="loginButton" duration-ms="135" started-at="2017-06-15T00:14:03Z" finished-at="2017-06-15T00:14:03Z">
+        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@c86b9e3]" name="loginButton" duration-ms="394" started-at="2017-06-15T15:29:24Z" finished-at="2017-06-15T15:29:25Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.loginButton]]>
@@ -523,7 +523,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@c86b9e3]" name="onbaordingSideBar" duration-ms="55" started-at="2017-06-15T00:14:03Z" finished-at="2017-06-15T00:14:04Z">
+        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@c86b9e3]" name="onbaordingSideBar" duration-ms="104" started-at="2017-06-15T15:29:25Z" finished-at="2017-06-15T15:29:25Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar]]>
@@ -539,7 +539,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- onbaordingSideBar -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="552" started-at="2017-06-15T00:14:04Z" data-provider="emails" finished-at="2017-06-15T00:14:04Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="839" started-at="2017-06-15T15:29:25Z" data-provider="emails" finished-at="2017-06-15T15:29:26Z">
           <params>
             <param index="0">
               <value>
@@ -562,7 +562,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="476" started-at="2017-06-15T00:14:04Z" data-provider="emails" finished-at="2017-06-15T00:14:05Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="558" started-at="2017-06-15T15:29:26Z" data-provider="emails" finished-at="2017-06-15T15:29:27Z">
           <params>
             <param index="0">
               <value>
@@ -585,7 +585,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="435" started-at="2017-06-15T00:14:05Z" data-provider="emails" finished-at="2017-06-15T00:14:06Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="704" started-at="2017-06-15T15:29:27Z" data-provider="emails" finished-at="2017-06-15T15:29:28Z">
           <params>
             <param index="0">
               <value>
@@ -608,7 +608,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@c86b9e3]" name="enterEmail" duration-ms="501" started-at="2017-06-15T00:14:06Z" finished-at="2017-06-15T00:14:06Z">
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@c86b9e3]" name="enterEmail" duration-ms="502" started-at="2017-06-15T15:29:28Z" finished-at="2017-06-15T15:29:28Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
@@ -624,7 +624,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthHeading" duration-ms="2075" started-at="2017-06-15T00:14:06Z" finished-at="2017-06-15T00:14:08Z">
+        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthHeading" duration-ms="1125" started-at="2017-06-15T15:29:29Z" finished-at="2017-06-15T15:29:30Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading]]>
@@ -640,7 +640,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthHeading -->
-        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthButton" duration-ms="139" started-at="2017-06-15T00:14:09Z" finished-at="2017-06-15T00:14:09Z">
+        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthButton" duration-ms="303" started-at="2017-06-15T15:29:30Z" finished-at="2017-06-15T15:29:30Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton]]>
@@ -656,7 +656,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthButton -->
-        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSkipButton" duration-ms="147" started-at="2017-06-15T00:14:09Z" finished-at="2017-06-15T00:14:09Z">
+        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSkipButton" duration-ms="285" started-at="2017-06-15T15:29:31Z" finished-at="2017-06-15T15:29:31Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton]]>
@@ -672,7 +672,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSkipButton -->
-        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSubHeading" duration-ms="124" started-at="2017-06-15T00:14:09Z" finished-at="2017-06-15T00:14:09Z">
+        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSubHeading" duration-ms="300" started-at="2017-06-15T15:29:31Z" finished-at="2017-06-15T15:29:31Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading]]>
@@ -688,7 +688,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSubHeading -->
-        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthNote" duration-ms="147" started-at="2017-06-15T00:14:09Z" finished-at="2017-06-15T00:14:10Z">
+        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthNote" duration-ms="279" started-at="2017-06-15T15:29:31Z" finished-at="2017-06-15T15:29:32Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote]]>
@@ -704,7 +704,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthNote -->
-        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@c86b9e3]" name="clickSkipGoogleAuth" duration-ms="222" started-at="2017-06-15T00:14:10Z" finished-at="2017-06-15T00:14:10Z">
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@c86b9e3]" name="clickSkipGoogleAuth" duration-ms="361" started-at="2017-06-15T15:29:32Z" finished-at="2017-06-15T15:29:32Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
@@ -720,7 +720,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickSkipGoogleAuth -->
-        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@c86b9e3]" name="otpHeading" duration-ms="195" started-at="2017-06-15T00:14:10Z" finished-at="2017-06-15T00:14:10Z">
+        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@c86b9e3]" name="otpHeading" duration-ms="497" started-at="2017-06-15T15:29:33Z" finished-at="2017-06-15T15:29:33Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading]]>
@@ -736,7 +736,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpHeading -->
-        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@c86b9e3]" name="otpSubHeading" duration-ms="216" started-at="2017-06-15T00:14:11Z" finished-at="2017-06-15T00:14:11Z">
+        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@c86b9e3]" name="otpSubHeading" duration-ms="393" started-at="2017-06-15T15:29:33Z" finished-at="2017-06-15T15:29:34Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading]]>
@@ -752,7 +752,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpSubHeading -->
-        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@c86b9e3]" name="otpPlaceHolder" duration-ms="162" started-at="2017-06-15T00:14:11Z" finished-at="2017-06-15T00:14:11Z">
+        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@c86b9e3]" name="otpPlaceHolder" duration-ms="217" started-at="2017-06-15T15:29:34Z" finished-at="2017-06-15T15:29:34Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder]]>
@@ -768,7 +768,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpPlaceHolder -->
-        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpText" duration-ms="138" started-at="2017-06-15T00:14:11Z" finished-at="2017-06-15T00:14:11Z">
+        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpText" duration-ms="258" started-at="2017-06-15T15:29:34Z" finished-at="2017-06-15T15:29:35Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText]]>
@@ -784,7 +784,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpText -->
-        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHook" duration-ms="180" started-at="2017-06-15T00:14:12Z" finished-at="2017-06-15T00:14:12Z">
+        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHook" duration-ms="263" started-at="2017-06-15T15:29:35Z" finished-at="2017-06-15T15:29:35Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook]]>
@@ -800,7 +800,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHook -->
-        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHookClicked" duration-ms="551" started-at="2017-06-15T00:14:12Z" finished-at="2017-06-15T00:14:13Z">
+        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHookClicked" duration-ms="821" started-at="2017-06-15T15:29:35Z" finished-at="2017-06-15T15:29:36Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked]]>
@@ -816,7 +816,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHookClicked -->
-        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="checkEditButton" duration-ms="5694" started-at="2017-06-15T00:14:13Z" finished-at="2017-06-15T00:14:18Z">
+        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="checkEditButton" duration-ms="5951" started-at="2017-06-15T15:29:36Z" finished-at="2017-06-15T15:29:42Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton]]>
@@ -832,7 +832,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkEditButton -->
-        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="verifyButton" duration-ms="125" started-at="2017-06-15T00:14:19Z" finished-at="2017-06-15T00:14:19Z">
+        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="verifyButton" duration-ms="244" started-at="2017-06-15T15:29:43Z" finished-at="2017-06-15T15:29:43Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton]]>
@@ -848,7 +848,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyButton -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2534" started-at="2017-06-15T00:14:19Z" data-provider="otp" finished-at="2017-06-15T00:14:21Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2710" started-at="2017-06-15T15:29:43Z" data-provider="otp" finished-at="2017-06-15T15:29:46Z">
           <params>
             <param index="0">
               <value>
@@ -871,7 +871,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2499" started-at="2017-06-15T00:14:22Z" data-provider="otp" finished-at="2017-06-15T00:14:24Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2529" started-at="2017-06-15T15:29:46Z" data-provider="otp" finished-at="2017-06-15T15:29:49Z">
           <params>
             <param index="0">
               <value>
@@ -894,7 +894,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2352" started-at="2017-06-15T00:14:24Z" data-provider="otp" finished-at="2017-06-15T00:14:27Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2554" started-at="2017-06-15T15:29:49Z" data-provider="otp" finished-at="2017-06-15T15:29:51Z">
           <params>
             <param index="0">
               <value>
@@ -917,7 +917,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage1" duration-ms="2539" started-at="2017-06-15T00:14:27Z" finished-at="2017-06-15T00:14:29Z">
+        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage1" duration-ms="2673" started-at="2017-06-15T15:29:51Z" finished-at="2017-06-15T15:29:54Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1]]>
@@ -933,7 +933,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage1 -->
-        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@c86b9e3]" name="enterOTP" duration-ms="281" started-at="2017-06-15T00:14:29Z" finished-at="2017-06-15T00:14:30Z">
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@c86b9e3]" name="enterOTP" duration-ms="413" started-at="2017-06-15T15:29:54Z" finished-at="2017-06-15T15:29:55Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
@@ -949,7 +949,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="afterClass" is-config="true" duration-ms="11262" started-at="2017-06-15T00:14:30Z" finished-at="2017-06-15T00:14:41Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="afterClass" is-config="true" duration-ms="11399" started-at="2017-06-15T15:29:55Z" finished-at="2017-06-15T15:30:06Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>

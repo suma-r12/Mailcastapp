@@ -1,4 +1,4 @@
-package SignIn;
+package utilities;
 
 import java.util.List;
 import java.util.Set;
@@ -225,6 +225,48 @@ public class GenericMethods {
 	public void implicitWait(int time){
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 		log.info("Implicitly waiting for "+time+"secs");
+	}
+	
+	public void radioButtonIterate(By locator) throws Exception {
+		boolean isChecked = false;
+		List<WebElement> radioButtons = driver.findElements(locator);
+		int size = radioButtons.size();
+		log.info("Size of the list: " + size);
+		for (int i=0; i<size; i++) {
+			isChecked = radioButtons.get(i).isSelected();
+			if (isChecked) {
+				WebElement element = driver.findElement(locator);
+				if(element.getSize()!= null){
+					log.info("The element at loction: "+locator+" is displayed");	
+				}else{
+					log.error("The element at loction: "+locator+" is displayed");
+				}
+				 String Text = driver.findElement(locator).getText();
+				log.info("THe text at locator: "+locator+" is "+Text);
+				if(driver.getPageSource().contains(Text)){
+					log.info("The text: "+Text+" displayed is correct");
+				}else{
+					log.error("The text: "+Text+" displayed is not correct");
+				}
+				Thread.sleep(2000);
+			}
+			else{
+				radioButtons.get(i).click();
+				WebElement element = driver.findElement(locator);
+				if(element.getSize()!= null){
+					log.info("The element at loction: "+locator+" is displayed");	
+				}else{
+					log.error("The element at loction: "+locator+" is displayed");
+				}
+				 String Text = driver.findElement(locator).getText();
+				log.info("THe text at locator: "+locator+" is "+Text);
+				if(driver.getPageSource().contains(Text)){
+					log.info("The text: "+Text+" displayed is correct");
+				}else{
+					log.error("The text: "+Text+" displayed is not correct");
+				}
+			}
+		}
 	}
 
 }

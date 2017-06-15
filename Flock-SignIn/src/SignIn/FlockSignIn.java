@@ -1,6 +1,9 @@
 package SignIn;
 
 import org.testng.annotations.Test;
+
+import utilities.GenericMethods;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -12,7 +15,6 @@ import org.testng.annotations.AfterClass;
 import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import SignIn.GenericMethods;
 
 public class FlockSignIn {
 	private WebDriver driver;
@@ -115,7 +117,9 @@ public class FlockSignIn {
 		gm.compareText(By.xpath("//input[@placeholder='Enter your name']"));
 		gm.SendKey(By.xpath("//input[@placeholder='Enter your name']"), 2, "Test Automator");
 		
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
+		gm.radioButtonIterate(By.xpath("//div[@id='widgets_Dialog_1']//input[@type='radio']"));
+		
+		/*gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_0']//input"), 1);
@@ -153,7 +157,7 @@ public class FlockSignIn {
 		gm.click(By.xpath("//div[@id='widgets_RadioButton_4']//input"), 1);
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
 		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));*/
 		
 		gm.elementDisplayed(By.xpath("//textarea[@class='input']"));
 		gm.getText(By.xpath("//textarea[@class='input']"));
