@@ -76,12 +76,14 @@ public class FlockSignIn {
 		gm.compareText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.click(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"), 1);
 		gm.webelementsText(By.xpath("//td[@data-dojo-attach-point='containerNode']"));
+		gm.click(By.xpath("//td[@id='dijit_MenuItem_1_text']"), 1);
 	}
 	
 	
 	@Test(priority = 2) //check the heading content
 	public void Heading(){
-
+		gm.implicitWait(40);
+		gm.SwitchToiFrameNo(0);
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h2"));
