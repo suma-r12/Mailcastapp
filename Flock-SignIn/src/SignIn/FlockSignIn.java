@@ -15,14 +15,12 @@ import org.testng.annotations.AfterClass;
 import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import resources.DefaultStrings;
 
 public class FlockSignIn {
 	private WebDriver driver;
 	private static final Logger log = LogManager.getLogger(FlockSignIn.class.getName());
-	static String hydraURL = "http://updates.flock.co/fl_hydra_web/2.1.0.64/?s=qa&config=preprod";
 	static GenericMethods gm;
-	static String testerEmail = "directitester002@directi.com";
-	static String testerOTP ="654321";
 	
 	public WebDriver getDriver(){
 		return driver;
@@ -32,17 +30,16 @@ public class FlockSignIn {
 	@BeforeClass
 	public void beforeClass(String browserType) {
 		if (browserType.equalsIgnoreCase("firefox")) {
-			System.getProperty("webdriver.gecko.driver",
-					"C:\\Program Files (x86)\\geckodriver-v0.16.0-win64\\geckodriver.exe");
+			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);
 			driver = new FirefoxDriver();
 		} else if (browserType.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Automation\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, DefaultStrings.CHROME_DRIVER_PATH);
 			driver = new ChromeDriver();
 		}
 		gm = new GenericMethods(driver);
 
 		gm.maximize();
-		driver.get(hydraURL);
+		driver.get(DefaultStrings.FLOCK_WEB_PREPROD);
 		log.info("Opening the webclient");
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	}
@@ -82,7 +79,7 @@ public class FlockSignIn {
 	
 	@Test(priority = 2) //check the heading content
 	public void Heading(){
-		gm.implicitWait(40);
+		gm.implicitWait(80);
 		gm.SwitchToiFrameNo(0);
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"));
@@ -234,7 +231,7 @@ public class FlockSignIn {
 	
 	@Test(priority =9)//Enter the email
 	public void enterEmail(){
-		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerEmail);
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, DefaultStrings.DIRECTI_TESTER_002_Email);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	
@@ -369,7 +366,7 @@ public class FlockSignIn {
 	@Test(priority = 23)
 	public void enterOTP() {
 		
-		gm.SendKey(By.xpath("//input[@class='input']"), 1, testerOTP);
+		gm.SendKey(By.xpath("//input[@class='input']"), 1, DefaultStrings.OTP);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	

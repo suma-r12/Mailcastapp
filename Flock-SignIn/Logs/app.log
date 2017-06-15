@@ -1,694 +1,584 @@
-17:16:26.224 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:21:22.238 INFO  utilities.GenericMethods -Browser Window Maximized
-17:21:49.861 INFO  SignIn.FlockSignIn -Opening the webclient
-17:21:49.910 INFO  utilities.GenericMethods -The title of the Page is: Flock
-17:21:49.923 INFO  utilities.GenericMethods -The Title is Correct
-17:21:50.128 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:21:50.325 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:22:33.904 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
-17:24:34.656 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:24:34.701 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:24:34.743 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:25:55.407 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:25:58.814 ERROR utilities.GenericMethods -Element not displayed on the webpage
-17:25:58.814 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:26:38.869 ERROR utilities.GenericMethods -Element not clicked on the webpage
-17:26:38.960 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
-17:26:39.029 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
-17:26:39.249 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:26:42.693 ERROR utilities.GenericMethods -Element not displayed on the webpage
-17:26:42.693 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:13.439 INFO  utilities.GenericMethods -Browser Window Maximized
-17:27:36.246 INFO  SignIn.FlockSignIn -Opening the webclient
-17:27:36.298 INFO  utilities.GenericMethods -The title of the Page is: Flock
-17:27:36.314 INFO  utilities.GenericMethods -The Title is Correct
-17:27:39.529 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:27:39.554 INFO  utilities.GenericMethods -Switched to iframe by int : 0
-17:27:39.629 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
-17:27:39.690 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
-17:27:39.749 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
-17:27:39.797 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
-17:27:39.837 INFO  utilities.GenericMethods -The text: English-US displayed is correct
-17:27:39.837 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:40.113 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:40.613 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:27:40.674 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:27:40.725 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
-17:27:40.785 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
-17:27:40.849 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
-17:27:41.083 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
-17:27:41.121 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
-17:27:41.165 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
-17:27:41.165 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:27:41.434 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:41.518 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
-17:27:41.578 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
-17:27:41.626 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
-17:27:41.702 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
-17:27:41.788 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
-17:27:41.862 INFO  utilities.GenericMethods -The text: Email displayed is correct
-17:27:41.934 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
-17:27:42.018 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
-17:27:42.066 INFO  utilities.GenericMethods -The text: Name displayed is correct
-17:27:42.130 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
-17:27:42.202 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
-17:27:42.258 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:42.258 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:27:42.587 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:42.666 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
-17:27:42.742 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
-17:27:42.838 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:42.838 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:27:43.187 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:43.223 INFO  utilities.GenericMethods -Size of the list: 5
-17:27:43.315 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:27:43.347 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:27:43.367 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:45.612 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:27:45.661 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:27:45.677 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:45.852 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:27:45.893 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:27:45.904 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:46.144 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:27:46.176 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:27:46.189 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:46.348 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:27:46.380 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:27:46.394 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:46.428 INFO  utilities.GenericMethods -The element at loction: By.xpath: //textarea[@class='input'] is displayed
-17:27:46.476 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //textarea[@class='input'] is 
-17:27:46.508 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:46.512 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:27:46.800 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:46.846 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='attachFileLogo'] is displayed
-17:27:46.882 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='uploadMessage'] is displayed
-17:27:46.924 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='uploadMessage'] is Log file attached
-17:27:46.968 INFO  utilities.GenericMethods -The text: Log file attached displayed is correct
-17:27:47.016 INFO  utilities.GenericMethods -The field is cleared
-17:27:47.068 INFO  utilities.GenericMethods -The field is cleared
-17:27:47.112 INFO  utilities.GenericMethods -The field is cleared
-17:27:47.152 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--reportBug'] is displayed
-17:27:47.191 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--reportBug'] is Send Request
-17:27:47.228 INFO  utilities.GenericMethods -The text: Send Request displayed is correct
-17:27:47.228 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:27:47.448 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:50.502 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is displayed
-17:27:50.539 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is Please enter your email address
-17:27:50.589 INFO  utilities.GenericMethods -The text: Please enter your email address displayed is correct
-17:27:50.635 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is displayed
-17:27:50.683 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is Please describe your issue
-17:27:50.723 INFO  utilities.GenericMethods -The text: Please describe your issue displayed is correct
-17:27:50.767 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is displayed
-17:27:50.811 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is Cancel
-17:27:50.855 INFO  utilities.GenericMethods -The text: Cancel displayed is correct
-17:27:50.855 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:27:51.111 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:51.391 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
-17:27:51.454 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
-17:27:51.514 INFO  utilities.GenericMethods -The text: Enter your official email address to continue displayed is correct
-17:27:51.705 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:27:51.749 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:27:51.785 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:51.953 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:27:52.001 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
-17:27:52.037 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
-17:27:52.234 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
-17:27:52.422 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:27:52.542 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:52.542 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:52.772 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:52.854 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:27:52.898 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:27:52.946 INFO  utilities.GenericMethods -The field is cleared
-17:27:53.090 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:27:53.187 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:53.187 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:53.347 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:53.383 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:27:53.411 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:27:53.435 INFO  utilities.GenericMethods -The field is cleared
-17:27:53.584 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:27:53.719 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:53.719 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:53.831 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:53.870 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:27:53.903 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:27:53.931 INFO  utilities.GenericMethods -The field is cleared
-17:27:54.071 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:27:54.262 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:27:54.262 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:27:54.369 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:54.533 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:27:54.533 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:27:55.615 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:27:55.680 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
-17:27:55.752 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
-Google apps
-17:27:55.792 ERROR utilities.GenericMethods -The text: directi.com uses
+23:13:34.548 ERROR utilities.GenericMethods -The text: directi.com uses
 Google apps displayed is not correct
-17:27:55.992 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
-17:27:56.056 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
-17:27:56.104 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
-17:27:56.304 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
-17:27:56.388 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
-17:27:56.456 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
-17:27:56.700 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
-17:27:56.756 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
+23:13:34.714 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
+23:13:34.776 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
+23:13:34.835 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
+23:13:34.968 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
+23:13:35.016 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
+23:13:35.050 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
+23:13:35.163 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
+23:13:35.191 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
 directitester002@directi.com
-17:27:56.824 ERROR utilities.GenericMethods -The text: Connect with your Google account
+23:13:35.244 ERROR utilities.GenericMethods -The text: Connect with your Google account
 directitester002@directi.com displayed is not correct
-17:27:57.096 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
-17:27:57.156 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
+23:13:35.792 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
+23:13:35.832 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
 100% secure, easy and quick sign up
 Discover and add your colleagues
-17:27:57.204 ERROR utilities.GenericMethods -The text: Why sign in with Google?
+23:13:35.876 ERROR utilities.GenericMethods -The text: Why sign in with Google?
 100% secure, easy and quick sign up
 Discover and add your colleagues displayed is not correct
-17:27:57.360 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:27:57.620 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:57.815 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:27:57.815 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:27:57.896 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:27:57.985 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
-17:27:58.029 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
-17:27:58.073 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
-17:27:58.329 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
-17:27:58.401 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
+23:13:35.970 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:13:36.110 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:36.202 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:13:36.202 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:13:36.248 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+23:13:36.290 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
+23:13:36.321 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
+23:13:36.353 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
+23:13:36.501 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
+23:13:36.537 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
 "directitester002@directi.com" Edit
-17:27:58.473 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
+23:13:36.587 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
 "directitester002@directi.com" Edit displayed is not correct
-17:27:58.636 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:27:58.695 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:27:58.729 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:58.901 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
-17:27:58.961 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
-17:27:58.997 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
-17:27:59.178 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
-17:27:59.221 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
-17:27:59.265 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
-17:27:59.438 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:27:59.641 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:27:59.682 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
-17:27:59.721 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
-17:27:59.761 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:27:59.949 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
-17:28:00.009 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
-17:28:00.045 INFO  utilities.GenericMethods -The text: Edit displayed is correct
-17:28:00.045 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:00.245 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:02.246 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:02.485 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:05.486 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:05.687 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:05.932 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:28:05.996 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
-17:28:06.028 INFO  utilities.GenericMethods -The text: Verify displayed is correct
-17:28:06.164 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:28:06.308 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:28:08.310 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:08.510 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:08.554 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:28:08.610 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:28:08.658 INFO  utilities.GenericMethods -The field is cleared
-17:28:08.793 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:28:08.871 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:28:10.873 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:11.077 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:11.125 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:28:11.169 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:28:11.196 INFO  utilities.GenericMethods -The field is cleared
-17:28:11.353 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:28:11.433 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:28:13.437 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:13.717 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:13.773 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
-17:28:13.829 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
-17:28:13.909 INFO  utilities.GenericMethods -The field is cleared
-17:28:14.065 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:28:14.149 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:28:14.149 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:14.372 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:28:16.446 INFO  utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is displayed.
-17:28:16.509 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is Authentication Failed. Please check the pin.
-17:28:16.556 INFO  utilities.GenericMethods -The field is cleared
-17:28:16.707 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:28:16.784 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:28:16.784 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:28:16.876 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:02.391 INFO  utilities.GenericMethods -Browser Window Maximized
-17:38:21.433 INFO  SignIn.FlockSignIn -Opening the webclient
-17:38:21.497 INFO  utilities.GenericMethods -The title of the Page is: Flock
-17:38:21.517 INFO  utilities.GenericMethods -The Title is Correct
-17:38:21.733 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:38:21.769 INFO  utilities.GenericMethods -Switched to iframe by int : 0
-17:38:21.857 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
-17:38:21.925 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
-17:38:21.986 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
-17:38:22.073 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
-17:38:22.141 INFO  utilities.GenericMethods -The text: English-US displayed is correct
-17:38:22.145 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:22.533 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:22.617 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
-17:38:22.673 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
-17:38:22.717 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
-17:38:22.769 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
-17:38:22.853 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
-17:38:22.917 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
-17:38:22.917 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:23.165 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:27.317 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:38:27.400 INFO  utilities.GenericMethods -Switched to iframe by int : 0
-17:38:27.401 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:38:27.529 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:38:27.603 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
-17:38:27.713 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
-17:38:27.793 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
-17:38:28.232 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
-17:38:28.310 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
-17:38:28.408 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
-17:38:28.408 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:38:29.089 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:29.265 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
-17:38:29.404 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
-17:38:29.470 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
-17:38:29.587 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
-17:38:29.735 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
-17:38:29.863 INFO  utilities.GenericMethods -The text: Email displayed is correct
-17:38:29.970 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
-17:38:30.063 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
-17:38:30.138 INFO  utilities.GenericMethods -The text: Name displayed is correct
-17:38:30.226 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
-17:38:30.318 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
-17:38:30.410 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:30.411 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:38:30.893 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:31.002 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
-17:38:31.087 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
-17:38:31.171 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:31.172 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:38:31.469 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:31.521 INFO  utilities.GenericMethods -Size of the list: 5
-17:38:31.665 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:38:31.723 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:38:31.753 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:34.105 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:38:34.185 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:38:34.201 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:34.401 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:38:34.433 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:38:34.445 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:34.702 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:38:34.733 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:38:34.748 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:34.921 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:38:34.953 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:38:34.961 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:35.005 INFO  utilities.GenericMethods -The element at loction: By.xpath: //textarea[@class='input'] is displayed
-17:38:35.053 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //textarea[@class='input'] is 
-17:38:35.093 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:35.093 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:38:35.504 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:35.583 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='attachFileLogo'] is displayed
-17:38:35.699 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='uploadMessage'] is displayed
-17:38:35.784 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='uploadMessage'] is Log file attached
-17:38:35.896 INFO  utilities.GenericMethods -The text: Log file attached displayed is correct
-17:38:36.007 INFO  utilities.GenericMethods -The field is cleared
-17:38:36.134 INFO  utilities.GenericMethods -The field is cleared
-17:38:36.218 INFO  utilities.GenericMethods -The field is cleared
-17:38:36.276 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--reportBug'] is displayed
-17:38:36.364 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--reportBug'] is Send Request
-17:38:36.416 INFO  utilities.GenericMethods -The text: Send Request displayed is correct
-17:38:36.416 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:38:36.608 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:39.667 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is displayed
-17:38:39.732 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is Please enter your email address
-17:38:39.817 INFO  utilities.GenericMethods -The text: Please enter your email address displayed is correct
-17:38:39.894 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is displayed
-17:38:39.954 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is Please describe your issue
-17:38:39.998 INFO  utilities.GenericMethods -The text: Please describe your issue displayed is correct
-17:38:40.046 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is displayed
-17:38:40.086 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is Cancel
-17:38:40.134 INFO  utilities.GenericMethods -The text: Cancel displayed is correct
-17:38:40.134 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:38:40.370 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:40.663 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
-17:38:40.754 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
-17:38:40.841 INFO  utilities.GenericMethods -The text: Enter your official email address to continue displayed is correct
-17:38:41.071 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:38:41.121 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:38:41.165 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:41.371 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:38:41.423 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
-17:38:41.461 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
-17:38:41.683 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
-17:38:41.856 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:38:41.991 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:41.995 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:42.231 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:42.307 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:38:42.366 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:38:42.423 INFO  utilities.GenericMethods -The field is cleared
-17:38:42.575 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:38:42.687 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:42.691 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:42.827 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:42.868 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:38:42.899 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:38:42.927 INFO  utilities.GenericMethods -The field is cleared
-17:38:43.071 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:38:43.374 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:43.374 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:43.568 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:43.647 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:38:43.699 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:38:43.765 INFO  utilities.GenericMethods -The field is cleared
-17:38:43.950 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:38:44.187 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:44.187 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:44.317 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:44.475 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:38:44.475 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:38:46.504 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:38:46.547 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
-17:38:46.608 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
+23:13:36.706 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+23:13:36.741 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+23:13:36.786 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:13:36.896 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
+23:13:36.915 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
+23:13:36.946 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
+23:13:37.045 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
+23:13:37.066 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
+23:13:37.113 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
+23:13:37.193 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:13:37.309 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:37.329 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
+23:13:37.358 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
+23:13:37.398 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:13:37.516 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
+23:13:37.547 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
+23:13:37.606 INFO  utilities.GenericMethods -The text: Edit displayed is correct
+23:13:37.606 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:37.766 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:39.767 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:39.890 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:42.890 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:43.085 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:43.225 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+23:13:43.249 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
+23:13:43.304 INFO  utilities.GenericMethods -The text: Verify displayed is correct
+23:13:43.378 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:13:43.449 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:13:45.449 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:45.548 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:45.596 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:13:45.624 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+23:13:45.648 INFO  utilities.GenericMethods -The field is cleared
+23:13:45.725 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:13:45.849 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:13:47.849 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:47.957 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:48.006 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:13:48.043 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+23:13:48.075 INFO  utilities.GenericMethods -The field is cleared
+23:13:48.188 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:13:48.303 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:13:50.304 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:50.403 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:50.446 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:13:50.484 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+23:13:50.506 INFO  utilities.GenericMethods -The field is cleared
+23:13:50.595 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:13:50.700 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:13:50.700 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:50.816 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:13:52.870 ERROR utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is NOT displayed.
+23:13:52.907 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is 
+23:13:52.974 INFO  utilities.GenericMethods -The field is cleared
+23:13:53.064 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:13:53.174 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:13:53.174 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:13:53.298 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:15:42.037 INFO  utilities.GenericMethods -Browser Window Maximized
+23:15:51.916 INFO  SignIn.FlockSignIn -Opening the webclient
+23:15:52.019 INFO  utilities.GenericMethods -The title of the Page is: Flock
+23:15:52.047 INFO  utilities.GenericMethods -The Title is Correct
+23:15:52.174 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+23:15:52.185 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:15:59.121 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
+23:15:59.166 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
+23:15:59.208 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
+23:15:59.265 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
+23:15:59.316 INFO  utilities.GenericMethods -The text: English-US displayed is correct
+23:15:59.317 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:15:59.556 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:15:59.786 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
+23:15:59.821 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
+23:15:59.869 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
+23:15:59.906 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
+23:15:59.924 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
+23:15:59.960 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
+23:15:59.961 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:00.306 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:16:00.420 INFO  utilities.GenericMethods -Implicitly waiting for 80secs
+23:16:00.431 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:16:00.432 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:16:04.786 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:16:08.645 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:08.677 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:08.678 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:08.688 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:08.725 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:08.742 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:08.743 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:08.756 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:08.789 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:09.594 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:09.594 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:09.665 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:09.688 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:09.703 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:09.704 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:09.720 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:09.755 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:16:09.755 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:16:09.774 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:16:09.986 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:16:09.999 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:10.073 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:16:10.073 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:16:10.086 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:16:10.769 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:16:10.781 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:10.903 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:10.934 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:12.935 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:12.966 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:12.990 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:13.004 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:15.005 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:15.015 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:15.052 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:15.073 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:17.073 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:17.096 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:17.135 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:17.162 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:17.162 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:17.177 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:16:19.218 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:16:19.228 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:16:19.229 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:16:19.245 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:17:00.582 INFO  utilities.GenericMethods -Browser Window Maximized
+23:17:02.044 INFO  utilities.GenericMethods -Browser Window Maximized
+23:17:24.321 INFO  SignIn.FlockSignIn -Opening the webclient
+23:17:24.613 INFO  utilities.GenericMethods -The title of the Page is: Flock
+23:17:24.658 INFO  utilities.GenericMethods -The Title is Correct
+23:17:25.061 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+23:17:25.167 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:17:39.052 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
+23:17:39.100 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
+23:17:39.150 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
+23:17:39.206 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
+23:17:39.308 INFO  utilities.GenericMethods -The text: English-US displayed is correct
+23:17:39.309 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:17:39.745 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:17:39.873 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
+23:17:39.898 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
+23:17:39.926 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
+23:17:39.949 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
+23:17:39.973 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
+23:17:40.004 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
+23:17:40.004 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:17:40.288 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:17:41.124 INFO  utilities.GenericMethods -Implicitly waiting for 80secs
+23:17:41.137 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:17:41.137 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:17:43.039 INFO  SignIn.FlockSignIn -Opening the webclient
+23:17:44.274 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:17:46.476 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+23:17:51.535 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:19:12.155 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+23:19:12.159 INFO  utilities.GenericMethods -Implicitly waiting for 80secs
+23:19:12.181 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:19:12.181 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:19:12.364 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+23:19:12.397 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+23:19:12.406 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
+23:19:12.437 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
+23:19:12.458 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
+23:19:12.511 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
+23:19:12.525 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
+23:19:12.766 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
+23:19:12.956 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:19:12.998 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
+23:19:13.098 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:13.098 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:19:13.111 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
+23:19:13.219 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
+23:19:13.220 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:19:13.287 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:19:13.386 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:19:13.572 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:19:13.681 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+23:19:13.775 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
+23:19:13.909 INFO  utilities.GenericMethods -The field is cleared
+23:19:14.191 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:19:14.262 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
+23:19:14.482 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:14.482 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:19:14.518 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
+23:19:14.701 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
+23:19:14.851 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:19:14.877 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
+23:19:14.976 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
+23:19:15.013 INFO  utilities.GenericMethods -The text: Email displayed is correct
+23:19:15.031 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
+23:19:15.063 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
+23:19:15.092 INFO  utilities.GenericMethods -The field is cleared
+23:19:15.209 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:19:15.249 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
+23:19:15.401 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:15.401 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:19:15.413 INFO  utilities.GenericMethods -The text: Name displayed is correct
+23:19:15.509 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
+23:19:15.614 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:19:15.637 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
+23:19:15.850 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
+23:19:15.899 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:19:15.899 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+23:19:15.927 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
+23:19:16.040 INFO  utilities.GenericMethods -The field is cleared
+23:19:16.098 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:16.284 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:19:16.314 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
+23:19:16.429 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:16.429 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:19:16.454 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
+23:19:16.563 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:19:16.563 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+23:19:16.596 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:19:16.749 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:19:16.749 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:19:16.803 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:19:26.824 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:19:26.859 INFO  utilities.GenericMethods -Size of the list: 5
+23:19:47.099 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:19:47.229 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:19:57.262 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:20:06.709 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:20:06.721 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:06.888 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:20:06.894 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:06.936 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:06.944 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:07.640 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:07.648 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:07.648 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:07.653 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:07.813 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:07.820 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:07.820 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:07.827 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:08.473 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:08.489 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:08.489 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:08.504 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:08.944 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:08.948 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:08.961 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:08.969 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:10.970 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:10.988 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:20:11.004 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:20:11.012 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:20:24.217 INFO  utilities.GenericMethods -Browser Window Maximized
+23:20:47.075 INFO  SignIn.FlockSignIn -Opening the webclient
+23:20:47.139 INFO  utilities.GenericMethods -The title of the Page is: Flock
+23:20:47.174 INFO  utilities.GenericMethods -The Title is Correct
+23:20:47.476 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+23:20:47.511 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:20:49.068 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
+23:20:49.148 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
+23:20:49.235 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
+23:20:49.301 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
+23:20:49.338 INFO  utilities.GenericMethods -The text: English-US displayed is correct
+23:20:49.338 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:49.728 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:20:49.797 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
+23:20:49.849 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
+23:20:49.891 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
+23:20:49.922 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
+23:20:49.961 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
+23:20:50.004 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
+23:20:50.004 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:20:50.217 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:20:58.099 INFO  utilities.GenericMethods -Implicitly waiting for 80secs
+23:20:58.131 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:20:58.131 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:20:58.199 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+23:20:58.257 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
+23:20:58.309 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
+23:20:58.363 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
+23:20:58.583 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
+23:20:58.630 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
+23:20:58.670 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
+23:20:58.671 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:20:58.993 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:20:59.079 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
+23:20:59.192 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
+23:20:59.258 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
+23:20:59.316 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
+23:20:59.374 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
+23:20:59.420 INFO  utilities.GenericMethods -The text: Email displayed is correct
+23:20:59.494 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
+23:20:59.545 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
+23:20:59.597 INFO  utilities.GenericMethods -The text: Name displayed is correct
+23:20:59.643 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
+23:20:59.699 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
+23:20:59.761 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:20:59.762 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+23:21:00.060 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:00.101 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
+23:21:00.158 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
+23:21:00.207 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:00.208 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+23:21:00.437 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:00.467 INFO  utilities.GenericMethods -Size of the list: 5
+23:21:00.541 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:21:00.575 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:21:00.588 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:02.749 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:21:02.796 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:21:02.808 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:03.020 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:21:03.046 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:21:03.059 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:03.227 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:21:03.253 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:21:03.267 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:03.449 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+23:21:03.483 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+23:21:03.495 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:03.545 INFO  utilities.GenericMethods -The element at loction: By.xpath: //textarea[@class='input'] is displayed
+23:21:03.586 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //textarea[@class='input'] is 
+23:21:03.625 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:03.625 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+23:21:03.924 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:03.963 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='attachFileLogo'] is displayed
+23:21:04.000 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='uploadMessage'] is displayed
+23:21:04.042 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='uploadMessage'] is Log file attached
+23:21:04.078 INFO  utilities.GenericMethods -The text: Log file attached displayed is correct
+23:21:04.122 INFO  utilities.GenericMethods -The field is cleared
+23:21:04.179 INFO  utilities.GenericMethods -The field is cleared
+23:21:04.227 INFO  utilities.GenericMethods -The field is cleared
+23:21:04.272 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--reportBug'] is displayed
+23:21:04.320 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--reportBug'] is Send Request
+23:21:04.356 INFO  utilities.GenericMethods -The text: Send Request displayed is correct
+23:21:04.356 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:21:04.548 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:07.599 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is displayed
+23:21:07.690 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is Please enter your email address
+23:21:07.743 INFO  utilities.GenericMethods -The text: Please enter your email address displayed is correct
+23:21:07.833 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is displayed
+23:21:07.880 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is Please describe your issue
+23:21:07.927 INFO  utilities.GenericMethods -The text: Please describe your issue displayed is correct
+23:21:07.976 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is displayed
+23:21:08.031 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is Cancel
+23:21:08.088 INFO  utilities.GenericMethods -The text: Cancel displayed is correct
+23:21:08.088 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:21:08.360 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:08.688 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
+23:21:08.731 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
+23:21:08.766 INFO  utilities.GenericMethods -The text: Enter your official email address to continue displayed is correct
+23:21:08.979 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+23:21:09.023 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+23:21:09.060 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:09.239 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+23:21:09.276 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
+23:21:09.310 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
+23:21:09.478 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
+23:21:09.632 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:09.805 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:09.805 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:10.022 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:10.092 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:21:10.178 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+23:21:10.228 INFO  utilities.GenericMethods -The field is cleared
+23:21:10.379 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:10.470 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:10.471 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:10.596 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:10.633 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:21:10.672 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+23:21:10.709 INFO  utilities.GenericMethods -The field is cleared
+23:21:10.841 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:11.014 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:11.015 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:11.157 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:11.188 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:21:11.211 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+23:21:11.243 INFO  utilities.GenericMethods -The field is cleared
+23:21:11.393 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:11.582 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:11.582 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:11.709 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:11.879 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:21:11.879 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:21:14.916 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+23:21:14.953 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
+23:21:14.998 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
 Google apps
-17:38:46.657 ERROR utilities.GenericMethods -The text: directi.com uses
+23:21:15.039 ERROR utilities.GenericMethods -The text: directi.com uses
 Google apps displayed is not correct
-17:38:46.872 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
-17:38:46.936 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
-17:38:46.992 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
-17:38:47.220 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
-17:38:47.276 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
-17:38:47.320 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
-17:38:47.594 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
-17:38:47.670 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
+23:21:15.195 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
+23:21:15.236 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
+23:21:15.273 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
+23:21:15.442 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
+23:21:15.484 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
+23:21:15.519 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
+23:21:15.715 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
+23:21:15.783 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
 directitester002@directi.com
-17:38:47.739 ERROR utilities.GenericMethods -The text: Connect with your Google account
+23:21:15.841 ERROR utilities.GenericMethods -The text: Connect with your Google account
 directitester002@directi.com displayed is not correct
-17:38:48.011 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
-17:38:48.083 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
+23:21:16.030 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
+23:21:16.075 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
 100% secure, easy and quick sign up
 Discover and add your colleagues
-17:38:48.147 ERROR utilities.GenericMethods -The text: Why sign in with Google?
+23:21:16.115 ERROR utilities.GenericMethods -The text: Why sign in with Google?
 100% secure, easy and quick sign up
 Discover and add your colleagues displayed is not correct
-17:38:48.314 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:38:48.631 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:48.792 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:38:48.796 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:38:48.880 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:38:48.930 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
-17:38:48.976 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
-17:38:49.020 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
-17:38:49.244 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
-17:38:49.288 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
+23:21:16.252 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:21:16.457 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:16.634 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:21:16.634 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:21:16.697 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+23:21:16.733 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
+23:21:16.775 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
+23:21:16.815 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
+23:21:17.029 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
+23:21:17.079 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
 "directitester002@directi.com" Edit
-17:38:49.348 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
+23:21:17.114 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
 "directitester002@directi.com" Edit displayed is not correct
-17:38:49.546 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:38:49.609 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:38:49.669 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:49.896 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
-17:38:49.952 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
-17:38:49.988 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
-17:38:50.180 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
-17:38:50.228 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
-17:38:50.268 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
-17:38:50.439 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:38:50.644 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:50.684 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
-17:38:50.736 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
-17:38:50.768 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:38:51.032 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
-17:38:51.092 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
-17:38:51.141 INFO  utilities.GenericMethods -The text: Edit displayed is correct
-17:38:51.141 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:51.357 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:53.358 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:53.562 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:56.569 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:56.765 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:57.043 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:38:57.097 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
-17:38:57.145 INFO  utilities.GenericMethods -The text: Verify displayed is correct
-17:38:57.289 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:38:57.384 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:38:59.386 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:38:59.710 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:38:59.767 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:38:59.825 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:38:59.899 INFO  utilities.GenericMethods -The field is cleared
-17:39:00.095 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:39:00.255 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:39:02.258 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:39:02.413 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:39:02.450 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:39:02.482 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:39:02.510 INFO  utilities.GenericMethods -The field is cleared
-17:39:02.661 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:39:02.754 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:39:04.755 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:39:04.900 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:39:04.938 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
-17:39:04.964 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
-17:39:04.996 INFO  utilities.GenericMethods -The field is cleared
-17:39:05.160 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:39:05.296 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:39:05.296 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:39:05.516 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:39:07.609 INFO  utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is displayed.
-17:39:07.661 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is Authentication Failed. Please check the pin.
-17:39:07.697 INFO  utilities.GenericMethods -The field is cleared
-17:39:07.847 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:39:07.998 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:39:07.998 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:39:08.142 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:40:48.157 INFO  utilities.GenericMethods -Browser Window Maximized
-17:41:06.934 INFO  SignIn.FlockSignIn -Opening the webclient
-17:41:06.979 INFO  utilities.GenericMethods -The title of the Page is: Flock
-17:41:06.991 INFO  utilities.GenericMethods -The Title is Correct
-17:41:10.930 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:41:10.954 INFO  utilities.GenericMethods -Switched to iframe by int : 0
-17:41:11.054 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
-17:41:11.117 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
-17:41:11.174 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
-17:41:11.246 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
-17:41:11.330 INFO  utilities.GenericMethods -The text: English-US displayed is correct
-17:41:11.330 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:11.738 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:11.846 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
-17:41:11.930 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
-17:41:12.022 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
-17:41:12.082 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
-17:41:12.138 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
-17:41:12.214 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
-17:41:12.215 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:12.515 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:16.959 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
-17:41:17.000 INFO  utilities.GenericMethods -Switched to iframe by int : 0
-17:41:17.000 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:41:17.122 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:41:17.205 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
-17:41:17.326 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
-17:41:17.432 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
-17:41:17.913 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
-17:41:18.063 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
-17:41:18.125 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
-17:41:18.126 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:41:18.464 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:18.572 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
-17:41:18.654 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
-17:41:18.712 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
-17:41:18.800 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
-17:41:18.868 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
-17:41:18.949 INFO  utilities.GenericMethods -The text: Email displayed is correct
-17:41:19.032 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
-17:41:19.096 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
-17:41:19.177 INFO  utilities.GenericMethods -The text: Name displayed is correct
-17:41:19.269 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
-17:41:19.361 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
-17:41:19.446 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:19.446 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:41:19.813 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:19.883 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
-17:41:19.980 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
-17:41:20.045 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:20.045 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:41:20.365 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:20.411 INFO  utilities.GenericMethods -Size of the list: 5
-17:41:20.540 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:41:20.585 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:41:20.633 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:22.878 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:41:22.944 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:41:22.966 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:23.211 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:41:23.247 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:41:23.267 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:23.686 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:41:23.719 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:41:23.731 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:23.951 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
-17:41:23.984 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
-17:41:23.998 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:24.047 INFO  utilities.GenericMethods -The element at loction: By.xpath: //textarea[@class='input'] is displayed
-17:41:24.099 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //textarea[@class='input'] is 
-17:41:24.151 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:24.151 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
-17:41:24.488 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:24.535 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='attachFileLogo'] is displayed
-17:41:24.606 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='uploadMessage'] is displayed
-17:41:24.678 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='uploadMessage'] is Log file attached
-17:41:24.732 INFO  utilities.GenericMethods -The text: Log file attached displayed is correct
-17:41:24.828 INFO  utilities.GenericMethods -The field is cleared
-17:41:24.893 INFO  utilities.GenericMethods -The field is cleared
-17:41:24.959 INFO  utilities.GenericMethods -The field is cleared
-17:41:25.027 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--reportBug'] is displayed
-17:41:25.094 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--reportBug'] is Send Request
-17:41:25.143 INFO  utilities.GenericMethods -The text: Send Request displayed is correct
-17:41:25.143 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:41:25.419 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:28.464 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is displayed
-17:41:28.548 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is Please enter your email address
-17:41:28.600 INFO  utilities.GenericMethods -The text: Please enter your email address displayed is correct
-17:41:28.648 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is displayed
-17:41:28.700 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is Please describe your issue
-17:41:28.744 INFO  utilities.GenericMethods -The text: Please describe your issue displayed is correct
-17:41:28.804 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is displayed
-17:41:28.864 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is Cancel
-17:41:28.928 INFO  utilities.GenericMethods -The text: Cancel displayed is correct
-17:41:28.928 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:41:29.191 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:29.484 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
-17:41:29.579 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
-17:41:29.650 INFO  utilities.GenericMethods -The text: Enter your official email address to continue displayed is correct
-17:41:29.874 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:41:29.926 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:41:29.962 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:30.182 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:41:30.246 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
-17:41:30.290 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
-17:41:30.574 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
-17:41:30.774 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:31.099 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:31.099 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:31.507 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:31.649 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:41:31.730 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:41:31.813 INFO  utilities.GenericMethods -The field is cleared
-17:41:32.061 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:32.453 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:32.454 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:32.700 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:32.741 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:41:32.776 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:41:32.824 INFO  utilities.GenericMethods -The field is cleared
-17:41:33.048 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:33.300 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:33.300 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:33.444 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:33.488 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:41:33.520 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
-17:41:33.566 INFO  utilities.GenericMethods -The field is cleared
-17:41:33.758 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:34.138 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:34.138 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:34.307 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:34.505 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:41:34.505 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:41:35.554 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:41:35.595 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
-17:41:35.650 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
-Google apps
-17:41:35.690 ERROR utilities.GenericMethods -The text: directi.com uses
-Google apps displayed is not correct
-17:41:35.878 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
-17:41:35.926 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
-17:41:35.966 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
-17:41:36.162 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
-17:41:36.218 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
-17:41:36.266 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
-17:41:36.594 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
-17:41:36.662 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
-directitester002@directi.com
-17:41:36.726 ERROR utilities.GenericMethods -The text: Connect with your Google account
-directitester002@directi.com displayed is not correct
-17:41:36.993 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
-17:41:37.063 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
-100% secure, easy and quick sign up
-Discover and add your colleagues
-17:41:37.207 ERROR utilities.GenericMethods -The text: Why sign in with Google?
-100% secure, easy and quick sign up
-Discover and add your colleagues displayed is not correct
-17:41:37.465 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:41:37.727 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:37.965 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
-17:41:37.965 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
-17:41:38.031 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
-17:41:38.079 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
-17:41:38.127 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
-17:41:38.167 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
-17:41:38.387 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
-17:41:38.460 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
-"directitester002@directi.com" Edit
-17:41:38.495 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
-"directitester002@directi.com" Edit displayed is not correct
-17:41:38.666 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
-17:41:38.708 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
-17:41:38.761 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:38.978 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
-17:41:39.019 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
-17:41:39.064 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
-17:41:39.266 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
-17:41:39.308 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
-17:41:39.367 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
-17:41:39.524 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
-17:41:39.727 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:39.767 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
-17:41:39.824 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
-17:41:39.900 INFO  utilities.GenericMethods -The text:  displayed is correct
-17:41:40.112 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
-17:41:40.168 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
-17:41:40.212 INFO  utilities.GenericMethods -The text: Edit displayed is correct
-17:41:40.212 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:40.428 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:42.430 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:42.642 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:45.643 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:45.855 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:46.055 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
-17:41:46.111 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
-17:41:46.155 INFO  utilities.GenericMethods -The text: Verify displayed is correct
-17:41:46.303 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:46.407 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:48.408 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:48.652 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:48.702 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:41:48.748 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:41:48.802 INFO  utilities.GenericMethods -The field is cleared
-17:41:48.972 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:49.056 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:51.063 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:51.255 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:51.291 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
-17:41:51.327 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
-17:41:51.359 INFO  utilities.GenericMethods -The field is cleared
-17:41:51.531 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:51.639 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:53.639 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:53.772 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:53.816 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
-17:41:53.872 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
-17:41:53.912 INFO  utilities.GenericMethods -The field is cleared
-17:41:54.088 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:54.224 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:54.224 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:54.388 INFO  utilities.GenericMethods -Element clicked on the webpage
-17:41:56.461 INFO  utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is displayed.
-17:41:56.508 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is Authentication Failed. Please check the pin.
-17:41:56.537 INFO  utilities.GenericMethods -The field is cleared
-17:41:56.726 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
-17:41:56.878 INFO  utilities.GenericMethods -Value Entered in the place holder
-17:41:56.878 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-17:41:57.079 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:17.266 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+23:21:17.310 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+23:21:17.343 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:17.530 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
+23:21:17.577 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
+23:21:17.609 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
+23:21:17.790 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
+23:21:17.828 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
+23:21:17.865 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
+23:21:18.013 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:21:18.264 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:18.301 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
+23:21:18.339 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
+23:21:18.371 INFO  utilities.GenericMethods -The text:  displayed is correct
+23:21:18.556 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
+23:21:18.601 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
+23:21:18.643 INFO  utilities.GenericMethods -The text: Edit displayed is correct
+23:21:18.643 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:18.866 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:20.867 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:21.048 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:24.048 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:24.315 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:24.492 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+23:21:24.529 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
+23:21:24.564 INFO  utilities.GenericMethods -The text: Verify displayed is correct
+23:21:24.712 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:24.819 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:26.821 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:27.010 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:27.059 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:21:27.126 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+23:21:27.178 INFO  utilities.GenericMethods -The field is cleared
+23:21:27.358 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:27.455 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:29.456 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:29.655 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:29.720 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+23:21:29.766 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+23:21:29.828 INFO  utilities.GenericMethods -The field is cleared
+23:21:29.965 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:30.042 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:32.042 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:32.136 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:32.163 ERROR utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is NOT displayed.
+23:21:32.196 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is 
+23:21:32.237 INFO  utilities.GenericMethods -The field is cleared
+23:21:32.393 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:32.495 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:32.496 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:34.299 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:36.353 ERROR utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is NOT displayed.
+23:21:36.395 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is 
+23:21:36.425 INFO  utilities.GenericMethods -The field is cleared
+23:21:36.568 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:21:36.694 INFO  utilities.GenericMethods -Value Entered in the place holder
+23:21:36.694 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:21:36.919 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:21:52.090 INFO  utilities.GenericMethods -Browser Window Maximized
+23:22:04.386 INFO  SignIn.FlockSignIn -Opening the webclient
+23:22:04.440 INFO  utilities.GenericMethods -The title of the Page is: Flock
+23:22:04.540 INFO  utilities.GenericMethods -The Title is Correct
+23:22:04.650 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+23:22:04.659 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:22:12.624 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
+23:22:12.657 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
+23:22:12.685 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is displayed
+23:22:12.720 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='dijitReset dijitInline currentLanguage en-us'] is English-US
+23:22:12.770 INFO  utilities.GenericMethods -The text: English-US displayed is correct
+23:22:12.770 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:13.038 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:22:13.139 INFO  utilities.GenericMethods -The option in the drop down is: English-US (English-US)
+23:22:13.163 INFO  utilities.GenericMethods -The option in the drop down is: English-UK (English-UK)
+23:22:13.180 INFO  utilities.GenericMethods -The option in the drop down is: Español (Spanish)
+23:22:13.192 INFO  utilities.GenericMethods -The option in the drop down is: Español México (Spanish-MX)
+23:22:13.209 INFO  utilities.GenericMethods -The option in the drop down is: ??????? (Russian)
+23:22:13.220 INFO  utilities.GenericMethods -The option in the drop down is: Português Brasileiro (Brazilian Portuguese)
+23:22:13.220 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:13.333 INFO  utilities.GenericMethods -Element clicked on the webpage
+23:22:13.433 INFO  utilities.GenericMethods -Implicitly waiting for 80secs
+23:22:13.439 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+23:22:13.439 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:22:18.582 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:22:22.419 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:22.427 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:22.427 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:22.435 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:22.453 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:22.466 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:22.466 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:22.496 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:22.518 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:22.531 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:22.531 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:22.550 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:22.574 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:22.586 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:22.586 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:22.599 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:22.619 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:22:22.620 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:22:22.634 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:22:22.763 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:22:22.787 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:22.806 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+23:22:22.809 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+23:22:22.821 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+23:22:22.982 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+23:22:22.994 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:23.078 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:23.090 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:25.091 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:25.099 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:25.127 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:25.134 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:27.135 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:27.146 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:27.170 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:27.180 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:29.181 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:29.188 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:29.220 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:29.232 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:29.232 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:29.245 ERROR utilities.GenericMethods -Element not clicked on the webpage
+23:22:31.965 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+23:22:32.114 ERROR utilities.GenericMethods -Element not displayed on the webpage
+23:22:32.114 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+23:22:32.262 ERROR utilities.GenericMethods -Element not clicked on the webpage

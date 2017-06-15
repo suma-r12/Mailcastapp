@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+<testng-results skipped="0" failed="26" ignored="0" total="62" passed="36">
   <reporter-output>
     <line>
       <![CDATA[onStart Suite - About to begin executing Suite MultiBrowser]]>
@@ -391,13 +391,229 @@
     <line>
       <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
     </line>
+    <line>
+      <![CDATA[onFinish Test - Completed executing Test set Chorme Browser]]>
+    </line>
+    <line>
+      <![CDATA[onStart Test - About to begin executing Test set Firefox Browser]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.windowTitle]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in SignIn.FlockSignIn]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.languageSwitcher]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides in SignIn.FlockSignIn]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.Heading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.Heading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.contactSupport]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.subHeading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.subHeading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.emailPlaceHolder]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.loginButton]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.loginButton]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.onbaordingSideBar]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.enterEmail]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthHeading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthButton]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthSkipButton]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthSubHeading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthNote]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.clickSkipGoogleAuth]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpHeading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpSubHeading]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpPlaceHolder]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpText]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpHook]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpHookClicked]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.checkEditButton]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.verifyButton]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage1]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.enterOTP]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
+    </line>
   </reporter-output>
-  <suite name="MultiBrowser" duration-ms="84835" started-at="2017-06-15T12:10:43Z" finished-at="2017-06-15T12:12:08Z">
+  <suite name="MultiBrowser" duration-ms="146639" started-at="2017-06-15T17:50:20Z" finished-at="2017-06-15T17:52:46Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="84835" started-at="2017-06-15T12:10:43Z" finished-at="2017-06-15T12:12:08Z">
+    <test name="Chorme Browser" duration-ms="88232" started-at="2017-06-15T17:50:20Z" finished-at="2017-06-15T17:51:48Z">
       <class name="SignIn.FlockSignIn">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="beforeClass" is-config="true" duration-ms="23164" started-at="2017-06-15T17:40:43Z" finished-at="2017-06-15T17:41:06Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="beforeClass" is-config="true" duration-ms="27060" started-at="2017-06-15T23:20:20Z" finished-at="2017-06-15T23:20:47Z">
           <params>
             <param index="0">
               <value>
@@ -411,7 +627,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="windowTitle" duration-ms="32" started-at="2017-06-15T17:41:06Z" finished-at="2017-06-15T17:41:06Z">
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="windowTitle" duration-ms="76" started-at="2017-06-15T23:20:47Z" finished-at="2017-06-15T23:20:47Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
@@ -427,7 +643,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- windowTitle -->
-        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@c86b9e3]" name="languageSwitcher" duration-ms="1601" started-at="2017-06-15T17:41:10Z" finished-at="2017-06-15T17:41:12Z">
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@6aaceffd]" name="languageSwitcher" duration-ms="2751" started-at="2017-06-15T23:20:47Z" finished-at="2017-06-15T23:20:50Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
@@ -443,7 +659,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- languageSwitcher -->
-        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@c86b9e3]" name="Heading" duration-ms="481" started-at="2017-06-15T17:41:16Z" finished-at="2017-06-15T17:41:17Z">
+        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@6aaceffd]" name="Heading" duration-ms="270" started-at="2017-06-15T23:20:58Z" finished-at="2017-06-15T23:20:58Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.Heading]]>
@@ -459,7 +675,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Heading -->
-        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@c86b9e3]" name="contactSupport" duration-ms="11360" started-at="2017-06-15T17:41:17Z" finished-at="2017-06-15T17:41:29Z">
+        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@6aaceffd]" name="contactSupport" duration-ms="9831" started-at="2017-06-15T23:20:58Z" finished-at="2017-06-15T23:21:08Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport]]>
@@ -475,7 +691,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- contactSupport -->
-        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@c86b9e3]" name="subHeading" duration-ms="261" started-at="2017-06-15T17:41:29Z" finished-at="2017-06-15T17:41:29Z">
+        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@6aaceffd]" name="subHeading" duration-ms="158" started-at="2017-06-15T23:21:08Z" finished-at="2017-06-15T23:21:08Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.subHeading]]>
@@ -491,7 +707,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- subHeading -->
-        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@c86b9e3]" name="emailPlaceHolder" duration-ms="147" started-at="2017-06-15T17:41:29Z" finished-at="2017-06-15T17:41:29Z">
+        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@6aaceffd]" name="emailPlaceHolder" duration-ms="136" started-at="2017-06-15T23:21:08Z" finished-at="2017-06-15T23:21:09Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder]]>
@@ -507,7 +723,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- emailPlaceHolder -->
-        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@c86b9e3]" name="loginButton" duration-ms="152" started-at="2017-06-15T17:41:30Z" finished-at="2017-06-15T17:41:30Z">
+        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@6aaceffd]" name="loginButton" duration-ms="116" started-at="2017-06-15T23:21:09Z" finished-at="2017-06-15T23:21:09Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.loginButton]]>
@@ -523,7 +739,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@c86b9e3]" name="onbaordingSideBar" duration-ms="83" started-at="2017-06-15T17:41:30Z" finished-at="2017-06-15T17:41:30Z">
+        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@6aaceffd]" name="onbaordingSideBar" duration-ms="43" started-at="2017-06-15T23:21:09Z" finished-at="2017-06-15T23:21:09Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar]]>
@@ -539,7 +755,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- onbaordingSideBar -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="1043" started-at="2017-06-15T17:41:30Z" data-provider="emails" finished-at="2017-06-15T17:41:31Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="598" started-at="2017-06-15T23:21:09Z" data-provider="emails" finished-at="2017-06-15T23:21:10Z">
           <params>
             <param index="0">
               <value>
@@ -562,7 +778,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="763" started-at="2017-06-15T17:41:32Z" data-provider="emails" finished-at="2017-06-15T17:41:32Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="332" started-at="2017-06-15T23:21:10Z" data-provider="emails" finished-at="2017-06-15T23:21:10Z">
           <params>
             <param index="0">
               <value>
@@ -585,7 +801,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@c86b9e3]" name="errorMessage" duration-ms="523" started-at="2017-06-15T17:41:33Z" data-provider="emails" finished-at="2017-06-15T17:41:33Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="404" started-at="2017-06-15T23:21:10Z" data-provider="emails" finished-at="2017-06-15T23:21:11Z">
           <params>
             <param index="0">
               <value>
@@ -608,7 +824,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@c86b9e3]" name="enterEmail" duration-ms="553" started-at="2017-06-15T17:41:33Z" finished-at="2017-06-15T17:41:34Z">
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@6aaceffd]" name="enterEmail" duration-ms="317" started-at="2017-06-15T23:21:11Z" finished-at="2017-06-15T23:21:11Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
@@ -624,7 +840,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthHeading" duration-ms="1193" started-at="2017-06-15T17:41:34Z" finished-at="2017-06-15T17:41:35Z">
+        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthHeading" duration-ms="3164" started-at="2017-06-15T23:21:11Z" finished-at="2017-06-15T23:21:15Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading]]>
@@ -640,7 +856,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthHeading -->
-        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthButton" duration-ms="131" started-at="2017-06-15T17:41:35Z" finished-at="2017-06-15T17:41:35Z">
+        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthButton" duration-ms="118" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton]]>
@@ -656,7 +872,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthButton -->
-        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSkipButton" duration-ms="144" started-at="2017-06-15T17:41:36Z" finished-at="2017-06-15T17:41:36Z">
+        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSkipButton" duration-ms="121" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton]]>
@@ -672,7 +888,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSkipButton -->
-        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthSubHeading" duration-ms="232" started-at="2017-06-15T17:41:36Z" finished-at="2017-06-15T17:41:36Z">
+        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSubHeading" duration-ms="200" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading]]>
@@ -688,7 +904,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSubHeading -->
-        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@c86b9e3]" name="googleAuthNote" duration-ms="297" started-at="2017-06-15T17:41:36Z" finished-at="2017-06-15T17:41:37Z">
+        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthNote" duration-ms="127" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:16Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote]]>
@@ -704,7 +920,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthNote -->
-        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@c86b9e3]" name="clickSkipGoogleAuth" duration-ms="263" started-at="2017-06-15T17:41:37Z" finished-at="2017-06-15T17:41:37Z">
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6aaceffd]" name="clickSkipGoogleAuth" duration-ms="206" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:16Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
@@ -720,7 +936,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickSkipGoogleAuth -->
-        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@c86b9e3]" name="otpHeading" duration-ms="206" started-at="2017-06-15T17:41:37Z" finished-at="2017-06-15T17:41:38Z">
+        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@6aaceffd]" name="otpHeading" duration-ms="185" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:16Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading]]>
@@ -736,7 +952,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpHeading -->
-        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@c86b9e3]" name="otpSubHeading" duration-ms="188" started-at="2017-06-15T17:41:38Z" finished-at="2017-06-15T17:41:38Z">
+        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@6aaceffd]" name="otpSubHeading" duration-ms="149" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:17Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading]]>
@@ -752,7 +968,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpSubHeading -->
-        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@c86b9e3]" name="otpPlaceHolder" duration-ms="126" started-at="2017-06-15T17:41:38Z" finished-at="2017-06-15T17:41:38Z">
+        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@6aaceffd]" name="otpPlaceHolder" duration-ms="104" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder]]>
@@ -768,7 +984,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpPlaceHolder -->
-        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpText" duration-ms="136" started-at="2017-06-15T17:41:38Z" finished-at="2017-06-15T17:41:39Z">
+        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpText" duration-ms="132" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText]]>
@@ -784,7 +1000,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpText -->
-        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHook" duration-ms="151" started-at="2017-06-15T17:41:39Z" finished-at="2017-06-15T17:41:39Z">
+        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpHook" duration-ms="116" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook]]>
@@ -800,7 +1016,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHook -->
-        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@c86b9e3]" name="resendOtpHookClicked" duration-ms="380" started-at="2017-06-15T17:41:39Z" finished-at="2017-06-15T17:41:39Z">
+        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpHookClicked" duration-ms="359" started-at="2017-06-15T23:21:18Z" finished-at="2017-06-15T23:21:18Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked]]>
@@ -816,7 +1032,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHookClicked -->
-        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="checkEditButton" duration-ms="5794" started-at="2017-06-15T17:41:40Z" finished-at="2017-06-15T17:41:45Z">
+        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@6aaceffd]" name="checkEditButton" duration-ms="5805" started-at="2017-06-15T23:21:18Z" finished-at="2017-06-15T23:21:24Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton]]>
@@ -832,7 +1048,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkEditButton -->
-        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@c86b9e3]" name="verifyButton" duration-ms="136" started-at="2017-06-15T17:41:46Z" finished-at="2017-06-15T17:41:46Z">
+        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@6aaceffd]" name="verifyButton" duration-ms="115" started-at="2017-06-15T23:21:24Z" finished-at="2017-06-15T23:21:24Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton]]>
@@ -848,7 +1064,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyButton -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2500" started-at="2017-06-15T17:41:46Z" data-provider="otp" finished-at="2017-06-15T17:41:48Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2468" started-at="2017-06-15T23:21:24Z" data-provider="otp" finished-at="2017-06-15T23:21:27Z">
           <params>
             <param index="0">
               <value>
@@ -871,7 +1087,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2391" started-at="2017-06-15T17:41:48Z" data-provider="otp" finished-at="2017-06-15T17:41:51Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2470" started-at="2017-06-15T23:21:27Z" data-provider="otp" finished-at="2017-06-15T23:21:29Z">
           <params>
             <param index="0">
               <value>
@@ -894,7 +1110,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage" duration-ms="2382" started-at="2017-06-15T17:41:51Z" data-provider="otp" finished-at="2017-06-15T17:41:53Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2273" started-at="2017-06-15T23:21:29Z" data-provider="otp" finished-at="2017-06-15T23:21:32Z">
           <params>
             <param index="0">
               <value>
@@ -917,7 +1133,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@c86b9e3]" name="otpErrorMessage1" duration-ms="2449" started-at="2017-06-15T17:41:54Z" finished-at="2017-06-15T17:41:56Z">
+        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage1" duration-ms="4033" started-at="2017-06-15T23:21:32Z" finished-at="2017-06-15T23:21:36Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1]]>
@@ -933,7 +1149,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage1 -->
-        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@c86b9e3]" name="enterOTP" duration-ms="357" started-at="2017-06-15T17:41:56Z" finished-at="2017-06-15T17:41:57Z">
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@6aaceffd]" name="enterOTP" duration-ms="353" started-at="2017-06-15T23:21:36Z" finished-at="2017-06-15T23:21:36Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
@@ -949,7 +1165,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@c86b9e3]" name="afterClass" is-config="true" duration-ms="11305" started-at="2017-06-15T17:41:57Z" finished-at="2017-06-15T17:42:08Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="afterClass" is-config="true" duration-ms="11184" started-at="2017-06-15T23:21:37Z" finished-at="2017-06-15T23:21:48Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
@@ -958,5 +1174,1987 @@
         </test-method> <!-- afterClass -->
       </class> <!-- SignIn.FlockSignIn -->
     </test> <!-- Chorme Browser -->
+    <test name="Firefox Browser" duration-ms="58361" started-at="2017-06-15T17:51:48Z" finished-at="2017-06-15T17:52:46Z">
+      <class name="SignIn.FlockSignIn">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="beforeClass" is-config="true" duration-ms="16129" started-at="2017-06-15T23:21:48Z" finished-at="2017-06-15T23:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="windowTitle" duration-ms="118" started-at="2017-06-15T23:22:04Z" finished-at="2017-06-15T23:22:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.windowTitle]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in SignIn.FlockSignIn]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- windowTitle -->
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@6e509ffa]" name="languageSwitcher" duration-ms="8694" started-at="2017-06-15T23:22:04Z" finished-at="2017-06-15T23:22:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.languageSwitcher]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides in SignIn.FlockSignIn]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- languageSwitcher -->
+        <test-method status="FAIL" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@6e509ffa]" name="Heading" duration-ms="7170" started-at="2017-06-15T23:22:13Z" finished-at="2017-06-15T23:22:20Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h2}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h2}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.Heading(FlockSignIn.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.Heading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.Heading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Heading -->
+        <test-method status="FAIL" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@6e509ffa]" name="contactSupport" duration-ms="156" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//span[@class='feedbackLinkSpan']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//span[@class='feedbackLinkSpan']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.contactSupport(FlockSignIn.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.contactSupport]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactSupport -->
+        <test-method status="FAIL" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@6e509ffa]" name="subHeading" duration-ms="15" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h5}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h5}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.subHeading(FlockSignIn.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.subHeading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.subHeading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- subHeading -->
+        <test-method status="FAIL" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@6e509ffa]" name="emailPlaceHolder" duration-ms="30" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//input[@class='input']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//input[@class='input']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.emailPlaceHolder(FlockSignIn.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.emailPlaceHolder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emailPlaceHolder -->
+        <test-method status="FAIL" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@6e509ffa]" name="loginButton" duration-ms="334" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.loginButton(FlockSignIn.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.loginButton]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.loginButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginButton -->
+        <test-method status="FAIL" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@6e509ffa]" name="onbaordingSideBar" duration-ms="15" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='onboarding-sidebar']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='onboarding-sidebar']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.onbaordingSideBar(FlockSignIn.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.onbaordingSideBar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onbaordingSideBar -->
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="25" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="53" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jffhfhfh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="45" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jffhfhfh@jdjdjjdj]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.errorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errorMessage -->
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@6e509ffa]" name="enterEmail" duration-ms="26" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.enterEmail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="FAIL" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthHeading" duration-ms="32" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h2}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h2}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.googleAuthHeading(FlockSignIn.java:242)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthHeading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleAuthHeading -->
+        <test-method status="FAIL" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthButton" duration-ms="14" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--block btn--google']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--block btn--google']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.googleAuthButton(FlockSignIn.java:256)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleAuthButton -->
+        <test-method status="FAIL" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthSkipButton" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _skipOAuth']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _skipOAuth']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.googleAuthSkipButton(FlockSignIn.java:263)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthSkipButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleAuthSkipButton -->
+        <test-method status="FAIL" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthSubHeading" duration-ms="13" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h5}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h5}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.googleAuthSubHeading(FlockSignIn.java:249)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthSubHeading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleAuthSubHeading -->
+        <test-method status="FAIL" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthNote" duration-ms="13" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='google-auth-blurb']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='google-auth-blurb']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.googleAuthNote(FlockSignIn.java:270)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.googleAuthNote]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googleAuthNote -->
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6e509ffa]" name="clickSkipGoogleAuth" duration-ms="25" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.clickSkipGoogleAuth]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSkipGoogleAuth -->
+        <test-method status="FAIL" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@6e509ffa]" name="otpHeading" duration-ms="49" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h2}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h2}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.otpHeading(FlockSignIn.java:284)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpHeading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpHeading -->
+        <test-method status="FAIL" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@6e509ffa]" name="otpSubHeading" duration-ms="26" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h5}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h5}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.otpSubHeading(FlockSignIn.java:291)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpSubHeading]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpSubHeading -->
+        <test-method status="FAIL" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@6e509ffa]" name="otpPlaceHolder" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//input[@class='input']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//input[@class='input']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.otpPlaceHolder(FlockSignIn.java:298)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpPlaceHolder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpPlaceHolder -->
+        <test-method status="FAIL" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpText" duration-ms="16" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//div[2]/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//div[2]/span}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.resendOtpText(FlockSignIn.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpText]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resendOtpText -->
+        <test-method status="FAIL" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpHook" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _resend']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _resend']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.resendOtpHook(FlockSignIn.java:312)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpHook]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resendOtpHook -->
+        <test-method status="FAIL" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpHookClicked" duration-ms="23" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:23Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='resend-status']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='resend-status']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.resendOtpHookClicked(FlockSignIn.java:320)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.resendOtpHookClicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resendOtpHookClicked -->
+        <test-method status="FAIL" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@6e509ffa]" name="checkEditButton" duration-ms="13" started-at="2017-06-15T23:22:23Z" finished-at="2017-06-15T23:22:23Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-point='backLink']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@data-dojo-attach-point='backLink']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.checkEditButton(FlockSignIn.java:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.checkEditButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkEditButton -->
+        <test-method status="FAIL" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@6e509ffa]" name="verifyButton" duration-ms="12" started-at="2017-06-15T23:22:23Z" finished-at="2017-06-15T23:22:23Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
+	at SignIn.FlockSignIn.verifyButton(FlockSignIn.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.verifyButton]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyButton -->
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2030" started-at="2017-06-15T23:22:23Z" data-provider="otp" finished-at="2017-06-15T23:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpErrorMessage -->
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2032" started-at="2017-06-15T23:22:25Z" data-provider="otp" finished-at="2017-06-15T23:22:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jffhfh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpErrorMessage -->
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2030" started-at="2017-06-15T23:22:27Z" data-provider="otp" finished-at="2017-06-15T23:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1q2q3q]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//div[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpErrorMessage -->
+        <test-method status="FAIL" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage1" duration-ms="2637" started-at="2017-06-15T23:22:29Z" finished-at="2017-06-15T23:22:31Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//span[@class='errorMessage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+*** Element info: {Using=xpath, value=//span[@class='errorMessage']}
+	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
+	at SignIn.FlockSignIn.otpErrorMessage1(FlockSignIn.java:361)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- otpErrorMessage1 -->
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@6e509ffa]" name="enterOTP" duration-ms="299" started-at="2017-06-15T23:22:31Z" finished-at="2017-06-15T23:22:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.enterOTP]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterOTP -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="afterClass" is-config="true" duration-ms="14370" started-at="2017-06-15T23:22:32Z" finished-at="2017-06-15T23:22:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- SignIn.FlockSignIn -->
+    </test> <!-- Firefox Browser -->
   </suite> <!-- MultiBrowser -->
 </testng-results>
