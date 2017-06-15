@@ -75,6 +75,7 @@ public class FlockSignIn {
 		gm.getText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.compareText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.click(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"), 1);
+		gm.webelementsText(By.xpath("//td[@data-dojo-attach-point='containerNode']"));
 	}
 	
 	
@@ -117,7 +118,7 @@ public class FlockSignIn {
 		gm.compareText(By.xpath("//input[@placeholder='Enter your name']"));
 		gm.SendKey(By.xpath("//input[@placeholder='Enter your name']"), 2, "Test Automator");
 		
-		gm.radioButtonIterate(By.xpath("//div[@id='widgets_Dialog_1']//input[@type='radio']"));
+		gm.radioButtonIterate(By.xpath("//div[@id='widgets_Dialog_0']//input[@type='radio']"));
 		
 		/*gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
 		gm.getText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));

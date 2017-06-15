@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GenericMethods {
@@ -241,7 +242,7 @@ public class GenericMethods {
 				}else{
 					log.error("The element at loction: "+locator+" is displayed");
 				}
-				 String Text = driver.findElement(locator).getText();
+				 String Text = driver.findElement(locator).getAttribute("innerText");
 				log.info("THe text at locator: "+locator+" is "+Text);
 				if(driver.getPageSource().contains(Text)){
 					log.info("The text: "+Text+" displayed is correct");
@@ -269,4 +270,14 @@ public class GenericMethods {
 		}
 	}
 
+	public void webelementsText(By locator){
+	
+		List<WebElement> options = driver.findElements(locator);
+		int size = options.size();
+		
+		for (int i=0; i<size; i++) {
+			String optionName = options.get(i).getText();
+			log.info("The option in the drop down is: "+optionName);
+		}
+	}
 }
