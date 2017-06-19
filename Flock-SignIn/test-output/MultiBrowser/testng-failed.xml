@@ -4,32 +4,79 @@
   <listeners>
     <listener class-name="utilities.SeleniumListener"/>
   </listeners>
-  <test name="Firefox Browser(failed)">
-    <parameter name="browserType" value="firefox"/>
+  <test name="Chorme Browser(failed)">
+    <parameter name="browserType" value="chrome"/>
     <classes>
       <class name="SignIn.FlockSignIn">
         <methods>
           <include name="contactSupport"/>
+          <include name="languageSwitcher"/>
           <include name="beforeTest"/>
           <include name="Heading"/>
+          <include name="clickSkipGoogleAuth"/>
           <include name="otpPlaceHolder"/>
           <include name="resendOtpHookClicked"/>
+          <include name="enterOTP"/>
           <include name="loginButton"/>
+          <include name="windowTitle"/>
           <include name="afterTest"/>
           <include name="beforeClass"/>
           <include name="beforesuite"/>
           <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
+          <include name="otpErrorMessage"/>
           <include name="otpErrorMessage1"/>
           <include name="googleAuthNote"/>
           <include name="afterClass"/>
+          <include name="enterEmail"/>
           <include name="afterSuite"/>
           <include name="googleAuthSkipButton"/>
           <include name="resendOtpText"/>
           <include name="otpSubHeading"/>
           <include name="checkEditButton"/>
           <include name="otpHeading"/>
-          <include name="errorMessage" invocation-numbers="0 1 2"/>
+          <include name="errorMessage"/>
+          <include name="googleAuthSubHeading"/>
+          <include name="subHeading"/>
+          <include name="googleAuthButton"/>
+          <include name="emailPlaceHolder"/>
+          <include name="resendOtpHook"/>
+          <include name="onbaordingSideBar"/>
+          <include name="verifyButton"/>
+        </methods>
+      </class> <!-- SignIn.FlockSignIn -->
+    </classes>
+  </test> <!-- Chorme Browser(failed) -->
+  <test name="Firefox Browser(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="SignIn.FlockSignIn">
+        <methods>
+          <include name="contactSupport"/>
+          <include name="languageSwitcher"/>
+          <include name="beforeTest"/>
+          <include name="Heading"/>
+          <include name="clickSkipGoogleAuth"/>
+          <include name="otpPlaceHolder"/>
+          <include name="resendOtpHookClicked"/>
+          <include name="enterOTP"/>
+          <include name="loginButton"/>
+          <include name="windowTitle"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforesuite"/>
+          <include name="googleAuthHeading"/>
+          <include name="otpErrorMessage"/>
+          <include name="otpErrorMessage1"/>
+          <include name="googleAuthNote"/>
+          <include name="afterClass"/>
+          <include name="enterEmail"/>
+          <include name="afterSuite"/>
+          <include name="googleAuthSkipButton"/>
+          <include name="resendOtpText"/>
+          <include name="otpSubHeading"/>
+          <include name="checkEditButton"/>
+          <include name="otpHeading"/>
+          <include name="errorMessage"/>
           <include name="googleAuthSubHeading"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>

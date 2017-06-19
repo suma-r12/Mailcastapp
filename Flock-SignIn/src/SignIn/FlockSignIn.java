@@ -1,17 +1,10 @@
 package SignIn;
 
-import java.util.concurrent.TimeUnit;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import base.BaseTestSuite;
@@ -19,34 +12,17 @@ import resources.DefaultStrings;
 import utilities.GenericMethods;
 
 public class FlockSignIn extends BaseTestSuite {
-	private WebDriver driver;
-	private static final Logger log = LogManager.getLogger(FlockSignIn.class.getName());
+	
 	static GenericMethods gm;
 	
 	public WebDriver getDriver(){
 		return driver;
 	}
-	/*FlockSignIn(String browserType){
-	    super ();
-	}*/
 	
-	@Parameters("browserType")
-	@BeforeClass
-	public void beforeClass(String browserType) {
-		if (browserType.equalsIgnoreCase("firefox")) {
-			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);
-			driver = new FirefoxDriver();
-		} else if (browserType.equalsIgnoreCase("chrome")) {
-			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, DefaultStrings.CHROME_DRIVER_PATH);
-			driver = new ChromeDriver();
-		}
-		
+	@BeforeTest
+	public void beforeTest() {		
 		gm = new GenericMethods(driver);
-
-		gm.maximize();
-		driver.get(DefaultStrings.FLOCK_WEB_PREPROD);
-		log.info("Opening the webclient");
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		System.out.println("BaseTestSuite -> Before Test");
 	}
 	
 	@DataProvider(name="emails")
