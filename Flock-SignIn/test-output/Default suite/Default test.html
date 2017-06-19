@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/31</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 15 17:37:47 IST 2017</td>
+<td>Started on:</td><td>Mon Jun 19 10:58:21 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (168 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (204 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='SignIn.FlockSignIn.beforeClass()'><b>beforeClass</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -101,14 +103,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace298430307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace298430307'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace793293778", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace793293778'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -129,7 +133,7 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -142,7 +146,12 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 <td title='SignIn.FlockSignIn.afterClass()'><b>afterClass</b><br>Test class: SignIn.FlockSignIn</td>
 <td></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.afterTest()'><b>afterTest</b><br>Test class: SignIn.FlockSignIn</td>
+<td></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -153,13 +162,15 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 </tr>
 <tr>
 <td title='SignIn.FlockSignIn.Heading()'><b>Heading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -178,14 +189,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace694452085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace694452085'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace50503805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace50503805'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -206,16 +219,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.checkEditButton()'><b>checkEditButton</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -234,14 +249,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1950701640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1950701640'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1431710377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1431710377'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -262,16 +279,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.clickSkipGoogleAuth()'><b>clickSkipGoogleAuth</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -290,14 +309,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace879583678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace879583678'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1896552614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1896552614'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -318,16 +339,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.contactSupport()'><b>contactSupport</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -346,14 +369,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace857068247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace857068247'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1557989809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1557989809'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -374,16 +399,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.emailPlaceHolder()'><b>emailPlaceHolder</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -402,14 +429,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1604353554", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1604353554'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2123222442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2123222442'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -430,16 +459,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.enterEmail()'><b>enterEmail</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -458,14 +489,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace278240974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace278240974'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace710623214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace710623214'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -486,16 +519,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.enterOTP()'><b>enterOTP</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -514,14 +549,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace204684384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace204684384'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace125644421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace125644421'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -542,16 +579,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -570,14 +609,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1239183618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1239183618'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace214649627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace214649627'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -598,16 +639,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -626,14 +669,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1804379080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1804379080'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace67730604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67730604'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -654,16 +699,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -682,14 +729,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1757880885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1757880885'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace15477956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace15477956'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -710,16 +759,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.googleAuthButton()'><b>googleAuthButton</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -738,14 +789,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace888655833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace888655833'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace859690270", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace859690270'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -766,16 +819,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.googleAuthHeading()'><b>googleAuthHeading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -794,14 +849,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace980138431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace980138431'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2082351661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2082351661'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -822,16 +879,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.googleAuthNote()'><b>googleAuthNote</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -850,14 +909,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1047460013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1047460013'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace751021317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751021317'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -878,16 +939,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.googleAuthSkipButton()'><b>googleAuthSkipButton</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -906,14 +969,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1710265848", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1710265848'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1389774257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1389774257'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -934,16 +999,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.googleAuthSubHeading()'><b>googleAuthSubHeading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -962,14 +1029,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1504642150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1504642150'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace553759818", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace553759818'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -990,16 +1059,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.languageSwitcher()'><b>languageSwitcher</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1018,14 +1089,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace895281180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace895281180'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace746280996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace746280996'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1046,16 +1119,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.loginButton()'><b>loginButton</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1074,14 +1149,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1437941060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1437941060'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1746570062", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1746570062'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1102,16 +1179,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.onbaordingSideBar()'><b>onbaordingSideBar</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1130,14 +1209,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1210830415", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1210830415'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1555990397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1555990397'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1158,16 +1239,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1186,14 +1269,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace931480286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace931480286'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2116511124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2116511124'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1214,16 +1299,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1242,14 +1329,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace926434463", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace926434463'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace872522004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace872522004'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1270,16 +1359,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1298,14 +1389,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1776409896", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1776409896'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1348916831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1348916831'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1326,16 +1419,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpErrorMessage1()'><b>otpErrorMessage1</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1354,14 +1449,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace297602875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace297602875'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1110698130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1110698130'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1382,16 +1479,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpHeading()'><b>otpHeading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1410,14 +1509,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1431530910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1431530910'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace294658299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace294658299'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1438,16 +1539,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpPlaceHolder()'><b>otpPlaceHolder</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1466,14 +1569,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1025309396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1025309396'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace201677908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201677908'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1494,16 +1599,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.otpSubHeading()'><b>otpSubHeading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1522,14 +1629,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1954471782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1954471782'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1033856359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033856359'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1550,16 +1659,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.resendOtpHook()'><b>resendOtpHook</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1578,14 +1689,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace752001567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752001567'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace904253669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904253669'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1606,16 +1719,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.resendOtpHookClicked()'><b>resendOtpHookClicked</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1634,14 +1749,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace777379084", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace777379084'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1930903395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1930903395'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1662,16 +1779,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.resendOtpText()'><b>resendOtpText</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1690,14 +1809,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1646464088", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1646464088'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace635611994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace635611994'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1718,16 +1839,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.subHeading()'><b>subHeading</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1746,14 +1869,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace225344427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace225344427'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace146874094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace146874094'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1774,16 +1899,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.verifyButton()'><b>verifyButton</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1802,14 +1929,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace243194708", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace243194708'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1700721442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1700721442'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1830,16 +1959,18 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.windowTitle()'><b>windowTitle</b><br>Test class: SignIn.FlockSignIn</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+<td><div><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1858,14 +1989,16 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace893504292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace893504292'><pre>org.testng.TestNGException: 
-Parameter &apos;browserType&apos; is required by BeforeClass on method beforeClass but has not been marked @Optional or defined
-in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+</pre></div><a href='#' onClick='toggleBox("stack-trace307488715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace307488715'><pre>java.lang.NullPointerException
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
@@ -1886,7 +2019,7 @@ in C:\Users\farzan.s.DIRECTI\AppData\Local\Temp\testng-eclipse--269174329\testng
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@687e99d8</td></tr>
+<td>SignIn.FlockSignIn@3af9c5b7</td></tr>
 </table><p>
 </body>
 </html>

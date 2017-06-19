@@ -10,28 +10,32 @@
       <class name="SignIn.FlockSignIn">
         <methods>
           <include name="contactSupport"/>
-          <include name="googleAuthSkipButton"/>
+          <include name="beforeTest"/>
           <include name="Heading"/>
-          <include name="resendOtpText"/>
           <include name="otpPlaceHolder"/>
-          <include name="otpSubHeading"/>
           <include name="resendOtpHookClicked"/>
+          <include name="loginButton"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforesuite"/>
+          <include name="googleAuthHeading"/>
+          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
+          <include name="otpErrorMessage1"/>
+          <include name="googleAuthNote"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="googleAuthSkipButton"/>
+          <include name="resendOtpText"/>
+          <include name="otpSubHeading"/>
           <include name="checkEditButton"/>
           <include name="otpHeading"/>
           <include name="errorMessage" invocation-numbers="0 1 2"/>
           <include name="googleAuthSubHeading"/>
-          <include name="loginButton"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>
-          <include name="beforeClass"/>
-          <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="emailPlaceHolder"/>
-          <include name="otpErrorMessage1"/>
           <include name="resendOtpHook"/>
           <include name="onbaordingSideBar"/>
-          <include name="googleAuthNote"/>
-          <include name="afterClass"/>
           <include name="verifyButton"/>
         </methods>
       </class> <!-- SignIn.FlockSignIn -->

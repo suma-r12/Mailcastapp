@@ -7,6 +7,7 @@
         <methods>
           <include name="contactSupport"/>
           <include name="languageSwitcher"/>
+          <include name="beforeTest"/>
           <include name="Heading"/>
           <include name="clickSkipGoogleAuth"/>
           <include name="otpPlaceHolder"/>
@@ -14,13 +15,16 @@
           <include name="enterOTP"/>
           <include name="loginButton"/>
           <include name="windowTitle"/>
+          <include name="afterTest"/>
           <include name="beforeClass"/>
+          <include name="beforesuite"/>
           <include name="googleAuthHeading"/>
           <include name="otpErrorMessage"/>
           <include name="otpErrorMessage1"/>
           <include name="googleAuthNote"/>
           <include name="afterClass"/>
           <include name="enterEmail"/>
+          <include name="afterSuite"/>
           <include name="googleAuthSkipButton"/>
           <include name="resendOtpText"/>
           <include name="otpSubHeading"/>

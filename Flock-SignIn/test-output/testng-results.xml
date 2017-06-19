@@ -5,7 +5,19 @@
       <![CDATA[onStart Suite - About to begin executing Suite MultiBrowser]]>
     </line>
     <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.beforesuite]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforesuite]]>
+    </line>
+    <line>
       <![CDATA[onStart Test - About to begin executing Test set Chorme Browser]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeTest]]>
     </line>
     <line>
       <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.beforeClass]]>
@@ -390,6 +402,12 @@
     </line>
     <line>
       <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterTest]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterTest]]>
     </line>
     <line>
       <![CDATA[onFinish Test - Completed executing Test set Chorme Browser]]>
@@ -398,6 +416,12 @@
       <![CDATA[onStart Test - About to begin executing Test set Firefox Browser]]>
     </line>
     <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.beforeTest]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeTest]]>
+    </line>
+    <line>
       <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.beforeClass]]>
     </line>
     <line>
@@ -607,13 +631,35 @@
     <line>
       <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
     </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterTest]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterTest]]>
+    </line>
+    <line>
+      <![CDATA[onFinish Test - Completed executing Test set Firefox Browser]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterSuite]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterSuite]]>
+    </line>
   </reporter-output>
-  <suite name="MultiBrowser" duration-ms="146639" started-at="2017-06-15T17:50:20Z" finished-at="2017-06-15T17:52:46Z">
+  <suite name="MultiBrowser" duration-ms="172454" started-at="2017-06-19T05:39:33Z" finished-at="2017-06-19T05:42:26Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="88232" started-at="2017-06-15T17:50:20Z" finished-at="2017-06-15T17:51:48Z">
+    <test name="Chorme Browser" duration-ms="94191" started-at="2017-06-19T05:39:33Z" finished-at="2017-06-19T05:41:08Z">
       <class name="SignIn.FlockSignIn">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="beforeClass" is-config="true" duration-ms="27060" started-at="2017-06-15T23:20:20Z" finished-at="2017-06-15T23:20:47Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SignIn.FlockSignIn@ed7f8b4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-19T11:09:33Z" finished-at="2017-06-19T11:09:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@ed7f8b4]" name="beforeClass" is-config="true" duration-ms="29434" started-at="2017-06-19T11:09:33Z" finished-at="2017-06-19T11:10:03Z">
           <params>
             <param index="0">
               <value>
@@ -627,7 +673,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="windowTitle" duration-ms="76" started-at="2017-06-15T23:20:47Z" finished-at="2017-06-15T23:20:47Z">
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@ed7f8b4]" name="windowTitle" duration-ms="48" started-at="2017-06-19T11:10:03Z" finished-at="2017-06-19T11:10:03Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
@@ -643,7 +689,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- windowTitle -->
-        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@6aaceffd]" name="languageSwitcher" duration-ms="2751" started-at="2017-06-15T23:20:47Z" finished-at="2017-06-15T23:20:50Z">
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@ed7f8b4]" name="languageSwitcher" duration-ms="1968" started-at="2017-06-19T11:10:06Z" finished-at="2017-06-19T11:10:08Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
@@ -659,7 +705,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- languageSwitcher -->
-        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@6aaceffd]" name="Heading" duration-ms="270" started-at="2017-06-15T23:20:58Z" finished-at="2017-06-15T23:20:58Z">
+        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@ed7f8b4]" name="Heading" duration-ms="352" started-at="2017-06-19T11:10:12Z" finished-at="2017-06-19T11:10:12Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.Heading]]>
@@ -675,7 +721,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Heading -->
-        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@6aaceffd]" name="contactSupport" duration-ms="9831" started-at="2017-06-15T23:20:58Z" finished-at="2017-06-15T23:21:08Z">
+        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@ed7f8b4]" name="contactSupport" duration-ms="12882" started-at="2017-06-19T11:10:12Z" finished-at="2017-06-19T11:10:25Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport]]>
@@ -691,7 +737,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- contactSupport -->
-        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@6aaceffd]" name="subHeading" duration-ms="158" started-at="2017-06-15T23:21:08Z" finished-at="2017-06-15T23:21:08Z">
+        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@ed7f8b4]" name="subHeading" duration-ms="304" started-at="2017-06-19T11:10:26Z" finished-at="2017-06-19T11:10:26Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.subHeading]]>
@@ -707,7 +753,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- subHeading -->
-        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@6aaceffd]" name="emailPlaceHolder" duration-ms="136" started-at="2017-06-15T23:21:08Z" finished-at="2017-06-15T23:21:09Z">
+        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@ed7f8b4]" name="emailPlaceHolder" duration-ms="181" started-at="2017-06-19T11:10:26Z" finished-at="2017-06-19T11:10:26Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder]]>
@@ -723,7 +769,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- emailPlaceHolder -->
-        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@6aaceffd]" name="loginButton" duration-ms="116" started-at="2017-06-15T23:21:09Z" finished-at="2017-06-15T23:21:09Z">
+        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@ed7f8b4]" name="loginButton" duration-ms="321" started-at="2017-06-19T11:10:27Z" finished-at="2017-06-19T11:10:27Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.loginButton]]>
@@ -739,7 +785,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@6aaceffd]" name="onbaordingSideBar" duration-ms="43" started-at="2017-06-15T23:21:09Z" finished-at="2017-06-15T23:21:09Z">
+        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@ed7f8b4]" name="onbaordingSideBar" duration-ms="85" started-at="2017-06-19T11:10:27Z" finished-at="2017-06-19T11:10:27Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar]]>
@@ -755,7 +801,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- onbaordingSideBar -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="598" started-at="2017-06-15T23:21:09Z" data-provider="emails" finished-at="2017-06-15T23:21:10Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@ed7f8b4]" name="errorMessage" duration-ms="885" started-at="2017-06-19T11:10:28Z" data-provider="emails" finished-at="2017-06-19T11:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -778,7 +824,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="332" started-at="2017-06-15T23:21:10Z" data-provider="emails" finished-at="2017-06-15T23:21:10Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@ed7f8b4]" name="errorMessage" duration-ms="539" started-at="2017-06-19T11:10:29Z" data-provider="emails" finished-at="2017-06-19T11:10:29Z">
           <params>
             <param index="0">
               <value>
@@ -801,7 +847,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6aaceffd]" name="errorMessage" duration-ms="404" started-at="2017-06-15T23:21:10Z" data-provider="emails" finished-at="2017-06-15T23:21:11Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@ed7f8b4]" name="errorMessage" duration-ms="579" started-at="2017-06-19T11:10:29Z" data-provider="emails" finished-at="2017-06-19T11:10:30Z">
           <params>
             <param index="0">
               <value>
@@ -824,7 +870,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@6aaceffd]" name="enterEmail" duration-ms="317" started-at="2017-06-15T23:21:11Z" finished-at="2017-06-15T23:21:11Z">
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@ed7f8b4]" name="enterEmail" duration-ms="960" started-at="2017-06-19T11:10:30Z" finished-at="2017-06-19T11:10:31Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
@@ -840,7 +886,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthHeading" duration-ms="3164" started-at="2017-06-15T23:21:11Z" finished-at="2017-06-15T23:21:15Z">
+        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@ed7f8b4]" name="googleAuthHeading" duration-ms="1548" started-at="2017-06-19T11:10:31Z" finished-at="2017-06-19T11:10:33Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading]]>
@@ -856,7 +902,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthHeading -->
-        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthButton" duration-ms="118" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
+        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@ed7f8b4]" name="googleAuthButton" duration-ms="379" started-at="2017-06-19T11:10:33Z" finished-at="2017-06-19T11:10:33Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton]]>
@@ -872,7 +918,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthButton -->
-        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSkipButton" duration-ms="121" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
+        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@ed7f8b4]" name="googleAuthSkipButton" duration-ms="172" started-at="2017-06-19T11:10:34Z" finished-at="2017-06-19T11:10:34Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton]]>
@@ -888,7 +934,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSkipButton -->
-        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthSubHeading" duration-ms="200" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:15Z">
+        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@ed7f8b4]" name="googleAuthSubHeading" duration-ms="268" started-at="2017-06-19T11:10:34Z" finished-at="2017-06-19T11:10:34Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading]]>
@@ -904,7 +950,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSubHeading -->
-        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6aaceffd]" name="googleAuthNote" duration-ms="127" started-at="2017-06-15T23:21:15Z" finished-at="2017-06-15T23:21:16Z">
+        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@ed7f8b4]" name="googleAuthNote" duration-ms="215" started-at="2017-06-19T11:10:35Z" finished-at="2017-06-19T11:10:35Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote]]>
@@ -920,7 +966,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthNote -->
-        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6aaceffd]" name="clickSkipGoogleAuth" duration-ms="206" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:16Z">
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@ed7f8b4]" name="clickSkipGoogleAuth" duration-ms="263" started-at="2017-06-19T11:10:35Z" finished-at="2017-06-19T11:10:35Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
@@ -936,7 +982,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickSkipGoogleAuth -->
-        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@6aaceffd]" name="otpHeading" duration-ms="185" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:16Z">
+        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpHeading" duration-ms="444" started-at="2017-06-19T11:10:35Z" finished-at="2017-06-19T11:10:36Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading]]>
@@ -952,7 +998,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpHeading -->
-        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@6aaceffd]" name="otpSubHeading" duration-ms="149" started-at="2017-06-15T23:21:16Z" finished-at="2017-06-15T23:21:17Z">
+        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpSubHeading" duration-ms="260" started-at="2017-06-19T11:10:36Z" finished-at="2017-06-19T11:10:36Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading]]>
@@ -968,7 +1014,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpSubHeading -->
-        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@6aaceffd]" name="otpPlaceHolder" duration-ms="104" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
+        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpPlaceHolder" duration-ms="155" started-at="2017-06-19T11:10:37Z" finished-at="2017-06-19T11:10:37Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder]]>
@@ -984,7 +1030,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpPlaceHolder -->
-        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpText" duration-ms="132" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
+        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@ed7f8b4]" name="resendOtpText" duration-ms="356" started-at="2017-06-19T11:10:37Z" finished-at="2017-06-19T11:10:37Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText]]>
@@ -1000,7 +1046,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpText -->
-        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpHook" duration-ms="116" started-at="2017-06-15T23:21:17Z" finished-at="2017-06-15T23:21:17Z">
+        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@ed7f8b4]" name="resendOtpHook" duration-ms="276" started-at="2017-06-19T11:10:38Z" finished-at="2017-06-19T11:10:38Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook]]>
@@ -1016,7 +1062,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHook -->
-        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@6aaceffd]" name="resendOtpHookClicked" duration-ms="359" started-at="2017-06-15T23:21:18Z" finished-at="2017-06-15T23:21:18Z">
+        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@ed7f8b4]" name="resendOtpHookClicked" duration-ms="470" started-at="2017-06-19T11:10:38Z" finished-at="2017-06-19T11:10:39Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked]]>
@@ -1032,7 +1078,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHookClicked -->
-        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@6aaceffd]" name="checkEditButton" duration-ms="5805" started-at="2017-06-15T23:21:18Z" finished-at="2017-06-15T23:21:24Z">
+        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@ed7f8b4]" name="checkEditButton" duration-ms="5901" started-at="2017-06-19T11:10:39Z" finished-at="2017-06-19T11:10:45Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton]]>
@@ -1048,7 +1094,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkEditButton -->
-        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@6aaceffd]" name="verifyButton" duration-ms="115" started-at="2017-06-15T23:21:24Z" finished-at="2017-06-15T23:21:24Z">
+        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@ed7f8b4]" name="verifyButton" duration-ms="164" started-at="2017-06-19T11:10:45Z" finished-at="2017-06-19T11:10:45Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton]]>
@@ -1064,7 +1110,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyButton -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2468" started-at="2017-06-15T23:21:24Z" data-provider="otp" finished-at="2017-06-15T23:21:27Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpErrorMessage" duration-ms="2636" started-at="2017-06-19T11:10:45Z" data-provider="otp" finished-at="2017-06-19T11:10:48Z">
           <params>
             <param index="0">
               <value>
@@ -1087,7 +1133,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2470" started-at="2017-06-15T23:21:27Z" data-provider="otp" finished-at="2017-06-15T23:21:29Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpErrorMessage" duration-ms="2495" started-at="2017-06-19T11:10:48Z" data-provider="otp" finished-at="2017-06-19T11:10:51Z">
           <params>
             <param index="0">
               <value>
@@ -1110,7 +1156,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage" duration-ms="2273" started-at="2017-06-15T23:21:29Z" data-provider="otp" finished-at="2017-06-15T23:21:32Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpErrorMessage" duration-ms="2357" started-at="2017-06-19T11:10:51Z" data-provider="otp" finished-at="2017-06-19T11:10:53Z">
           <params>
             <param index="0">
               <value>
@@ -1133,7 +1179,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@6aaceffd]" name="otpErrorMessage1" duration-ms="4033" started-at="2017-06-15T23:21:32Z" finished-at="2017-06-15T23:21:36Z">
+        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@ed7f8b4]" name="otpErrorMessage1" duration-ms="2355" started-at="2017-06-19T11:10:53Z" finished-at="2017-06-19T11:10:56Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1]]>
@@ -1149,7 +1195,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage1 -->
-        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@6aaceffd]" name="enterOTP" duration-ms="353" started-at="2017-06-15T23:21:36Z" finished-at="2017-06-15T23:21:36Z">
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@ed7f8b4]" name="enterOTP" duration-ms="271" started-at="2017-06-19T11:10:56Z" finished-at="2017-06-19T11:10:56Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
@@ -1165,18 +1211,46 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6aaceffd]" name="afterClass" is-config="true" duration-ms="11184" started-at="2017-06-15T23:21:37Z" finished-at="2017-06-15T23:21:48Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@ed7f8b4]" name="afterClass" is-config="true" duration-ms="11143" started-at="2017-06-19T11:10:56Z" finished-at="2017-06-19T11:11:08Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SignIn.FlockSignIn@ed7f8b4]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-19T11:11:08Z" finished-at="2017-06-19T11:11:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- SignIn.FlockSignIn -->
     </test> <!-- Chorme Browser -->
-    <test name="Firefox Browser" duration-ms="58361" started-at="2017-06-15T17:51:48Z" finished-at="2017-06-15T17:52:46Z">
+    <test name="Firefox Browser" duration-ms="78204" started-at="2017-06-19T05:41:08Z" finished-at="2017-06-19T05:42:26Z">
       <class name="SignIn.FlockSignIn">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="beforeClass" is-config="true" duration-ms="16129" started-at="2017-06-15T23:21:48Z" finished-at="2017-06-15T23:22:04Z">
+        <test-method status="PASS" signature="beforesuite(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="beforesuite" is-config="true" duration-ms="5074" started-at="2017-06-19T11:09:28Z" finished-at="2017-06-19T11:09:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforesuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-06-19T11:11:08Z" finished-at="2017-06-19T11:11:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="beforeClass" is-config="true" duration-ms="39129" started-at="2017-06-19T11:11:08Z" finished-at="2017-06-19T11:11:47Z">
           <params>
             <param index="0">
               <value>
@@ -1190,7 +1264,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="windowTitle" duration-ms="118" started-at="2017-06-15T23:22:04Z" finished-at="2017-06-15T23:22:04Z">
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="windowTitle" duration-ms="58" started-at="2017-06-19T11:11:47Z" finished-at="2017-06-19T11:11:47Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle]]>
@@ -1206,7 +1280,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- windowTitle -->
-        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@6e509ffa]" name="languageSwitcher" duration-ms="8694" started-at="2017-06-15T23:22:04Z" finished-at="2017-06-15T23:22:13Z">
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@6ff29830]" name="languageSwitcher" duration-ms="10315" started-at="2017-06-19T11:11:47Z" finished-at="2017-06-19T11:11:57Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher]]>
@@ -1222,24 +1296,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- languageSwitcher -->
-        <test-method status="FAIL" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@6e509ffa]" name="Heading" duration-ms="7170" started-at="2017-06-15T23:22:13Z" finished-at="2017-06-15T23:22:20Z">
+        <test-method status="FAIL" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@6ff29830]" name="Heading" duration-ms="1762" started-at="2017-06-19T11:11:58Z" finished-at="2017-06-19T11:11:59Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h2}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h2}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1256,7 +1330,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.Heading(FlockSignIn.java:85)
+	at SignIn.FlockSignIn.Heading(FlockSignIn.java:92)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1294,24 +1368,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- Heading -->
-        <test-method status="FAIL" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@6e509ffa]" name="contactSupport" duration-ms="156" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:21Z">
+        <test-method status="FAIL" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@6ff29830]" name="contactSupport" duration-ms="21" started-at="2017-06-19T11:11:59Z" finished-at="2017-06-19T11:11:59Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//span[@class='feedbackLinkSpan']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//span[@class='feedbackLinkSpan']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1328,7 +1402,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.contactSupport(FlockSignIn.java:93)
+	at SignIn.FlockSignIn.contactSupport(FlockSignIn.java:100)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1366,24 +1440,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- contactSupport -->
-        <test-method status="FAIL" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@6e509ffa]" name="subHeading" duration-ms="15" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:21Z">
+        <test-method status="FAIL" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@6ff29830]" name="subHeading" duration-ms="13" started-at="2017-06-19T11:11:59Z" finished-at="2017-06-19T11:12:00Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h5}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_15_0']//h5}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1400,7 +1474,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.subHeading(FlockSignIn.java:198)
+	at SignIn.FlockSignIn.subHeading(FlockSignIn.java:205)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1438,24 +1512,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- subHeading -->
-        <test-method status="FAIL" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@6e509ffa]" name="emailPlaceHolder" duration-ms="30" started-at="2017-06-15T23:22:21Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@6ff29830]" name="emailPlaceHolder" duration-ms="12" started-at="2017-06-19T11:12:00Z" finished-at="2017-06-19T11:12:00Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//input[@class='input']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//input[@class='input']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1472,7 +1546,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.emailPlaceHolder(FlockSignIn.java:205)
+	at SignIn.FlockSignIn.emailPlaceHolder(FlockSignIn.java:212)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1510,24 +1584,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- emailPlaceHolder -->
-        <test-method status="FAIL" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@6e509ffa]" name="loginButton" duration-ms="334" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@6ff29830]" name="loginButton" duration-ms="10" started-at="2017-06-19T11:12:00Z" finished-at="2017-06-19T11:12:00Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1544,7 +1618,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.loginButton(FlockSignIn.java:212)
+	at SignIn.FlockSignIn.loginButton(FlockSignIn.java:219)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1582,24 +1656,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method status="FAIL" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@6e509ffa]" name="onbaordingSideBar" duration-ms="15" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@6ff29830]" name="onbaordingSideBar" duration-ms="13" started-at="2017-06-19T11:12:00Z" finished-at="2017-06-19T11:12:00Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='onboarding-sidebar']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='onboarding-sidebar']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1616,7 +1690,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.onbaordingSideBar(FlockSignIn.java:219)
+	at SignIn.FlockSignIn.onbaordingSideBar(FlockSignIn.java:226)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1654,7 +1728,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- onbaordingSideBar -->
-        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="25" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6ff29830]" name="errorMessage" duration-ms="2380" started-at="2017-06-19T11:12:00Z" data-provider="emails" finished-at="2017-06-19T11:12:02Z">
           <params>
             <param index="0">
               <value>
@@ -1666,19 +1740,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1695,7 +1769,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:234)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1733,7 +1807,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="53" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6ff29830]" name="errorMessage" duration-ms="1196" started-at="2017-06-19T11:12:03Z" data-provider="emails" finished-at="2017-06-19T11:12:04Z">
           <params>
             <param index="0">
               <value>
@@ -1745,19 +1819,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1773,7 +1847,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:234)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1811,7 +1885,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6e509ffa]" name="errorMessage" duration-ms="45" started-at="2017-06-15T23:22:22Z" data-provider="emails" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@6ff29830]" name="errorMessage" duration-ms="85" started-at="2017-06-19T11:12:04Z" data-provider="emails" finished-at="2017-06-19T11:12:04Z">
           <params>
             <param index="0">
               <value>
@@ -1823,19 +1897,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1851,7 +1925,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:227)
+	at SignIn.FlockSignIn.errorMessage(FlockSignIn.java:234)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1889,7 +1963,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@6e509ffa]" name="enterEmail" duration-ms="26" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@6ff29830]" name="enterEmail" duration-ms="211" started-at="2017-06-19T11:12:04Z" finished-at="2017-06-19T11:12:05Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail]]>
@@ -1899,24 +1973,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method status="FAIL" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthHeading" duration-ms="32" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@6ff29830]" name="googleAuthHeading" duration-ms="52" started-at="2017-06-19T11:12:05Z" finished-at="2017-06-19T11:12:05Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h2}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h2}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -1932,7 +2006,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.googleAuthHeading(FlockSignIn.java:242)
+	at SignIn.FlockSignIn.googleAuthHeading(FlockSignIn.java:249)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1970,24 +2044,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthHeading -->
-        <test-method status="FAIL" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthButton" duration-ms="14" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@6ff29830]" name="googleAuthButton" duration-ms="14" started-at="2017-06-19T11:12:05Z" finished-at="2017-06-19T11:12:05Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--block btn--google']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--block btn--google']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2003,7 +2077,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.googleAuthButton(FlockSignIn.java:256)
+	at SignIn.FlockSignIn.googleAuthButton(FlockSignIn.java:263)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2041,24 +2115,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthButton -->
-        <test-method status="FAIL" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthSkipButton" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@6ff29830]" name="googleAuthSkipButton" duration-ms="33" started-at="2017-06-19T11:12:05Z" finished-at="2017-06-19T11:12:05Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _skipOAuth']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _skipOAuth']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2074,7 +2148,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.googleAuthSkipButton(FlockSignIn.java:263)
+	at SignIn.FlockSignIn.googleAuthSkipButton(FlockSignIn.java:270)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2112,24 +2186,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSkipButton -->
-        <test-method status="FAIL" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthSubHeading" duration-ms="13" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@6ff29830]" name="googleAuthSubHeading" duration-ms="19" started-at="2017-06-19T11:12:05Z" finished-at="2017-06-19T11:12:05Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h5}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_17_0']//h5}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2145,7 +2219,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.googleAuthSubHeading(FlockSignIn.java:249)
+	at SignIn.FlockSignIn.googleAuthSubHeading(FlockSignIn.java:256)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2183,24 +2257,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthSubHeading -->
-        <test-method status="FAIL" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6e509ffa]" name="googleAuthNote" duration-ms="13" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@6ff29830]" name="googleAuthNote" duration-ms="450" started-at="2017-06-19T11:12:05Z" finished-at="2017-06-19T11:12:05Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='google-auth-blurb']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='google-auth-blurb']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2216,7 +2290,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.googleAuthNote(FlockSignIn.java:270)
+	at SignIn.FlockSignIn.googleAuthNote(FlockSignIn.java:277)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2254,7 +2328,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- googleAuthNote -->
-        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6e509ffa]" name="clickSkipGoogleAuth" duration-ms="25" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@6ff29830]" name="clickSkipGoogleAuth" duration-ms="175" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth]]>
@@ -2264,24 +2338,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- clickSkipGoogleAuth -->
-        <test-method status="FAIL" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@6e509ffa]" name="otpHeading" duration-ms="49" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@6ff29830]" name="otpHeading" duration-ms="190" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h2}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h2}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2297,7 +2371,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.otpHeading(FlockSignIn.java:284)
+	at SignIn.FlockSignIn.otpHeading(FlockSignIn.java:291)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2335,24 +2409,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpHeading -->
-        <test-method status="FAIL" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@6e509ffa]" name="otpSubHeading" duration-ms="26" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@6ff29830]" name="otpSubHeading" duration-ms="15" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h5}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//h5}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2368,7 +2442,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.otpSubHeading(FlockSignIn.java:291)
+	at SignIn.FlockSignIn.otpSubHeading(FlockSignIn.java:298)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2406,24 +2480,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpSubHeading -->
-        <test-method status="FAIL" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@6e509ffa]" name="otpPlaceHolder" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@6ff29830]" name="otpPlaceHolder" duration-ms="16" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//input[@class='input']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//input[@class='input']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2439,7 +2513,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.otpPlaceHolder(FlockSignIn.java:298)
+	at SignIn.FlockSignIn.otpPlaceHolder(FlockSignIn.java:305)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2477,24 +2551,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpPlaceHolder -->
-        <test-method status="FAIL" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpText" duration-ms="16" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@6ff29830]" name="resendOtpText" duration-ms="10" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//div[2]/span}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@id='uniqName_16_0']//div[2]/span}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2510,7 +2584,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.resendOtpText(FlockSignIn.java:305)
+	at SignIn.FlockSignIn.resendOtpText(FlockSignIn.java:312)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2548,24 +2622,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpText -->
-        <test-method status="FAIL" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpHook" duration-ms="11" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:22Z">
+        <test-method status="FAIL" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@6ff29830]" name="resendOtpHook" duration-ms="26" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:06Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _resend']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-event='onclick: _resend']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2581,7 +2655,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.resendOtpHook(FlockSignIn.java:312)
+	at SignIn.FlockSignIn.resendOtpHook(FlockSignIn.java:319)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2619,24 +2693,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHook -->
-        <test-method status="FAIL" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@6e509ffa]" name="resendOtpHookClicked" duration-ms="23" started-at="2017-06-15T23:22:22Z" finished-at="2017-06-15T23:22:23Z">
+        <test-method status="FAIL" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@6ff29830]" name="resendOtpHookClicked" duration-ms="77" started-at="2017-06-19T11:12:06Z" finished-at="2017-06-19T11:12:07Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='resend-status']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='resend-status']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2652,7 +2726,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.resendOtpHookClicked(FlockSignIn.java:320)
+	at SignIn.FlockSignIn.resendOtpHookClicked(FlockSignIn.java:327)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2690,24 +2764,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- resendOtpHookClicked -->
-        <test-method status="FAIL" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@6e509ffa]" name="checkEditButton" duration-ms="13" started-at="2017-06-15T23:22:23Z" finished-at="2017-06-15T23:22:23Z">
+        <test-method status="FAIL" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@6ff29830]" name="checkEditButton" duration-ms="19" started-at="2017-06-19T11:12:07Z" finished-at="2017-06-19T11:12:07Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-point='backLink']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@data-dojo-attach-point='backLink']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2723,7 +2797,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.checkEditButton(FlockSignIn.java:334)
+	at SignIn.FlockSignIn.checkEditButton(FlockSignIn.java:341)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2761,24 +2835,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- checkEditButton -->
-        <test-method status="FAIL" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@6e509ffa]" name="verifyButton" duration-ms="12" started-at="2017-06-15T23:22:23Z" finished-at="2017-06-15T23:22:23Z">
+        <test-method status="FAIL" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@6ff29830]" name="verifyButton" duration-ms="13" started-at="2017-06-19T11:12:07Z" finished-at="2017-06-19T11:12:07Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//a[@class='btn btn--action btn--block']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2794,7 +2868,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementDisplayed(GenericMethods.java:156)
-	at SignIn.FlockSignIn.verifyButton(FlockSignIn.java:327)
+	at SignIn.FlockSignIn.verifyButton(FlockSignIn.java:334)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2832,7 +2906,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- verifyButton -->
-        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2030" started-at="2017-06-15T23:22:23Z" data-provider="otp" finished-at="2017-06-15T23:22:25Z">
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6ff29830]" name="otpErrorMessage" duration-ms="2076" started-at="2017-06-19T11:12:07Z" data-provider="otp" finished-at="2017-06-19T11:12:09Z">
           <params>
             <param index="0">
               <value>
@@ -2844,19 +2918,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2872,7 +2946,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:357)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2910,7 +2984,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2032" started-at="2017-06-15T23:22:25Z" data-provider="otp" finished-at="2017-06-15T23:22:27Z">
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6ff29830]" name="otpErrorMessage" duration-ms="2067" started-at="2017-06-19T11:12:09Z" data-provider="otp" finished-at="2017-06-19T11:12:11Z">
           <params>
             <param index="0">
               <value>
@@ -2922,19 +2996,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -2950,7 +3024,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:357)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -2988,7 +3062,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage" duration-ms="2030" started-at="2017-06-15T23:22:27Z" data-provider="otp" finished-at="2017-06-15T23:22:29Z">
+        <test-method status="FAIL" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@6ff29830]" name="otpErrorMessage" duration-ms="2047" started-at="2017-06-19T11:12:11Z" data-provider="otp" finished-at="2017-06-19T11:12:13Z">
           <params>
             <param index="0">
               <value>
@@ -3000,19 +3074,19 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//div[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -3028,7 +3102,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:350)
+	at SignIn.FlockSignIn.otpErrorMessage(FlockSignIn.java:357)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -3066,24 +3140,24 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="FAIL" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@6e509ffa]" name="otpErrorMessage1" duration-ms="2637" started-at="2017-06-15T23:22:29Z" finished-at="2017-06-15T23:22:31Z">
+        <test-method status="FAIL" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@6ff29830]" name="otpErrorMessage1" duration-ms="2053" started-at="2017-06-19T11:12:13Z" finished-at="2017-06-19T11:12:15Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//span[@class='errorMessage']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+System info: host: 'MDVLFARZANS', ip: '172.16.152.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.U0aiBHWHFscu, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=12488.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
+Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.Sd7JOjxsWPfs, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0.3, platformVersion=10.0, moz:processID=5196.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 43aefe30-ae4e-47d2-abad-d4b04d2435b6
 *** Element info: {Using=xpath, value=//span[@class='errorMessage']}
 	at sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -3099,7 +3173,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
 	at utilities.GenericMethods.elementIsDisplayed(GenericMethods.java:167)
-	at SignIn.FlockSignIn.otpErrorMessage1(FlockSignIn.java:361)
+	at SignIn.FlockSignIn.otpErrorMessage1(FlockSignIn.java:368)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -3137,7 +3211,7 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- otpErrorMessage1 -->
-        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@6e509ffa]" name="enterOTP" duration-ms="299" started-at="2017-06-15T23:22:31Z" finished-at="2017-06-15T23:22:32Z">
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@6ff29830]" name="enterOTP" duration-ms="63" started-at="2017-06-19T11:12:15Z" finished-at="2017-06-19T11:12:15Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP]]>
@@ -3147,13 +3221,27 @@ Session ID: 2ed87dc9-4920-4287-8f75-e7d6e8883d05
             </line>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6e509ffa]" name="afterClass" is-config="true" duration-ms="14370" started-at="2017-06-15T23:22:32Z" finished-at="2017-06-15T23:22:46Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="afterClass" is-config="true" duration-ms="10698" started-at="2017-06-19T11:12:15Z" finished-at="2017-06-19T11:12:26Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : FlockSignIn.afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-19T11:12:26Z" finished-at="2017-06-19T11:12:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SignIn.FlockSignIn@6ff29830]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-06-19T11:12:26Z" finished-at="2017-06-19T11:12:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- SignIn.FlockSignIn -->
     </test> <!-- Firefox Browser -->
   </suite> <!-- MultiBrowser -->

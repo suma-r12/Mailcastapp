@@ -1,23 +1,24 @@
 package SignIn;
 
-import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
 
-import utilities.GenericMethods;
-
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import java.util.concurrent.TimeUnit;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import resources.DefaultStrings;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
-public class FlockSignIn {
+import base.BaseTestSuite;
+import resources.DefaultStrings;
+import utilities.GenericMethods;
+
+public class FlockSignIn extends BaseTestSuite {
 	private WebDriver driver;
 	private static final Logger log = LogManager.getLogger(FlockSignIn.class.getName());
 	static GenericMethods gm;
@@ -25,7 +26,10 @@ public class FlockSignIn {
 	public WebDriver getDriver(){
 		return driver;
 	}
-
+	/*FlockSignIn(String browserType){
+	    super ();
+	}*/
+	
 	@Parameters("browserType")
 	@BeforeClass
 	public void beforeClass(String browserType) {
@@ -36,6 +40,7 @@ public class FlockSignIn {
 			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, DefaultStrings.CHROME_DRIVER_PATH);
 			driver = new ChromeDriver();
 		}
+		
 		gm = new GenericMethods(driver);
 
 		gm.maximize();
