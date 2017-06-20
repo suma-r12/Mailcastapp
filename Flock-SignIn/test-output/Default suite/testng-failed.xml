@@ -13,6 +13,10 @@
           <include name="loginButton"/>
           <include name="windowTitle"/>
           <include name="afterTest"/>
+<<<<<<< HEAD
+=======
+          <include name="beforesuite"/>
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
           <include name="googleAuthHeading"/>
           <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="otpErrorMessage1"/>

@@ -2,16 +2,24 @@ package base;
 
 import static org.testng.Assert.fail;
 
+<<<<<<< HEAD
 import java.util.Locale;
 import java.util.ResourceBundle;
+=======
+import java.util.concurrent.TimeUnit;
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+<<<<<<< HEAD
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+=======
+import org.testng.annotations.BeforeTest;
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -19,12 +27,20 @@ import resources.DefaultStrings;
 
 public class BaseTestSuite{
 	public WebDriver driver;
+<<<<<<< HEAD
 	private ResourceBundle bundle;
 
 	 @BeforeClass
 	    @Parameters({"browser"})
 	public void beforeClass(@Optional(DefaultStrings.FIREFOX)String browser) {
 		 bundle = ResourceBundle.getBundle("config", Locale.getDefault());
+=======
+
+	@Parameters("browser")
+	@BeforeTest
+	public void beforeTest(@Optional(DefaultStrings.CHROME)String browser) {
+		
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
 		System.out.println("BaseTestSuite -> Before Test Suite");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
 			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);
@@ -35,6 +51,11 @@ public class BaseTestSuite{
 		}
 		
 		if (driver != null) {
+<<<<<<< HEAD
+=======
+            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
             driver.manage().window().maximize();
             driver.get(DefaultStrings.FLOCK_WEB_PREPROD);
         } else {
@@ -42,11 +63,14 @@ public class BaseTestSuite{
             fail();
         }
 	}
+<<<<<<< HEAD
 	 
 	 @BeforeSuite
 		public void beforeSuite() {
 			System.out.println("BaseTestSuite -> Before Test Suite");
 		}
+=======
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
 
 	@AfterSuite
 	public void afterSuite() {
@@ -58,4 +82,8 @@ public class BaseTestSuite{
 		System.out.println("BaseTestSuite -> After Test");
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
