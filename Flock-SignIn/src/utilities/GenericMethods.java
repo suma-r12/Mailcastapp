@@ -228,7 +228,7 @@ public class GenericMethods {
 				} else {
 					log.error("The element at loction: " + locator + " is displayed");
 				}
-				String Text = driver.findElement(locator).getAttribute("innerText");
+				String Text = driver.findElement(locator).getText();
 				log.info("THe text at locator: " + locator + " is " + Text);
 				if (driver.getPageSource().contains(Text)) {
 					log.info("The text: " + Text + " displayed is correct");

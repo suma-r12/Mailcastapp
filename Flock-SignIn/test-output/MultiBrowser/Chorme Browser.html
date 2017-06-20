@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chorme Browser</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/31</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 15 23:20:20 IST 2017</td>
+<td>Started on:</td><td>Mon Jun 19 11:36:36 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>88 seconds (88232 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (318 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,78 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SignIn.FlockSignIn.beforeClass()'><b>beforeClass</b><br>Test class: SignIn.FlockSignIn<br>Parameters: chrome<br/>
+<a href="#Output-923083575" onClick='toggleBox("Output-923083575", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-923083575" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-923083575">
+afterIncovation - Completed executing following method : FlockSignIn.beforeClass<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace923083575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace923083575'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SignIn.FlockSignIn.afterClass()'><b>afterClass</b><br>Test class: SignIn.FlockSignIn</td>
+<td></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.afterTest()'><b>afterTest</b><br>Test class: SignIn.FlockSignIn</td>
+<td></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,469 +146,1399 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='SignIn.FlockSignIn.Heading()'><b>Heading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1544895390" onClick='toggleBox("Output-1544895390", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1896552614" onClick='toggleBox("Output-1896552614", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1544895390" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1544895390">
-beforeInvocation - About to begin executing following method : FlockSignIn.Heading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.Heading<br/>
+<a href="#Output-1896552614" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896552614">
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1896552614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1896552614'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.checkEditButton()'><b>checkEditButton</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1454171136" onClick='toggleBox("Output-1454171136", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1591916281" onClick='toggleBox("Output-1591916281", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1454171136" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1454171136">
-beforeInvocation - About to begin executing following method : FlockSignIn.checkEditButton<br/>
-afterIncovation - Completed executing following method : FlockSignIn.checkEditButton<br/>
+<a href="#Output-1591916281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591916281">
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
-<td>5</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1591916281", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1591916281'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.clickSkipGoogleAuth()'><b>clickSkipGoogleAuth</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1658512704" onClick='toggleBox("Output-1658512704", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1420196421" onClick='toggleBox("Output-1420196421", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1658512704" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1658512704">
-beforeInvocation - About to begin executing following method : FlockSignIn.clickSkipGoogleAuth<br/>
-afterIncovation - Completed executing following method : FlockSignIn.clickSkipGoogleAuth<br/>
+<a href="#Output-1420196421" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1420196421">
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1420196421", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1420196421'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.contactSupport()'><b>contactSupport</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-295180183" onClick='toggleBox("Output-295180183", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-294658299" onClick='toggleBox("Output-294658299", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-295180183" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-295180183">
-beforeInvocation - About to begin executing following method : FlockSignIn.contactSupport<br/>
-afterIncovation - Completed executing following method : FlockSignIn.contactSupport<br/>
+<a href="#Output-294658299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294658299">
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
-<td>9</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294658299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace294658299'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.emailPlaceHolder()'><b>emailPlaceHolder</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-2031377754" onClick='toggleBox("Output-2031377754", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-201677908" onClick='toggleBox("Output-201677908", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2031377754" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2031377754">
-beforeInvocation - About to begin executing following method : FlockSignIn.emailPlaceHolder<br/>
-afterIncovation - Completed executing following method : FlockSignIn.emailPlaceHolder<br/>
+<a href="#Output-201677908" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-201677908">
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace201677908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201677908'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 <tr>
 <td title='SignIn.FlockSignIn.enterEmail()'><b>enterEmail</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1978504976" onClick='toggleBox("Output-1978504976", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1978504976" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1978504976">
-beforeInvocation - About to begin executing following method : FlockSignIn.enterEmail<br/>
-afterIncovation - Completed executing following method : FlockSignIn.enterEmail<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.enterOTP()'><b>enterOTP</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1662592920" onClick='toggleBox("Output-1662592920", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1662592920" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1662592920">
-beforeInvocation - About to begin executing following method : FlockSignIn.enterOTP<br/>
-afterIncovation - Completed executing following method : FlockSignIn.enterOTP<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: <br/>
-<a href="#Output-177104018" onClick='toggleBox("Output-177104018", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-177104018" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-177104018">
-beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.errorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: jffhfhfh<br/>
-<a href="#Output-1337829755" onClick='toggleBox("Output-1337829755", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1337829755" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1337829755">
-beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.errorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: jffhfhfh@jdjdjjdj<br/>
-<a href="#Output-231725600" onClick='toggleBox("Output-231725600", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-231725600" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-231725600">
-beforeInvocation - About to begin executing following method : FlockSignIn.errorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.errorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.googleAuthButton()'><b>googleAuthButton</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-369805307" onClick='toggleBox("Output-369805307", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-369805307" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-369805307">
-beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthButton<br/>
-afterIncovation - Completed executing following method : FlockSignIn.googleAuthButton<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.googleAuthHeading()'><b>googleAuthHeading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1433208870" onClick='toggleBox("Output-1433208870", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1433208870" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1433208870">
-beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthHeading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.googleAuthHeading<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>3</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.googleAuthNote()'><b>googleAuthNote</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1527882132" onClick='toggleBox("Output-1527882132", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1527882132" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1527882132">
-beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthNote<br/>
-afterIncovation - Completed executing following method : FlockSignIn.googleAuthNote<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.googleAuthSkipButton()'><b>googleAuthSkipButton</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-331596257" onClick='toggleBox("Output-331596257", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-331596257" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-331596257">
-beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSkipButton<br/>
-afterIncovation - Completed executing following method : FlockSignIn.googleAuthSkipButton<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.googleAuthSubHeading()'><b>googleAuthSubHeading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1692073709" onClick='toggleBox("Output-1692073709", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1692073709" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1692073709">
-beforeInvocation - About to begin executing following method : FlockSignIn.googleAuthSubHeading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.googleAuthSubHeading<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.languageSwitcher()'><b>languageSwitcher</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1761217448" onClick='toggleBox("Output-1761217448", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1761217448" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1761217448">
-beforeInvocation - About to begin executing following method : FlockSignIn.languageSwitcher<br/>
-afterIncovation - Completed executing following method : FlockSignIn.languageSwitcher<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.loginButton()'><b>loginButton</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-26928827" onClick='toggleBox("Output-26928827", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-26928827" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-26928827">
-beforeInvocation - About to begin executing following method : FlockSignIn.loginButton<br/>
-afterIncovation - Completed executing following method : FlockSignIn.loginButton<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.onbaordingSideBar()'><b>onbaordingSideBar</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1400973979" onClick='toggleBox("Output-1400973979", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1400973979" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1400973979">
-beforeInvocation - About to begin executing following method : FlockSignIn.onbaordingSideBar<br/>
-afterIncovation - Completed executing following method : FlockSignIn.onbaordingSideBar<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: <br/>
-<a href="#Output-1800967368" onClick='toggleBox("Output-1800967368", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1800967368" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1800967368">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: jffhfh<br/>
-<a href="#Output-1459016715" onClick='toggleBox("Output-1459016715", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1459016715" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1459016715">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br>Parameters: 1q2q3q<br/>
-<a href="#Output-1327895505" onClick='toggleBox("Output-1327895505", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1327895505" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1327895505">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpErrorMessage1()'><b>otpErrorMessage1</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-890160158" onClick='toggleBox("Output-890160158", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-890160158" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-890160158">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpErrorMessage1<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpErrorMessage1<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>4</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpHeading()'><b>otpHeading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-259630944" onClick='toggleBox("Output-259630944", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-259630944" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-259630944">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpHeading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpHeading<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpPlaceHolder()'><b>otpPlaceHolder</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-176955204" onClick='toggleBox("Output-176955204", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-176955204" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-176955204">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpPlaceHolder<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpPlaceHolder<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.otpSubHeading()'><b>otpSubHeading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-505231702" onClick='toggleBox("Output-505231702", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-505231702" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-505231702">
-beforeInvocation - About to begin executing following method : FlockSignIn.otpSubHeading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.otpSubHeading<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.resendOtpHook()'><b>resendOtpHook</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1807176280" onClick='toggleBox("Output-1807176280", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1807176280" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1807176280">
-beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHook<br/>
-afterIncovation - Completed executing following method : FlockSignIn.resendOtpHook<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.resendOtpHookClicked()'><b>resendOtpHookClicked</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-464649704" onClick='toggleBox("Output-464649704", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-464649704" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-464649704">
-beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpHookClicked<br/>
-afterIncovation - Completed executing following method : FlockSignIn.resendOtpHookClicked<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.resendOtpText()'><b>resendOtpText</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-1398260359" onClick='toggleBox("Output-1398260359", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1398260359" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1398260359">
-beforeInvocation - About to begin executing following method : FlockSignIn.resendOtpText<br/>
-afterIncovation - Completed executing following method : FlockSignIn.resendOtpText<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.subHeading()'><b>subHeading</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-192456457" onClick='toggleBox("Output-192456457", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-192456457" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-192456457">
-beforeInvocation - About to begin executing following method : FlockSignIn.subHeading<br/>
-afterIncovation - Completed executing following method : FlockSignIn.subHeading<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.verifyButton()'><b>verifyButton</b><br>Test class: SignIn.FlockSignIn<br/>
-<a href="#Output-173738886" onClick='toggleBox("Output-173738886", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-173738886" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-173738886">
-beforeInvocation - About to begin executing following method : FlockSignIn.verifyButton<br/>
-afterIncovation - Completed executing following method : FlockSignIn.verifyButton<br/>
-Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
-<tr>
-<td title='SignIn.FlockSignIn.windowTitle()'><b>windowTitle</b><br>Test class: SignIn.FlockSignIn<br/>
 <a href="#Output-1805164661" onClick='toggleBox("Output-1805164661", this, "Show output", "Hide output");'>Show output</a>
 
 <a href="#Output-1805164661" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-1805164661">
-beforeInvocation - About to begin executing following method : FlockSignIn.windowTitle<br/>
-afterIncovation - Completed executing following method : FlockSignIn.windowTitle<br/>
 Test Method resides in SignIn.FlockSignIn<br/>
-Test Status: Pass<br/>
+Test Status: Skipped<br/>
 </div>
 </td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1805164661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1805164661'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
 <td>0</td>
-<td>SignIn.FlockSignIn@6aaceffd</td></tr>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.enterOTP()'><b>enterOTP</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-937277082" onClick='toggleBox("Output-937277082", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-937277082" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-937277082">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace937277082", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace937277082'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1424108509" onClick='toggleBox("Output-1424108509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1424108509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1424108509">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1424108509", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1424108509'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1003755748" onClick='toggleBox("Output-1003755748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003755748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003755748">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1003755748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1003755748'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.errorMessage()'><b>errorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1414013111" onClick='toggleBox("Output-1414013111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1414013111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1414013111">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1414013111", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1414013111'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.googleAuthButton()'><b>googleAuthButton</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-896138248" onClick='toggleBox("Output-896138248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-896138248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-896138248">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace896138248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace896138248'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.googleAuthHeading()'><b>googleAuthHeading</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-778162712" onClick='toggleBox("Output-778162712", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-778162712" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-778162712">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778162712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778162712'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.googleAuthNote()'><b>googleAuthNote</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-777341499" onClick='toggleBox("Output-777341499", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-777341499" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-777341499">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace777341499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace777341499'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.googleAuthSkipButton()'><b>googleAuthSkipButton</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-548482954" onClick='toggleBox("Output-548482954", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-548482954" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-548482954">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace548482954", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace548482954'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.googleAuthSubHeading()'><b>googleAuthSubHeading</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-243575009" onClick='toggleBox("Output-243575009", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-243575009" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-243575009">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace243575009", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace243575009'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.languageSwitcher()'><b>languageSwitcher</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-751021317" onClick='toggleBox("Output-751021317", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-751021317" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-751021317">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace751021317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace751021317'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.loginButton()'><b>loginButton</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-635611994" onClick='toggleBox("Output-635611994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-635611994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-635611994">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace635611994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace635611994'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.onbaordingSideBar()'><b>onbaordingSideBar</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-904253669" onClick='toggleBox("Output-904253669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-904253669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904253669">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace904253669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace904253669'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1884231057" onClick='toggleBox("Output-1884231057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1884231057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1884231057">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1884231057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1884231057'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1492875057" onClick='toggleBox("Output-1492875057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1492875057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1492875057">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1492875057", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1492875057'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpErrorMessage()'><b>otpErrorMessage</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-333793193" onClick='toggleBox("Output-333793193", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-333793193" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-333793193">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace333793193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace333793193'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpErrorMessage1()'><b>otpErrorMessage1</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1068945248" onClick='toggleBox("Output-1068945248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1068945248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1068945248">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1068945248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1068945248'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpHeading()'><b>otpHeading</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-2101527076" onClick='toggleBox("Output-2101527076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2101527076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2101527076">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2101527076", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2101527076'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpPlaceHolder()'><b>otpPlaceHolder</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1378497201" onClick='toggleBox("Output-1378497201", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1378497201" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1378497201">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1378497201", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1378497201'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.otpSubHeading()'><b>otpSubHeading</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1454026445" onClick='toggleBox("Output-1454026445", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1454026445" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1454026445">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1454026445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1454026445'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.resendOtpHook()'><b>resendOtpHook</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1577167234" onClick='toggleBox("Output-1577167234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1577167234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1577167234">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1577167234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1577167234'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.resendOtpHookClicked()'><b>resendOtpHookClicked</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1574873161" onClick='toggleBox("Output-1574873161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1574873161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1574873161">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1574873161", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1574873161'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.resendOtpText()'><b>resendOtpText</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-892931811" onClick='toggleBox("Output-892931811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892931811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892931811">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace892931811", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace892931811'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.subHeading()'><b>subHeading</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-1033856359" onClick='toggleBox("Output-1033856359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1033856359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1033856359">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1033856359", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033856359'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.verifyButton()'><b>verifyButton</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-600958416" onClick='toggleBox("Output-600958416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-600958416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-600958416">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace600958416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace600958416'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
+<tr>
+<td title='SignIn.FlockSignIn.windowTitle()'><b>windowTitle</b><br>Test class: SignIn.FlockSignIn<br/>
+<a href="#Output-710623214" onClick='toggleBox("Output-710623214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-710623214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-710623214">
+Test Method resides in SignIn.FlockSignIn<br/>
+Test Status: Skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace710623214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace710623214'><pre>java.lang.NullPointerException
+	at utilities.GenericMethods.maximize(GenericMethods.java:141)
+	at SignIn.FlockSignIn.beforeClass(FlockSignIn.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>0</td>
+<td>SignIn.FlockSignIn@ed7f8b4</td></tr>
 </table><p>
 </body>
 </html>
