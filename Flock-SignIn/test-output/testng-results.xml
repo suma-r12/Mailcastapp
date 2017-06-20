@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50145" started-at="2017-06-19T06:30:14Z" finished-at="2017-06-19T06:31:04Z">
+  <suite name="Default suite" duration-ms="53253" started-at="2017-06-19T07:31:28Z" finished-at="2017-06-19T07:32:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50145" started-at="2017-06-19T06:30:14Z" finished-at="2017-06-19T06:31:04Z">
+    <test name="Default test" duration-ms="53253" started-at="2017-06-19T07:31:28Z" finished-at="2017-06-19T07:32:21Z">
       <class name="SignIn.FlockSignIn">
-        <test-method status="PASS" signature="beforesuite(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="beforesuite" is-config="true" duration-ms="10601" started-at="2017-06-19T12:00:03Z" finished-at="2017-06-19T12:00:14Z">
+        <test-method status="PASS" signature="beforesuite(java.lang.String)[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="beforesuite" is-config="true" duration-ms="10484" started-at="2017-06-19T13:01:17Z" finished-at="2017-06-19T13:01:28Z">
           <params>
             <param index="0">
               <value>
@@ -18,43 +18,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="beforeTest" is-config="true" duration-ms="1274" started-at="2017-06-19T12:00:14Z" finished-at="2017-06-19T12:00:15Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="beforeTest" is-config="true" duration-ms="1139" started-at="2017-06-19T13:01:28Z" finished-at="2017-06-19T13:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="windowTitle" duration-ms="60" started-at="2017-06-19T12:00:15Z" finished-at="2017-06-19T12:00:15Z">
+        <test-method status="PASS" signature="windowTitle()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="windowTitle" duration-ms="45" started-at="2017-06-19T13:01:29Z" finished-at="2017-06-19T13:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windowTitle -->
-        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@28d25987]" name="languageSwitcher" duration-ms="1321" started-at="2017-06-19T12:00:15Z" finished-at="2017-06-19T12:00:17Z">
+        <test-method status="PASS" signature="languageSwitcher()[pri:1, instance:SignIn.FlockSignIn@28d25987]" name="languageSwitcher" duration-ms="1029" started-at="2017-06-19T13:01:29Z" finished-at="2017-06-19T13:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- languageSwitcher -->
-        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@28d25987]" name="Heading" duration-ms="3728" started-at="2017-06-19T12:00:17Z" finished-at="2017-06-19T12:00:20Z">
+        <test-method status="PASS" signature="Heading()[pri:2, instance:SignIn.FlockSignIn@28d25987]" name="Heading" duration-ms="3056" started-at="2017-06-19T13:01:30Z" finished-at="2017-06-19T13:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Heading -->
-        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@28d25987]" name="contactSupport" duration-ms="10838" started-at="2017-06-19T12:00:20Z" finished-at="2017-06-19T12:00:31Z">
+        <test-method status="PASS" signature="contactSupport()[pri:3, instance:SignIn.FlockSignIn@28d25987]" name="contactSupport" duration-ms="9596" started-at="2017-06-19T13:01:33Z" finished-at="2017-06-19T13:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactSupport -->
-        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@28d25987]" name="subHeading" duration-ms="262" started-at="2017-06-19T12:00:31Z" finished-at="2017-06-19T12:00:32Z">
+        <test-method status="PASS" signature="subHeading()[pri:4, instance:SignIn.FlockSignIn@28d25987]" name="subHeading" duration-ms="172" started-at="2017-06-19T13:01:42Z" finished-at="2017-06-19T13:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subHeading -->
-        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@28d25987]" name="emailPlaceHolder" duration-ms="187" started-at="2017-06-19T12:00:32Z" finished-at="2017-06-19T12:00:32Z">
+        <test-method status="PASS" signature="emailPlaceHolder()[pri:5, instance:SignIn.FlockSignIn@28d25987]" name="emailPlaceHolder" duration-ms="197" started-at="2017-06-19T13:01:43Z" finished-at="2017-06-19T13:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emailPlaceHolder -->
-        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@28d25987]" name="loginButton" duration-ms="193" started-at="2017-06-19T12:00:32Z" finished-at="2017-06-19T12:00:32Z">
+        <test-method status="PASS" signature="loginButton()[pri:6, instance:SignIn.FlockSignIn@28d25987]" name="loginButton" duration-ms="135" started-at="2017-06-19T13:01:43Z" finished-at="2017-06-19T13:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@28d25987]" name="onbaordingSideBar" duration-ms="46" started-at="2017-06-19T12:00:32Z" finished-at="2017-06-19T12:00:32Z">
+        <test-method status="PASS" signature="onbaordingSideBar()[pri:7, instance:SignIn.FlockSignIn@28d25987]" name="onbaordingSideBar" duration-ms="52" started-at="2017-06-19T13:01:43Z" finished-at="2017-06-19T13:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onbaordingSideBar -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="496" started-at="2017-06-19T12:00:32Z" data-provider="emails" finished-at="2017-06-19T12:00:32Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="541" started-at="2017-06-19T13:01:43Z" data-provider="emails" finished-at="2017-06-19T13:01:44Z">
           <params>
             <param index="0">
               <value>
@@ -65,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="455" started-at="2017-06-19T12:00:32Z" data-provider="emails" finished-at="2017-06-19T12:00:33Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="311" started-at="2017-06-19T13:01:44Z" data-provider="emails" finished-at="2017-06-19T13:01:44Z">
           <params>
             <param index="0">
               <value>
@@ -76,7 +76,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="330" started-at="2017-06-19T12:00:33Z" data-provider="emails" finished-at="2017-06-19T12:00:33Z">
+        <test-method status="PASS" signature="errorMessage(java.lang.String)[pri:8, instance:SignIn.FlockSignIn@28d25987]" name="errorMessage" duration-ms="293" started-at="2017-06-19T13:01:44Z" data-provider="emails" finished-at="2017-06-19T13:01:44Z">
           <params>
             <param index="0">
               <value>
@@ -87,67 +87,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- errorMessage -->
-        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@28d25987]" name="enterEmail" duration-ms="279" started-at="2017-06-19T12:00:33Z" finished-at="2017-06-19T12:00:34Z">
+        <test-method status="PASS" signature="enterEmail()[pri:9, instance:SignIn.FlockSignIn@28d25987]" name="enterEmail" duration-ms="255" started-at="2017-06-19T13:01:44Z" finished-at="2017-06-19T13:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthHeading" duration-ms="1314" started-at="2017-06-19T12:00:34Z" finished-at="2017-06-19T12:00:35Z">
+        <test-method status="PASS" signature="googleAuthHeading()[pri:10, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthHeading" duration-ms="1434" started-at="2017-06-19T13:01:44Z" finished-at="2017-06-19T13:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleAuthHeading -->
-        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthButton" duration-ms="140" started-at="2017-06-19T12:00:35Z" finished-at="2017-06-19T12:00:35Z">
+        <test-method status="PASS" signature="googleAuthButton()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthButton" duration-ms="170" started-at="2017-06-19T13:01:46Z" finished-at="2017-06-19T13:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleAuthButton -->
-        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthSkipButton" duration-ms="146" started-at="2017-06-19T12:00:35Z" finished-at="2017-06-19T12:00:35Z">
+        <test-method status="PASS" signature="googleAuthSkipButton()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthSkipButton" duration-ms="154" started-at="2017-06-19T13:01:46Z" finished-at="2017-06-19T13:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleAuthSkipButton -->
-        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthSubHeading" duration-ms="168" started-at="2017-06-19T12:00:35Z" finished-at="2017-06-19T12:00:35Z">
+        <test-method status="PASS" signature="googleAuthSubHeading()[pri:11, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthSubHeading" duration-ms="122" started-at="2017-06-19T13:01:46Z" finished-at="2017-06-19T13:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleAuthSubHeading -->
-        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthNote" duration-ms="196" started-at="2017-06-19T12:00:35Z" finished-at="2017-06-19T12:00:35Z">
+        <test-method status="PASS" signature="googleAuthNote()[pri:12, instance:SignIn.FlockSignIn@28d25987]" name="googleAuthNote" duration-ms="152" started-at="2017-06-19T13:01:46Z" finished-at="2017-06-19T13:01:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleAuthNote -->
-        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@28d25987]" name="clickSkipGoogleAuth" duration-ms="219" started-at="2017-06-19T12:00:35Z" finished-at="2017-06-19T12:00:36Z">
+        <test-method status="PASS" signature="clickSkipGoogleAuth()[pri:13, instance:SignIn.FlockSignIn@28d25987]" name="clickSkipGoogleAuth" duration-ms="187" started-at="2017-06-19T13:01:46Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSkipGoogleAuth -->
-        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@28d25987]" name="otpHeading" duration-ms="273" started-at="2017-06-19T12:00:36Z" finished-at="2017-06-19T12:00:36Z">
+        <test-method status="PASS" signature="otpHeading()[pri:14, instance:SignIn.FlockSignIn@28d25987]" name="otpHeading" duration-ms="216" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpHeading -->
-        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@28d25987]" name="otpSubHeading" duration-ms="153" started-at="2017-06-19T12:00:36Z" finished-at="2017-06-19T12:00:36Z">
+        <test-method status="PASS" signature="otpSubHeading()[pri:15, instance:SignIn.FlockSignIn@28d25987]" name="otpSubHeading" duration-ms="191" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpSubHeading -->
-        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@28d25987]" name="otpPlaceHolder" duration-ms="108" started-at="2017-06-19T12:00:36Z" finished-at="2017-06-19T12:00:36Z">
+        <test-method status="PASS" signature="otpPlaceHolder()[pri:16, instance:SignIn.FlockSignIn@28d25987]" name="otpPlaceHolder" duration-ms="136" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpPlaceHolder -->
-        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpText" duration-ms="151" started-at="2017-06-19T12:00:36Z" finished-at="2017-06-19T12:00:36Z">
+        <test-method status="PASS" signature="resendOtpText()[pri:17, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpText" duration-ms="140" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resendOtpText -->
-        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpHook" duration-ms="178" started-at="2017-06-19T12:00:36Z" finished-at="2017-06-19T12:00:37Z">
+        <test-method status="PASS" signature="resendOtpHook()[pri:18, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpHook" duration-ms="103" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resendOtpHook -->
-        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpHookClicked" duration-ms="388" started-at="2017-06-19T12:00:37Z" finished-at="2017-06-19T12:00:37Z">
+        <test-method status="PASS" signature="resendOtpHookClicked()[pri:19, instance:SignIn.FlockSignIn@28d25987]" name="resendOtpHookClicked" duration-ms="292" started-at="2017-06-19T13:01:47Z" finished-at="2017-06-19T13:01:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resendOtpHookClicked -->
-        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@28d25987]" name="checkEditButton" duration-ms="5694" started-at="2017-06-19T12:00:37Z" finished-at="2017-06-19T12:00:43Z">
+        <test-method status="PASS" signature="checkEditButton()[pri:20, instance:SignIn.FlockSignIn@28d25987]" name="checkEditButton" duration-ms="5622" started-at="2017-06-19T13:01:48Z" finished-at="2017-06-19T13:01:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEditButton -->
-        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@28d25987]" name="verifyButton" duration-ms="126" started-at="2017-06-19T12:00:43Z" finished-at="2017-06-19T12:00:43Z">
+        <test-method status="PASS" signature="verifyButton()[pri:20, instance:SignIn.FlockSignIn@28d25987]" name="verifyButton" duration-ms="120" started-at="2017-06-19T13:01:53Z" finished-at="2017-06-19T13:01:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyButton -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2452" started-at="2017-06-19T12:00:43Z" data-provider="otp" finished-at="2017-06-19T12:00:45Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2487" started-at="2017-06-19T13:01:53Z" data-provider="otp" finished-at="2017-06-19T13:01:56Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2493" started-at="2017-06-19T12:00:45Z" data-provider="otp" finished-at="2017-06-19T12:00:48Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2335" started-at="2017-06-19T13:01:56Z" data-provider="otp" finished-at="2017-06-19T13:01:58Z">
           <params>
             <param index="0">
               <value>
@@ -169,7 +169,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2360" started-at="2017-06-19T12:00:48Z" data-provider="otp" finished-at="2017-06-19T12:00:50Z">
+        <test-method status="PASS" signature="otpErrorMessage(java.lang.String)[pri:21, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage" duration-ms="2349" started-at="2017-06-19T13:01:58Z" data-provider="otp" finished-at="2017-06-19T13:02:01Z">
           <params>
             <param index="0">
               <value>
@@ -180,23 +180,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpErrorMessage -->
-        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage1" duration-ms="2581" started-at="2017-06-19T12:00:50Z" finished-at="2017-06-19T12:00:53Z">
+        <test-method status="PASS" signature="otpErrorMessage1()[pri:22, instance:SignIn.FlockSignIn@28d25987]" name="otpErrorMessage1" duration-ms="8713" started-at="2017-06-19T13:02:01Z" finished-at="2017-06-19T13:02:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otpErrorMessage1 -->
-        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@28d25987]" name="enterOTP" duration-ms="180" started-at="2017-06-19T12:00:53Z" finished-at="2017-06-19T12:00:53Z">
+        <test-method status="PASS" signature="enterOTP()[pri:23, instance:SignIn.FlockSignIn@28d25987]" name="enterOTP" duration-ms="188" started-at="2017-06-19T13:02:09Z" finished-at="2017-06-19T13:02:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterOTP -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterClass" is-config="true" duration-ms="11261" started-at="2017-06-19T12:00:53Z" finished-at="2017-06-19T12:01:04Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterClass" is-config="true" duration-ms="11224" started-at="2017-06-19T13:02:10Z" finished-at="2017-06-19T13:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-19T12:01:04Z" finished-at="2017-06-19T12:01:04Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-19T13:02:21Z" finished-at="2017-06-19T13:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-06-19T12:01:04Z" finished-at="2017-06-19T12:01:04Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:SignIn.FlockSignIn@28d25987]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-06-19T13:02:21Z" finished-at="2017-06-19T13:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
