@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
@@ -19,8 +19,8 @@ public class BaseTestSuite{
 	public WebDriver driver;
 
 	@Parameters("browser")
-	@BeforeSuite
-	public void beforesuite(@Optional(DefaultStrings.CHROME)String browser) {
+	@BeforeTest
+	public void beforeTest(@Optional(DefaultStrings.CHROME)String browser) {
 		
 		System.out.println("BaseTestSuite -> Before Test Suite");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
