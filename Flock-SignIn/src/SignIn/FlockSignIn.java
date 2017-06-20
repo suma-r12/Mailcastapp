@@ -13,11 +13,9 @@ import utilities.GenericMethods;
 
 public class FlockSignIn extends BaseTestSuite {
 	
-<<<<<<< HEAD
+
 	private GenericMethods gm;
-=======
-	static GenericMethods gm;
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
+
 	
 	public WebDriver getDriver(){
 		return driver;
