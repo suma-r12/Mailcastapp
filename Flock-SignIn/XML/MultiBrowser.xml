@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="MultiBrowser" >
+<suite name="MultiBrowser" thread-count="4" parallel ="tests">
 <listeners>
 		<listener class-name="utilities.SeleniumListener">
 		</listener>
-	</listeners>
-	<test name="Chorme Browser">
-		<parameter name="browserType" value="chrome" />
+	</listeners> 
+    <test name="Firefox Browser">
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="SignIn.FlockSignIn">
 			</class>
 		</classes>
 	</test>
-    <test name="Firefox Browser">
-		<parameter name="browserType" value="firefox" />
+	<test name="Chorme Browser">
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="SignIn.FlockSignIn">
 			</class>

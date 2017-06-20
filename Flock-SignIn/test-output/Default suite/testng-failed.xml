@@ -8,28 +8,28 @@
           <include name="contactSupport"/>
           <include name="languageSwitcher"/>
           <include name="Heading"/>
-          <include name="clickSkipGoogleAuth"/>
           <include name="otpPlaceHolder"/>
           <include name="resendOtpHookClicked"/>
-          <include name="enterOTP"/>
           <include name="loginButton"/>
           <include name="windowTitle"/>
-          <include name="beforeClass"/>
+          <include name="afterTest"/>
           <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage"/>
+          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="otpErrorMessage1"/>
           <include name="googleAuthNote"/>
           <include name="afterClass"/>
-          <include name="enterEmail"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
           <include name="googleAuthSkipButton"/>
           <include name="resendOtpText"/>
           <include name="otpSubHeading"/>
           <include name="checkEditButton"/>
           <include name="otpHeading"/>
-          <include name="errorMessage"/>
+          <include name="errorMessage" invocation-numbers="0 1 2"/>
           <include name="googleAuthSubHeading"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>
+          <include name="beforeSuite"/>
           <include name="emailPlaceHolder"/>
           <include name="resendOtpHook"/>
           <include name="onbaordingSideBar"/>

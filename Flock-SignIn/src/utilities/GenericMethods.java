@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GenericMethods {
-	WebDriver driver;
+	private WebDriver driver;
 	private static final Logger log = LogManager.getLogger(GenericMethods.class.getName());
 
 	public GenericMethods(WebDriver driver) {
