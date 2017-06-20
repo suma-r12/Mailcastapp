@@ -20,7 +20,7 @@ import resources.DefaultStrings;
 public class BaseTestSuite{
 	public WebDriver driver;
 	
-	@BeforeClass
+	 @BeforeClass
 	@Parameters("browser")
 	public void beforeClass(@Optional(DefaultStrings.CHROME)String browser) {
 		ResourceBundle.getBundle("config", Locale.getDefault());
