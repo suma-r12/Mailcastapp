@@ -20,13 +20,12 @@
           <include name="loginButton"/>
           <include name="windowTitle"/>
           <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforesuite"/>
           <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage"/>
+          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="otpErrorMessage1"/>
           <include name="googleAuthNote"/>
           <include name="afterClass"/>
+          <include name="beforeTest"/>
           <include name="enterEmail"/>
           <include name="afterSuite"/>
           <include name="googleAuthSkipButton"/>
@@ -34,7 +33,7 @@
           <include name="otpSubHeading"/>
           <include name="checkEditButton"/>
           <include name="otpHeading"/>
-          <include name="errorMessage"/>
+          <include name="errorMessage" invocation-numbers="0 1 2"/>
           <include name="googleAuthSubHeading"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>
@@ -62,13 +61,12 @@
           <include name="loginButton"/>
           <include name="windowTitle"/>
           <include name="afterTest"/>
-          <include name="beforeClass"/>
-          <include name="beforesuite"/>
           <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage"/>
+          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="otpErrorMessage1"/>
           <include name="googleAuthNote"/>
           <include name="afterClass"/>
+          <include name="beforeTest"/>
           <include name="enterEmail"/>
           <include name="afterSuite"/>
           <include name="googleAuthSkipButton"/>
@@ -76,7 +74,7 @@
           <include name="otpSubHeading"/>
           <include name="checkEditButton"/>
           <include name="otpHeading"/>
-          <include name="errorMessage"/>
+          <include name="errorMessage" invocation-numbers="0 1 2"/>
           <include name="googleAuthSubHeading"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>
