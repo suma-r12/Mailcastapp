@@ -2,8 +2,7 @@ package SignIn;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -21,7 +20,7 @@ public class FlockSignIn extends BaseTestSuite {
 		return driver;
 	}
 	
-	@BeforeTest
+	@BeforeMethod
 	public void beforeTest() {		
 		gm = new GenericMethods(driver);
 		System.out.println("BaseTestSuite -> Before Test");
@@ -37,7 +36,6 @@ public class FlockSignIn extends BaseTestSuite {
 		return new Object[][]{{""},{"jffhfh"},{"1q2q3q"}};
 	}
 
-
 	@Test(priority = 0) //Get title of the page
 	public void windowTitle(){
 		gm.getTitle();
@@ -51,19 +49,18 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode']"));
 		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"));
 		
-		gm.elementDisplayed(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
+		/*gm.elementDisplayed(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.getText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.compareText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.click(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"), 1);
 		gm.webelementsText(By.xpath("//td[@data-dojo-attach-point='containerNode']"));
-		gm.click(By.xpath("//td[@id='dijit_MenuItem_1_text']"), 1);
+		gm.click(By.xpath("//td[@id='dijit_MenuItem_1_text']"), 1);*/
 	}
-	
-	
+		
 	@Test(priority = 2) //check the heading content
 	public void Heading(){
-		gm.implicitWait(80);
-		gm.SwitchToiFrameNo(0);
+		/*gm.implicitWait(80);
+		gm.SwitchToiFrameNo(0);*/
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h2"));
@@ -201,10 +198,9 @@ public class FlockSignIn extends BaseTestSuite {
 	public void onbaordingSideBar(){
 		gm.elementDisplayed(By.xpath("//div[@class='onboarding-sidebar']"));
 	}
-	
 
 	@Test(priority = 8, dataProvider ="emails") //Email Validations
-	public void errorMessage(String emailIDs){
+	public void emailFieldErrorMessage(String emailIDs){
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, emailIDs);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
@@ -332,7 +328,8 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
 		gm.getText(By.xpath("//div[@class='errorMessage']"));
-		gm.clearField(By.xpath("//input[@class='input']"));
+		driver.findElement(By.xpath("//input[@class='input']")).clear();
+		//gm.clearField(By.xpath("//input[@class='input']"));
 	}
 	
 	@Test(priority = 22)
@@ -353,10 +350,6 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	
-	@AfterClass
-	public void afterClass() throws InterruptedException {
-		Thread.sleep(10000);
-		driver.quit();
-	}
+	
 
 }
