@@ -2,8 +2,8 @@ package SignIn;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -21,10 +21,10 @@ public class FlockSignIn extends BaseTestSuite {
 		return driver;
 	}
 	
-	@BeforeTest
-	public void beforeTest() {		
+	@BeforeMethod
+	public void beforeMethod() {		
 		gm = new GenericMethods(driver);
-		System.out.println("BaseTestSuite -> Before Test");
+		System.out.println("BaseTestSuite -> Before Method");
 	}
 	
 	@DataProvider(name="emails")
@@ -36,7 +36,6 @@ public class FlockSignIn extends BaseTestSuite {
 	public static Object[][]otpInputs(){
 		return new Object[][]{{""},{"jffhfh"},{"1q2q3q"}};
 	}
-
 
 	@Test(priority = 0) //Get title of the page
 	public void windowTitle(){
@@ -51,19 +50,17 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode']"));
 		gm.elementDisplayed(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"));
 		
-		gm.elementDisplayed(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
+		/*gm.elementDisplayed(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.getText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.compareText(By.xpath("//span[@class='dijitReset dijitInline currentLanguage en-us']"));
 		gm.click(By.xpath("//td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton']"), 1);
 		gm.webelementsText(By.xpath("//td[@data-dojo-attach-point='containerNode']"));
-		gm.click(By.xpath("//td[@id='dijit_MenuItem_1_text']"), 1);
+		gm.click(By.xpath("//td[@id='dijit_MenuItem_1_text']"), 1);*/
 	}
-	
-	
+		
 	@Test(priority = 2) //check the heading content
 	public void Heading(){
-		gm.implicitWait(80);
-		gm.SwitchToiFrameNo(0);
+		
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"));
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h2"));
@@ -101,46 +98,6 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.SendKey(By.xpath("//input[@placeholder='Enter your name']"), 2, "Test Automator");
 		
 		gm.radioButtonIterate(By.xpath("//div[@id='widgets_Dialog_0']//input[@type='radio']"));
-		
-		/*gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
-		gm.getText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
-		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_0']//span"));
-		gm.click(By.xpath("//div[@id='widgets_RadioButton_0']//input"), 1);
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
-		gm.getText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
-		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_1']//span"));
-		gm.click(By.xpath("//div[@id='widgets_RadioButton_1']//input"), 1);
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
-		gm.getText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
-		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_2']//span"));
-		gm.click(By.xpath("//div[@id='widgets_RadioButton_2']//input"), 1);
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
-		gm.getText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
-		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_3']//span"));
-		gm.click(By.xpath("//div[@id='widgets_RadioButton_3']//input"), 1);
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
-		gm.getText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
-		gm.compareText(By.xpath("//div[@id='widgets_RadioButton_4']//span"));
-		gm.click(By.xpath("//div[@id='widgets_RadioButton_4']//input"), 1);
-		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']/div[2]//div[2]/div[4]/label"));*/
 		
 		gm.elementDisplayed(By.xpath("//textarea[@class='input']"));
 		gm.getText(By.xpath("//textarea[@class='input']"));
@@ -201,10 +158,9 @@ public class FlockSignIn extends BaseTestSuite {
 	public void onbaordingSideBar(){
 		gm.elementDisplayed(By.xpath("//div[@class='onboarding-sidebar']"));
 	}
-	
 
 	@Test(priority = 8, dataProvider ="emails") //Email Validations
-	public void errorMessage(String emailIDs){
+	public void emailFieldErrorMessage(String emailIDs){
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, emailIDs);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
@@ -332,7 +288,8 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 		gm.elementIsDisplayed(By.xpath("//div[@class='errorMessage']"));
 		gm.getText(By.xpath("//div[@class='errorMessage']"));
-		gm.clearField(By.xpath("//input[@class='input']"));
+		driver.findElement(By.xpath("//input[@class='input']")).clear();
+		//gm.clearField(By.xpath("//input[@class='input']"));
 	}
 	
 	@Test(priority = 22)
@@ -353,10 +310,10 @@ public class FlockSignIn extends BaseTestSuite {
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
 	}
 	
-	@AfterClass
-	public void afterClass() throws InterruptedException {
-		Thread.sleep(10000);
-		driver.quit();
+	@AfterMethod
+	public void afterMethod() {		
+		gm = new GenericMethods(driver);
+		System.out.println("BaseTestSuite -> Before Method");
 	}
 
 }
