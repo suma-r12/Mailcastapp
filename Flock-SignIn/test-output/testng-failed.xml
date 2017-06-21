@@ -9,9 +9,16 @@
     <classes>
       <class name="SignIn.FlockSignInQuick">
         <methods>
+<<<<<<< HEAD
           <include name="SignIn"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+=======
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="Heading"/>
+          <include name="beforeClass"/>
+>>>>>>> 7fcb18ae574133730e9f9643f65515ca8b8e0b8e
           <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="beforeTest"/>
@@ -24,9 +31,16 @@
     <classes>
       <class name="SignIn.FlockSignInQuick">
         <methods>
+<<<<<<< HEAD
           <include name="SignIn"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
+=======
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="Heading"/>
+          <include name="beforeClass"/>
+>>>>>>> 7fcb18ae574133730e9f9643f65515ca8b8e0b8e
           <include name="afterClass"/>
           <include name="beforeClass"/>
           <include name="beforeTest"/>

@@ -9,14 +9,11 @@
           <include name="languageSwitcher"/>
           <include name="Heading"/>
           <include name="otpPlaceHolder"/>
+          <include name="beforeClass"/>
           <include name="resendOtpHookClicked"/>
           <include name="loginButton"/>
           <include name="windowTitle"/>
           <include name="afterTest"/>
-<<<<<<< HEAD
-=======
-          <include name="beforesuite"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
           <include name="googleAuthHeading"/>
           <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
           <include name="otpErrorMessage1"/>
@@ -33,7 +30,6 @@
           <include name="googleAuthSubHeading"/>
           <include name="subHeading"/>
           <include name="googleAuthButton"/>
-          <include name="beforeSuite"/>
           <include name="emailPlaceHolder"/>
           <include name="resendOtpHook"/>
           <include name="onbaordingSideBar"/>

@@ -312,7 +312,12 @@ public class FlockSignInDetailed extends BaseTestSuite {
 	
 	@AfterMethod
 	public void afterMethod() {		
+<<<<<<< HEAD:Flock-SignIn/src/SignIn/FlockSignInDetailed.java
 		System.out.println("BaseTestSuite -> After Method");
+=======
+		gm = new GenericMethods(driver);
+		System.out.println("BaseTestSuite -> Before Method");
+>>>>>>> 7fcb18ae574133730e9f9643f65515ca8b8e0b8e:Flock-SignIn/src/SignIn/FlockSignIn.java
 	}
 
 }
