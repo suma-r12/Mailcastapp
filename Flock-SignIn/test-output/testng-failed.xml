@@ -4,124 +4,34 @@
   <listeners>
     <listener class-name="utilities.SeleniumListener"/>
   </listeners>
-<<<<<<< HEAD
-  <test name="Chorme Browser(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-=======
-  <test name="Chorme Browser(failed)">
-    <parameter name="browserType" value="chrome"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-    <classes>
-      <class name="SignIn.FlockSignIn">
-        <methods>
-          <include name="contactSupport"/>
-          <include name="languageSwitcher"/>
-<<<<<<< HEAD
-          <include name="Heading"/>
-          <include name="otpPlaceHolder"/>
-          <include name="beforeClass"/>
-          <include name="resendOtpHookClicked"/>
-=======
-          <include name="beforeTest"/>
-          <include name="Heading"/>
-          <include name="clickSkipGoogleAuth"/>
-          <include name="otpPlaceHolder"/>
-          <include name="resendOtpHookClicked"/>
-          <include name="enterOTP"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="loginButton"/>
-          <include name="windowTitle"/>
-          <include name="afterTest"/>
-          <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
-          <include name="otpErrorMessage1"/>
-          <include name="googleAuthNote"/>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
-<<<<<<< HEAD
-=======
-          <include name="enterEmail"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="afterSuite"/>
-          <include name="googleAuthSkipButton"/>
-          <include name="resendOtpText"/>
-          <include name="otpSubHeading"/>
-          <include name="checkEditButton"/>
-          <include name="otpHeading"/>
-          <include name="errorMessage" invocation-numbers="0 1 2"/>
-          <include name="googleAuthSubHeading"/>
-          <include name="subHeading"/>
-          <include name="googleAuthButton"/>
-<<<<<<< HEAD
-          <include name="beforeSuite"/>
-=======
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="emailPlaceHolder"/>
-          <include name="resendOtpHook"/>
-          <include name="onbaordingSideBar"/>
-          <include name="verifyButton"/>
-        </methods>
-      </class> <!-- SignIn.FlockSignIn -->
-    </classes>
-  </test> <!-- Chorme Browser(failed) -->
-<<<<<<< HEAD
   <test name="Firefox Browser(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
-=======
-  <test name="Firefox Browser(failed)">
-    <parameter name="browserType" value="firefox"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
     <classes>
-      <class name="SignIn.FlockSignIn">
+      <class name="SignIn.FlockSignInQuick">
         <methods>
-          <include name="contactSupport"/>
-          <include name="languageSwitcher"/>
-<<<<<<< HEAD
-          <include name="Heading"/>
-          <include name="otpPlaceHolder"/>
-          <include name="beforeClass"/>
-          <include name="resendOtpHookClicked"/>
-=======
-          <include name="beforeTest"/>
-          <include name="Heading"/>
-          <include name="clickSkipGoogleAuth"/>
-          <include name="otpPlaceHolder"/>
-          <include name="resendOtpHookClicked"/>
-          <include name="enterOTP"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="loginButton"/>
-          <include name="windowTitle"/>
-          <include name="afterTest"/>
-          <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
-          <include name="otpErrorMessage1"/>
-          <include name="googleAuthNote"/>
-          <include name="afterClass"/>
-          <include name="beforeTest"/>
-<<<<<<< HEAD
-=======
-          <include name="enterEmail"/>
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="afterSuite"/>
-          <include name="googleAuthSkipButton"/>
-          <include name="resendOtpText"/>
-          <include name="otpSubHeading"/>
-          <include name="checkEditButton"/>
-          <include name="otpHeading"/>
-          <include name="errorMessage" invocation-numbers="0 1 2"/>
-          <include name="googleAuthSubHeading"/>
-          <include name="subHeading"/>
-          <include name="googleAuthButton"/>
-<<<<<<< HEAD
+          <include name="SignIn"/>
           <include name="beforeSuite"/>
-=======
->>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
-          <include name="emailPlaceHolder"/>
-          <include name="resendOtpHook"/>
-          <include name="onbaordingSideBar"/>
-          <include name="verifyButton"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- SignIn.FlockSignIn -->
+      </class> <!-- SignIn.FlockSignInQuick -->
     </classes>
   </test> <!-- Firefox Browser(failed) -->
+  <test name="Chorme Browser(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="SignIn.FlockSignInQuick">
+        <methods>
+          <include name="SignIn"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- SignIn.FlockSignInQuick -->
+    </classes>
+  </test> <!-- Chorme Browser(failed) -->
 </suite> <!-- Failed suite [MultiBrowser] -->

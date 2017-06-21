@@ -7,14 +7,14 @@
     <test name="Firefox Browser">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="SignIn.FlockSignIn">
+			<class name="SignIn.FlockSignInDetailed">
 			</class>
 		</classes>
 	</test>
 	<test name="Chorme Browser">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="SignIn.FlockSignIn">
+			<class name="SignIn.FlockSignInDetailed">
 			</class>
 		</classes>
 	</test>

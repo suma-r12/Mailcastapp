@@ -43,7 +43,7 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 		public void onTestSuccess(ITestResult arg0) {
 			// This is calling the printTestResults method
 			Object currentClass = arg0.getInstance();
-	        WebDriver driver = ((SignIn.FlockSignIn)currentClass).getDriver();
+	        WebDriver driver = ((SignIn.FlockSignInDetailed)currentClass).getDriver();
 
 			try {
 				ss.takeScreenShot(driver);
@@ -58,7 +58,7 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 		public void onTestFailure(ITestResult arg0) {
 			// This is calling the printTestResults method
 			Object currentClass = arg0.getInstance();
-	        WebDriver driver = ((SignIn.FlockSignIn)currentClass).getDriver();
+	        WebDriver driver = ((SignIn.FlockSignInDetailed)currentClass).getDriver();
 	        
 			try {
 				ss.takeScreenShot(driver);

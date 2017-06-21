@@ -887,3 +887,27 @@ Discover and add your colleagues displayed is not correct
 12:13:56.946 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
 12:13:57.041 INFO  utilities.GenericMethods -Element clicked on the webpage
 >>>>>>> 74718d96ccd0e161193c21204854c1b05e286204
+13:20:25.809 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+13:20:25.829 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+13:20:25.860 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:20:25.871 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:20:26.028 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:20:26.029 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:20:26.810 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:20:26.811 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:20:27.529 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:20:27.529 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:20:29.707 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:20:29.707 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:20:30.129 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:20:30.131 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:20:30.710 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:20:37.614 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:20:37.614 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:20:38.370 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:20:38.370 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:20:39.707 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:20:39.707 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:20:39.852 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:20:39.853 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:20:40.034 INFO  utilities.GenericMethods -Element clicked on the webpage
