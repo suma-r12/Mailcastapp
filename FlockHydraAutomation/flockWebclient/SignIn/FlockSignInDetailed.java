@@ -27,7 +27,7 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		System.out.println("BaseTestSuite -> Before Method");
 	}
 	
-	@DataProvider(name="emails")
+	/*@DataProvider(name="emails")
 	public static Object[][] emailInputs(){
 		return new Object[][]{{""},{"jffhfhfh"},{"jffhfhfh@jdjdjjdj"}};
 	}
@@ -35,7 +35,7 @@ public class FlockSignInDetailed extends BaseTestSuite {
 	@DataProvider(name="otp")
 	public static Object[][]otpInputs(){
 		return new Object[][]{{""},{"jffhfh"},{"1q2q3q"}};
-	}
+	}*/
 
 	@Test(priority = 0) //Get title of the page
 	public void windowTitle(){
@@ -159,7 +159,7 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.elementDisplayed(By.xpath("//div[@class='onboarding-sidebar']"));
 	}
 
-	@Test(priority = 8, dataProvider ="emails") //Email Validations
+	@Test(priority = 8, dataProvider ="emails", dataProviderClass = DataInputField.class) //Email Validations
 	public void emailFieldErrorMessage(String emailIDs){
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, emailIDs);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);
@@ -280,7 +280,7 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.click(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"), 1);
 	}
 	
-	@Test(priority = 21, dataProvider ="otp")
+	@Test(priority = 21, dataProvider ="otp", dataProviderClass = DataInputField.class)
 	public void otpErrorMessage(String otp) throws Exception{
 		System.out.println("The otp vale: "+otp);
 		gm.SendKey(By.xpath("//input[@class='input']"), 1, otp);

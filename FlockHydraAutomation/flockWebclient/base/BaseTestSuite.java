@@ -2,11 +2,15 @@ package base;
 
 import static org.testng.Assert.fail;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -18,18 +22,18 @@ import resources.DefaultStrings;
 
 public class BaseTestSuite{
 	public WebDriver driver;
-	//private ResourceBundle bundle;
+	private ResourceBundle bundle;
 	
 	 @BeforeClass
 	@Parameters("browser")
 	public void beforeClass(@Optional(DefaultStrings.CHROME) String browser) {
-		//bundle = ResourceBundle.getBundle("config", Locale.getDefault());
+		bundle = ResourceBundle.getBundle("config", Locale.getDefault());
 		System.out.println("BaseTestSuite -> Before Class");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
-			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);
+			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, "C:\\Program Files (x86)\\geckodriver-v0.16.0-win64\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase(DefaultStrings.CHROME)) {
-			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, DefaultStrings.CHROME_DRIVER_PATH);
+			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, "C:\\Automation\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		
@@ -45,16 +49,16 @@ public class BaseTestSuite{
 
 	}
 	 
-	 /*private DesiredCapabilities getDesiredCapabilities() {
+	 private DesiredCapabilities getDesiredCapabilities() {
 	        System.out.println("Inside getDesiredCapabilities");
 	        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 	        ChromeOptions options = new ChromeOptions();
 	        options.addArguments("test-type");
 	        options.addArguments("--disable-notifications"); // Note: Disabled notifications to avoid chrome ok notifications dialog
-	        capabilities.setCapability("chrome.binary", bundle.getString("chrome_driver_path"));
+	        capabilities.setCapability("chrome.binary", "C:\\Automation\\chromedriver_win32\\chromedriver.exe");
 	        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 	        return capabilities;
-	    }*/
+	    }
 
 	 @AfterClass
 		public void afterClass() throws InterruptedException {

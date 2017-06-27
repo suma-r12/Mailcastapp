@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="MultiBrowser" thread-count="4" parallel ="tests">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="StartChat" thread-count="2" parallel ="tests">
 <listeners>
 		<listener class-name="utilities.SeleniumListener">
 		</listener>
@@ -7,14 +7,14 @@
     <test name="Firefox Browser">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="SignIn.FlockSignInDetailed">
+			<class name="flockClient.startChat">
 			</class>
 		</classes>
 	</test>
 	<test name="Chorme Browser">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="SignIn.FlockSignInDetailed">
+			<class name="flockClient.startChat">
 			</class>
 		</classes>
 	</test>
