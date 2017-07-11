@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 
 public class startChat extends BaseTestSuite{
 	
-	private  GenericMethods gm;
+	private GenericMethods gm;
 	private OnBoardingUtils onboard;
 	
 	@BeforeMethod
@@ -19,7 +19,6 @@ public class startChat extends BaseTestSuite{
 		gm = new GenericMethods(driver);
 		onboard = new OnBoardingUtils(driver);
 		onboard.setUpUserAccount();
-		
 	}
 
 	@Test
