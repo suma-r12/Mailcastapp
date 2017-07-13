@@ -26,6 +26,8 @@ public class OnBoardingUtils {
 	        gm.click(By.className("google-auth-footer"), 2);
 	        gm.SendKey(By.xpath("//input[@tabindex='1']"), 2, DefaultStrings.OTP);
 	        gm.click(By.className("btn--action"), 1);
+	        gm.implicitWait(30);
+	        gm.click(By.xpath("//div[@id='widgets_Dialog_3']//a[@class='btn btn--action btn--block']"), 2);
 	    }
 
 	    public void setUpUserAccount() {

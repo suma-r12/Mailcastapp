@@ -4,48 +4,46 @@
   <listeners>
     <listener class-name="utilities.SeleniumListener"/>
   </listeners>
-  <test name="Firefox Browser(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="SignIn.FlockSignInQuick">
-        <methods>
-<<<<<<< HEAD
-          <include name="SignIn"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-=======
-          <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="Heading"/>
-          <include name="beforeClass"/>
->>>>>>> 7fcb18ae574133730e9f9643f65515ca8b8e0b8e
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- SignIn.FlockSignInQuick -->
-    </classes>
-  </test> <!-- Firefox Browser(failed) -->
   <test name="Chorme Browser(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="SignIn.FlockSignInQuick">
+      <class name="SignIn.FlockSignInDetailed">
         <methods>
-<<<<<<< HEAD
-          <include name="SignIn"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-=======
-          <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="Heading"/>
-          <include name="beforeClass"/>
->>>>>>> 7fcb18ae574133730e9f9643f65515ca8b8e0b8e
+          <include name="onbaordingSideBar"/>
+          <include name="resendOtpHook"/>
           <include name="afterClass"/>
+          <include name="emailPlaceHolder"/>
+          <include name="beforeMethod"/>
+          <include name="verifyButton"/>
+          <include name="googleAuthButton"/>
           <include name="beforeClass"/>
-          <include name="beforeTest"/>
+          <include name="googleAuthSubHeading"/>
+          <include name="subHeading"/>
+          <include name="windowTitle"/>
+          <include name="otpPlaceHolder"/>
+          <include name="clickSkipGoogleAuth"/>
+          <include name="resendOtpText"/>
+          <include name="checkEditButton"/>
+          <include name="otpHeading"/>
+          <include name="afterMethod"/>
+          <include name="otpSubHeading"/>
+          <include name="enterEmail"/>
+          <include name="googleAuthSkipButton"/>
+          <include name="otpErrorMessage1"/>
+          <include name="afterSuite"/>
+          <include name="googleAuthNote"/>
+          <include name="loginButton"/>
+          <include name="otpErrorMessage"/>
+          <include name="googleAuthHeading"/>
+          <include name="beforeSuite"/>
+          <include name="enterOTP"/>
+          <include name="resendOtpHookClicked"/>
+          <include name="contactSupport"/>
+          <include name="Heading"/>
+          <include name="emailFieldErrorMessage"/>
+          <include name="languageSwitcher"/>
         </methods>
-      </class> <!-- SignIn.FlockSignInQuick -->
+      </class> <!-- SignIn.FlockSignInDetailed -->
     </classes>
   </test> <!-- Chorme Browser(failed) -->
 </suite> <!-- Failed suite [MultiBrowser] -->

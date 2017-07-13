@@ -10,6 +10,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
@@ -31,14 +34,17 @@ public class BaseTestSuite{
 		System.out.println("BaseTestSuite -> Before Class");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
 			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, "C:\\Program Files (x86)\\geckodriver-v0.16.0-win64\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			ProfilesIni ffProfiles = new ProfilesIni();
+			FirefoxProfile profile = ffProfiles.getProfile("customfirefox");
+			driver = new FirefoxDriver(profile);
 		} else if (browser.equalsIgnoreCase(DefaultStrings.CHROME)) {
 			System.setProperty(DefaultStrings.CHROME_DRIVER_KEY, "C:\\Automation\\chromedriver_win32\\chromedriver.exe");
-			driver = new ChromeDriver();
+			DesiredCapabilities capabilities = getDesiredCapabilities();
+			driver = new ChromeDriver(capabilities);
 		}
 		
 		if (driver != null) {
-            driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+            //driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
             driver.get(DefaultStrings.FLOCK_WEB_PREPROD);
@@ -59,6 +65,7 @@ public class BaseTestSuite{
 	        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 	        return capabilities;
 	    }
+	 
 
 	 @AfterClass
 		public void afterClass() throws InterruptedException {

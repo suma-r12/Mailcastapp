@@ -1,0 +1,660 @@
+12:37:08.365 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+12:37:09.978 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+12:37:18.978 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+12:37:18.978 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+12:37:19.176 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:37:19.376 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:19.377 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:37:20.093 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+12:37:20.094 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+12:37:20.409 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:37:20.719 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:20.720 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+12:37:20.822 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:20.822 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:37:20.829 INFO  utilities.GenericMethods -Value Entered in the place holder
+12:37:20.829 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+12:37:20.991 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:21.010 INFO  utilities.GenericMethods -Implicitly waiting for 20secs
+12:37:21.010 INFO  utilities.GenericMethods -Waiting for a max: 0 sec for the element to be clickable
+12:37:22.638 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:22.638 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+12:37:23.009 INFO  utilities.GenericMethods -Value Entered in the place holder
+12:37:23.009 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+12:37:23.421 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:37:23.430 INFO  utilities.GenericMethods -Implicitly waiting for 20secs
+12:37:23.430 INFO  utilities.GenericMethods -Waiting for a max: 0 sec for the element to be clickable
+12:37:29.987 ERROR utilities.GenericMethods -Element not clicked on the webpage
+12:37:29.987 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+12:37:32.903 ERROR utilities.GenericMethods -Element not clicked on the webpage
+12:55:13.133 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+12:55:15.335 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+12:55:25.462 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+12:55:25.462 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+12:55:25.581 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+12:55:25.581 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+12:55:26.061 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:55:26.614 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:26.615 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:55:27.461 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:55:28.459 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:28.459 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+12:55:28.744 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:28.745 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+12:55:29.024 INFO  utilities.GenericMethods -Value Entered in the place holder
+12:55:29.025 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+12:55:29.360 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:29.375 INFO  utilities.GenericMethods -Implicitly waiting for 20secs
+12:55:29.375 INFO  utilities.GenericMethods -Waiting for a max: 0 sec for the element to be clickable
+12:55:30.003 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:30.005 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+12:55:30.162 INFO  utilities.GenericMethods -Value Entered in the place holder
+12:55:30.162 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+12:55:30.368 INFO  utilities.GenericMethods -Element clicked on the webpage
+12:55:30.399 INFO  utilities.GenericMethods -Implicitly waiting for 20secs
+12:55:30.399 INFO  utilities.GenericMethods -Waiting for a max: 0 sec for the element to be clickable
+13:12:36.974 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+13:12:47.890 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:12:47.891 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+13:16:47.323 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+13:16:47.323 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+13:16:57.417 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:16:57.417 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+13:16:57.637 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:16:57.675 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:16:57.675 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+13:16:57.854 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:16:58.038 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:16:58.038 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:16:58.134 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:16:58.134 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:16:59.377 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:16:59.377 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:16:59.730 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:16:59.731 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:16:59.761 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:16:59.761 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:16:59.900 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:16:59.900 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:17:00.116 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:17:00.116 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+13:17:00.230 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:17:00.230 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+13:17:08.615 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:08.615 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+13:17:08.726 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:09.559 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:09.560 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+13:17:19.830 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:23.738 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:17:23.819 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:23.820 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:17:23.924 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:34.842 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:17:44.853 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:17:44.853 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:17:54.893 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:30:12.888 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+13:30:24.722 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:30:24.722 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+13:30:25.612 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:30:26.270 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:30:26.270 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:30:27.666 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:30:27.666 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:30:27.824 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:30:27.824 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:30:28.003 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:30:28.003 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+13:30:33.581 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:30:33.581 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+13:30:35.084 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:30:50.095 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:30:50.112 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:30:50.112 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:30:50.128 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:32:35.963 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+13:32:46.470 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:32:46.470 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+13:32:46.746 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:32:47.054 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:32:47.054 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:32:48.852 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:32:48.852 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:32:49.176 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:32:49.177 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:32:49.506 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:32:49.565 INFO  utilities.GenericMethods -Implicitly waiting for 20secs
+13:32:49.566 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+13:33:00.577 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:33:00.577 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+13:33:01.542 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:33:16.553 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:33:16.578 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:33:16.578 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:33:16.594 ERROR utilities.GenericMethods -Element not clicked on the webpage
+13:37:06.882 INFO  utilities.GenericMethods -The title of the Page is: Flock
+13:37:07.582 INFO  utilities.GenericMethods -The Title is Correct
+13:37:11.150 INFO  utilities.GenericMethods -Implicitly waiting for 40secs
+13:37:11.599 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+13:37:13.090 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitStretch dijitButtonContents dijitButtonNode'] is displayed
+13:37:13.147 INFO  utilities.GenericMethods -The element at loction: By.xpath: //td[@class='dijitReset dijitRight dijitButtonNode dijitArrowButton dijitDownArrowButton'] is displayed
+13:37:13.250 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+13:37:13.555 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+13:37:13.579 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h2 is displayed
+13:37:13.739 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h2 is Get started with Flock
+13:37:13.819 INFO  utilities.GenericMethods -The text: Get started with Flock displayed is correct
+13:37:14.085 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='feedbackLinkSpan'] is displayed
+13:37:14.123 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='feedbackLinkSpan'] is Contact Support
+13:37:14.169 INFO  utilities.GenericMethods -The text: Contact Support displayed is correct
+13:37:14.169 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:37:14.799 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:15.064 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='title'] is displayed
+13:37:15.113 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='title'] is How can we help you today?
+13:37:15.293 INFO  utilities.GenericMethods -The text: How can we help you today? displayed is correct
+13:37:15.328 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is displayed
+13:37:15.373 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label is Email
+13:37:15.441 INFO  utilities.GenericMethods -The text: Email displayed is correct
+13:37:15.470 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is displayed
+13:37:15.686 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label is Name
+13:37:15.819 INFO  utilities.GenericMethods -The text: Name displayed is correct
+13:37:16.019 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='example@domain.com'] is displayed
+13:37:16.558 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='example@domain.com'] is 
+13:37:16.969 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:16.969 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:37:17.222 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:17.349 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@placeholder='Enter your name'] is displayed
+13:37:17.416 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@placeholder='Enter your name'] is 
+13:37:17.514 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:17.514 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:37:17.755 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:17.780 INFO  utilities.GenericMethods -Size of the list: 5
+13:37:17.881 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+13:37:17.966 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+13:37:18.008 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.087 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+13:37:20.115 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+13:37:20.138 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.232 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+13:37:20.271 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+13:37:20.286 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.433 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+13:37:20.492 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+13:37:20.511 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.614 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is displayed
+13:37:20.649 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='widgets_Dialog_0']//input[@type='radio'] is 
+13:37:20.666 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.696 INFO  utilities.GenericMethods -The element at loction: By.xpath: //textarea[@class='input'] is displayed
+13:37:20.740 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //textarea[@class='input'] is 
+13:37:20.797 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:20.798 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+13:37:20.943 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:20.997 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='attachFileLogo'] is displayed
+13:37:21.028 INFO  utilities.GenericMethods -The element at loction: By.xpath: //span[@class='uploadMessage'] is displayed
+13:37:21.128 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='uploadMessage'] is Log file attached
+13:37:21.215 INFO  utilities.GenericMethods -The text: Log file attached displayed is correct
+13:37:21.262 INFO  utilities.GenericMethods -The field is cleared
+13:37:21.325 INFO  utilities.GenericMethods -The field is cleared
+13:37:21.382 INFO  utilities.GenericMethods -The field is cleared
+13:37:21.431 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--reportBug'] is displayed
+13:37:21.527 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--reportBug'] is Send Request
+13:37:21.625 INFO  utilities.GenericMethods -The text: Send Request displayed is correct
+13:37:21.625 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:37:21.824 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:24.949 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is displayed
+13:37:25.049 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_enteredEmailError'] is Please enter your email address
+13:37:25.147 INFO  utilities.GenericMethods -The text: Please enter your email address displayed is correct
+13:37:25.187 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is displayed
+13:37:25.250 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@data-dojo-attach-point='_descriptionError'] is Please describe your issue
+13:37:25.349 INFO  utilities.GenericMethods -The text: Please describe your issue displayed is correct
+13:37:25.743 INFO  utilities.GenericMethods -The element at loction: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is displayed
+13:37:25.825 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //button[@class='btn btn--action btn--cancel btn--reportBug'] is Cancel
+13:37:25.898 INFO  utilities.GenericMethods -The text: Cancel displayed is correct
+13:37:25.898 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:37:26.056 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:26.361 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_15_0']//h5 is displayed
+13:37:26.410 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_15_0']//h5 is Enter your official email address to continue
+13:37:26.458 INFO  utilities.GenericMethods -The text: Enter your official email address to continue displayed is correct
+13:37:26.625 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+13:37:26.658 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+13:37:26.710 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:26.932 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+13:37:26.972 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Login or Create a Team
+13:37:27.021 INFO  utilities.GenericMethods -The text: Login or Create a Team displayed is correct
+13:37:27.211 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='onboarding-sidebar'] is displayed
+13:37:27.377 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:27.509 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:27.510 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:27.650 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:27.719 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:27.805 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+13:37:27.971 INFO  utilities.GenericMethods -The field is cleared
+13:37:28.159 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:28.304 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:28.304 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:28.460 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:28.529 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:28.568 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+13:37:28.604 INFO  utilities.GenericMethods -The field is cleared
+13:37:28.745 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:28.863 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:28.863 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:29.078 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:29.145 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:29.174 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter a valid email address
+13:37:29.209 INFO  utilities.GenericMethods -The field is cleared
+13:37:29.359 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:29.520 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:29.520 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:29.655 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:29.818 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+13:37:29.818 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+13:37:30.907 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+13:37:30.929 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h2 is displayed
+13:37:30.964 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h2 is directi.com uses
+Google apps
+13:37:31.015 ERROR utilities.GenericMethods -The text: directi.com uses
+Google apps displayed is not correct
+13:37:31.196 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--block btn--google'] is displayed
+13:37:31.227 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--block btn--google'] is Sign in with Google
+13:37:31.267 INFO  utilities.GenericMethods -The text: Sign in with Google displayed is correct
+13:37:31.444 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is displayed
+13:37:31.480 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _skipOAuth'] is Skip this step
+13:37:31.514 INFO  utilities.GenericMethods -The text: Skip this step displayed is correct
+13:37:31.725 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_17_0']//h5 is displayed
+13:37:31.746 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_17_0']//h5 is Connect with your Google account
+directitester002@directi.com
+13:37:31.786 ERROR utilities.GenericMethods -The text: Connect with your Google account
+directitester002@directi.com displayed is not correct
+13:37:32.028 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='google-auth-blurb'] is displayed
+13:37:32.089 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='google-auth-blurb'] is Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues
+13:37:32.158 ERROR utilities.GenericMethods -The text: Why sign in with Google?
+100% secure, easy and quick sign up
+Discover and add your colleagues displayed is not correct
+13:37:32.312 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:37:32.491 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:32.631 INFO  utilities.GenericMethods -Implicitly waiting for 10secs
+13:37:32.632 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to appear
+13:37:32.730 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+13:37:32.780 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h2 is displayed
+13:37:32.827 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h2 is Please verify your email
+13:37:32.900 INFO  utilities.GenericMethods -The text: Please verify your email displayed is correct
+13:37:33.281 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//h5 is displayed
+13:37:33.314 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//h5 is We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit
+13:37:33.379 ERROR utilities.GenericMethods -The text: We've sent you a six digit verification PIN at
+"directitester002@directi.com" Edit displayed is not correct
+13:37:33.559 INFO  utilities.GenericMethods -The element at loction: By.xpath: //input[@class='input'] is displayed
+13:37:33.585 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //input[@class='input'] is 
+13:37:33.620 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:33.782 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is displayed
+13:37:33.812 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@id='uniqName_16_0']//div[2]/span is Didn't receive the pin?
+13:37:33.860 INFO  utilities.GenericMethods -The text: Didn't receive the pin? displayed is correct
+13:37:34.230 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is displayed
+13:37:34.403 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-event='onclick: _resend'] is Resend PIN
+13:37:34.505 INFO  utilities.GenericMethods -The text: Resend PIN displayed is correct
+13:37:34.675 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+13:37:34.877 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:34.909 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@class='resend-status'] is displayed
+13:37:34.947 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='resend-status'] is 
+13:37:35.048 INFO  utilities.GenericMethods -The text:  displayed is correct
+13:37:35.249 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@data-dojo-attach-point='backLink'] is displayed
+13:37:35.289 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@data-dojo-attach-point='backLink'] is Edit
+13:37:35.337 INFO  utilities.GenericMethods -The text: Edit displayed is correct
+13:37:35.337 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:35.574 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:37.576 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:37.678 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:40.679 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:40.848 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:41.107 INFO  utilities.GenericMethods -The element at loction: By.xpath: //a[@class='btn btn--action btn--block'] is displayed
+13:37:41.180 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //a[@class='btn btn--action btn--block'] is Verify
+13:37:41.284 INFO  utilities.GenericMethods -The text: Verify displayed is correct
+13:37:41.426 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:41.536 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:43.537 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:43.689 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:43.743 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:43.795 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+13:37:44.001 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:44.110 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:46.112 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:46.231 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:46.292 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:46.325 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+13:37:46.507 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:46.598 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:48.600 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:48.755 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:48.823 INFO  utilities.GenericMethods -The element: By.xpath: //div[@class='errorMessage'] is displayed.
+13:37:48.849 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //div[@class='errorMessage'] is Enter verification PIN
+13:37:49.030 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:49.156 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:49.156 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:49.275 INFO  utilities.GenericMethods -Element clicked on the webpage
+13:37:51.323 ERROR utilities.GenericMethods -The element: By.xpath: //span[@class='errorMessage'] is NOT displayed.
+13:37:51.348 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //span[@class='errorMessage'] is 
+13:37:51.375 INFO  utilities.GenericMethods -The field is cleared
+13:37:51.517 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be send key
+13:37:51.613 INFO  utilities.GenericMethods -Value Entered in the place holder
+13:37:51.614 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+13:37:51.725 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:55.702 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+14:23:55.702 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+14:24:05.801 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:24:05.801 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+14:24:06.065 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:06.269 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:24:06.269 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+14:24:06.377 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:06.378 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:06.506 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:06.740 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:06.740 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:08.133 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:08.133 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:24:08.256 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:24:08.257 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:24:08.419 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:08.419 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+14:24:08.485 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:08.485 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:24:08.729 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:24:08.730 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:24:09.036 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:09.036 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+14:24:18.630 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:18.630 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+14:24:19.880 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:31.045 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:24:31.045 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+14:24:34.892 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:34.908 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:34.908 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:34.957 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:41.059 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:56.070 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:25:06.109 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:25:06.110 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:25:16.165 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:34:45.633 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+14:34:45.633 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+14:34:55.769 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:34:55.769 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+14:34:56.052 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:34:56.052 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+14:34:56.124 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:34:56.313 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:34:56.625 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:56.625 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:34:56.637 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:56.637 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:34:58.216 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:58.216 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:34:58.371 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:34:58.372 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:34:58.553 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:58.553 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+14:34:58.664 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:58.664 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:34:58.960 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:34:58.960 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:34:59.289 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:34:59.289 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+14:35:07.869 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:35:07.869 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+14:35:08.958 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:35:13.605 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:35:13.606 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+14:35:24.425 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:41:34.164 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+14:41:44.284 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:41:44.285 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+14:41:44.513 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:41:44.736 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:41:44.736 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:41:46.819 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:41:46.820 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:41:47.036 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:41:47.036 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:41:47.273 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:41:47.273 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+14:42:10.843 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:42:10.843 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+14:42:20.885 ERROR utilities.GenericMethods -Element not clicked on the webpage
+15:18:36.773 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+15:18:36.851 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+15:18:36.851 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+15:18:37.068 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+15:18:37.318 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:18:37.318 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+15:18:39.579 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:18:39.579 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+15:18:39.758 INFO  utilities.GenericMethods -Value Entered in the place holder
+15:18:39.758 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+15:18:40.002 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:18:40.002 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+15:18:50.360 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:18:50.361 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+15:18:53.488 ERROR utilities.GenericMethods -Element not clicked on the webpage
+15:28:30.114 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+15:28:40.207 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+15:28:40.207 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+15:28:40.401 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+15:28:40.618 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:28:40.619 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+15:28:41.907 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:28:41.907 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+15:28:42.092 INFO  utilities.GenericMethods -Value Entered in the place holder
+15:28:42.093 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+15:28:42.273 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:28:42.273 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+15:29:05.902 INFO  utilities.GenericMethods -Element clicked on the webpage
+15:29:05.902 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+15:29:15.941 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:08:08.430 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:08:18.681 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:08:18.682 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:08:19.033 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:08:19.517 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:08:19.517 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:08:21.387 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:08:21.388 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:08:21.520 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:08:21.520 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:08:21.801 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:08:21.801 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+16:08:28.776 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:08:28.776 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+16:08:29.934 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:10:31.957 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:10:42.365 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:10:42.367 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:10:42.767 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:10:43.574 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:10:43.575 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:10:48.603 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:10:48.603 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:10:48.773 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:10:48.773 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:10:48.937 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:10:48.938 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+16:10:52.635 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:10:55.541 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:10:55.541 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+16:10:56.734 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:11:02.763 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:11:02.763 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:11:03.083 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:11:03.292 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:03.292 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:11:04.685 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:04.686 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:11:04.865 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:11:04.865 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:11:05.134 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:05.134 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+16:11:15.003 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:15.003 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+16:11:25.022 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:13:13.226 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:13:23.602 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:13:23.603 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:13:23.776 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:13:24.522 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:13:24.522 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:13:26.956 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:13:26.957 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:13:27.148 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:13:27.148 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:13:27.273 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:13:27.274 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+16:13:31.208 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:13:31.209 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+16:13:33.700 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:14:38.675 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:14:48.730 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:14:48.730 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:14:48.879 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:14:49.133 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:14:49.133 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:14:50.431 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:14:50.432 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:14:50.556 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:14:50.556 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:14:50.703 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:14:50.710 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+16:14:50.710 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+16:14:56.501 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:14:56.502 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+16:14:57.385 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:01:57.435 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:02:07.478 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:02:07.478 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:02:07.663 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:02:07.894 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:02:07.894 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:02:09.536 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:02:09.536 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:02:09.728 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:02:09.729 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:02:09.898 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:02:09.903 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:02:09.903 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+17:02:12.778 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:02:12.778 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:02:55.155 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:06:38.121 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:06:48.211 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:06:48.211 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:06:48.469 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:06:48.690 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:06:48.691 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:06:50.075 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:06:50.076 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:06:50.249 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:06:50.249 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:06:50.407 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:06:50.411 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:06:50.411 INFO  utilities.GenericMethods -Waiting for a max: 20 sec for the element to be clickable
+17:07:16.522 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:07:16.523 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:07:46.540 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:27:07.169 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:27:17.231 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:27:17.231 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:27:17.439 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:27:17.687 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:27:17.688 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:27:19.185 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:27:19.186 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:27:19.356 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:27:19.356 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:27:19.548 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:27:19.553 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:27:19.554 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:27:43.194 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:27:43.194 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:28:13.246 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:30:07.094 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:30:17.151 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:30:17.151 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:30:17.353 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:30:17.574 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:30:17.575 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:30:18.964 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:30:18.964 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:30:19.131 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:30:19.131 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:30:19.331 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:30:19.336 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:30:19.336 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:30:42.179 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:30:42.180 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:31:12.235 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:51:38.599 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:51:49.009 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:51:49.010 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:51:49.539 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:51:50.177 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:51:50.178 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:51:51.857 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:51:51.858 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:51:52.046 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:51:52.046 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:51:52.337 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:51:52.403 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:51:52.403 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:51:55.306 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:51:58.696 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:51:58.697 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:51:59.181 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:52:05.359 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:52:05.359 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:52:05.570 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:52:05.819 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:52:05.819 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:52:07.119 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:52:07.119 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:52:07.339 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:52:07.340 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:52:07.517 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:52:07.523 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:52:07.523 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:52:10.259 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:52:10.260 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+17:52:40.330 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:02.532 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:21:07.501 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:21:13.597 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:21:13.598 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:21:13.985 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:14.474 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:14.474 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:16.169 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:16.170 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:21:16.370 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:21:16.371 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:21:16.568 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:16.588 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:21:16.588 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:17.593 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:21:17.593 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:21:17.995 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:18.384 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:18.385 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:20.159 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:20.160 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:21:20.367 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:21:20.367 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:21:20.586 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:20.591 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:21:20.591 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:23.699 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:23.700 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+18:21:25.967 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:34.670 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:34.671 INFO  utilities.GenericMethods -Waiting for a max: 60 sec for the element to be clickable
+18:22:04.719 ERROR utilities.GenericMethods -Element not clicked on the webpage

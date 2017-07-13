@@ -20,6 +20,15 @@
       <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeClass]]>
     </line>
     <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : startChat.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : startChat.beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : startChat.f]]>
+    </line>
+    <line>
       <![CDATA[onStart Test - About to begin executing Test set Firefox Browser]]>
     </line>
     <line>
@@ -47,21 +56,6 @@
       <![CDATA[afterIncovation - Completed executing following method : startChat.afterMethod]]>
     </line>
     <line>
-      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterClass]]>
-    </line>
-    <line>
-      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
-    </line>
-    <line>
-      <![CDATA[beforeInvocation - About to begin executing following method : startChat.beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[afterIncovation - Completed executing following method : startChat.beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[beforeInvocation - About to begin executing following method : startChat.f]]>
-    </line>
-    <line>
       <![CDATA[afterIncovation - Completed executing following method : startChat.f]]>
     </line>
     <line>
@@ -77,77 +71,31 @@
       <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
     </line>
     <line>
+      <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
+    </line>
+    <line>
       <![CDATA[beforeInvocation - About to begin executing following method : BaseTestSuite.afterSuite]]>
     </line>
     <line>
       <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="StartChat" duration-ms="83504" started-at="2017-07-11T12:47:21Z" finished-at="2017-07-11T12:48:44Z">
+  <suite name="StartChat" duration-ms="104659" started-at="2017-07-13T12:38:23Z" finished-at="2017-07-13T12:40:08Z">
     <groups>
     </groups>
-    <test name="Firefox Browser" duration-ms="65625" started-at="2017-07-11T12:47:21Z" finished-at="2017-07-11T12:48:26Z">
+    <test name="Chorme Browser" duration-ms="97299" started-at="2017-07-13T12:38:23Z" finished-at="2017-07-13T12:40:00Z">
       <class name="flockClient.startChat">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@29774679]" name="beforeClass" is-config="true" duration-ms="26882" started-at="2017-07-11T18:17:21Z" finished-at="2017-07-11T18:17:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@29774679]" name="beforeMethod" is-config="true" duration-ms="34637" started-at="2017-07-11T18:17:48Z" finished-at="2017-07-11T18:18:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[afterIncovation - Completed executing following method : startChat.beforeMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@29774679]" name="f" duration-ms="12" started-at="2017-07-11T18:18:22Z" finished-at="2017-07-11T18:18:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[beforeInvocation - About to begin executing following method : startChat.f]]>
-            </line>
-            <line>
-              <![CDATA[afterIncovation - Completed executing following method : startChat.f]]>
-            </line>
-            <line>
-              <![CDATA[beforeInvocation - About to begin executing following method : startChat.afterMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@29774679]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T18:18:22Z" finished-at="2017-07-11T18:18:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[afterIncovation - Completed executing following method : startChat.afterMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@29774679]" name="afterClass" is-config="true" duration-ms="4064" started-at="2017-07-11T18:18:22Z" finished-at="2017-07-11T18:18:26Z">
-          <reporter-output>
-            <line>
-              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- flockClient.startChat -->
-    </test> <!-- Firefox Browser -->
-    <test name="Chorme Browser" duration-ms="83504" started-at="2017-07-11T12:47:21Z" finished-at="2017-07-11T12:48:44Z">
-      <class name="flockClient.startChat">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2017-07-11T18:17:21Z" finished-at="2017-07-11T18:17:21Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2017-07-13T18:08:23Z" finished-at="2017-07-13T18:08:23Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeClass" is-config="true" duration-ms="24012" started-at="2017-07-11T18:17:21Z" finished-at="2017-07-11T18:17:45Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeClass" is-config="true" duration-ms="11553" started-at="2017-07-13T18:08:23Z" finished-at="2017-07-13T18:08:35Z">
           <params>
             <param index="0">
               <value>
@@ -161,14 +109,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeMethod" is-config="true" duration-ms="55471" started-at="2017-07-11T18:17:45Z" finished-at="2017-07-11T18:18:40Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeMethod" is-config="true" duration-ms="1216" started-at="2017-07-13T18:08:35Z" finished-at="2017-07-13T18:08:36Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : startChat.beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@57baeedf]" name="f" duration-ms="4" started-at="2017-07-11T18:18:40Z" finished-at="2017-07-11T18:18:40Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@57baeedf]" name="f" duration-ms="80310" started-at="2017-07-13T18:08:36Z" finished-at="2017-07-13T18:09:56Z">
           <reporter-output>
             <line>
               <![CDATA[beforeInvocation - About to begin executing following method : startChat.f]]>
@@ -181,21 +129,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-11T18:18:40Z" finished-at="2017-07-11T18:18:40Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-13T18:09:56Z" finished-at="2017-07-13T18:09:56Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : startChat.afterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterClass" is-config="true" duration-ms="3976" started-at="2017-07-11T18:18:40Z" finished-at="2017-07-11T18:18:44Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterClass" is-config="true" duration-ms="4185" started-at="2017-07-13T18:09:56Z" finished-at="2017-07-13T18:10:00Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-11T18:18:44Z" finished-at="2017-07-11T18:18:44Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-13T18:10:08Z" finished-at="2017-07-13T18:10:08Z">
           <reporter-output>
             <line>
               <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterSuite]]>
@@ -204,5 +152,57 @@
         </test-method> <!-- afterSuite -->
       </class> <!-- flockClient.startChat -->
     </test> <!-- Chorme Browser -->
+    <test name="Firefox Browser" duration-ms="104659" started-at="2017-07-13T12:38:23Z" finished-at="2017-07-13T12:40:08Z">
+      <class name="flockClient.startChat">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@29774679]" name="beforeClass" is-config="true" duration-ms="26213" started-at="2017-07-13T18:08:23Z" finished-at="2017-07-13T18:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@29774679]" name="f" duration-ms="40524" started-at="2017-07-13T18:08:49Z" finished-at="2017-07-13T18:09:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : startChat.f]]>
+            </line>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : startChat.f]]>
+            </line>
+            <line>
+              <![CDATA[beforeInvocation - About to begin executing following method : startChat.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@29774679]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-13T18:08:49Z" finished-at="2017-07-13T18:08:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : startChat.beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@29774679]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-13T18:09:30Z" finished-at="2017-07-13T18:09:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : startChat.afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@29774679]" name="afterClass" is-config="true" duration-ms="37907" started-at="2017-07-13T18:09:30Z" finished-at="2017-07-13T18:10:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[afterIncovation - Completed executing following method : BaseTestSuite.afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- flockClient.startChat -->
+    </test> <!-- Firefox Browser -->
   </suite> <!-- StartChat -->
 </testng-results>
