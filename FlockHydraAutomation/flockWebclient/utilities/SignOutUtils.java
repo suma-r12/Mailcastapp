@@ -13,8 +13,10 @@ public class SignOutUtils {
     }
     
     public void vanillaLogout(){
-    	gm.click(By.xpath("//div[@id='widgets_contact_Avatar_0']//div[@class='contact_avatar_name']"), 2);
-    	gm.click(By.xpath("//div[@id='shell_appMenu_AppMenuItem_10']//div[@text='Sign out']"), 2);
+    	gm.click(By.xpath("//div[@id='shell_appMenu_AppMenu_0']//div[@class='app_menu_icon']"), 2);
+		gm.click(By.xpath("//div[@id='shell_appMenu_AppMenuItem_10']"), 1);
+		gm.click(By.xpath("//div[@id='widgets_SignoutDialog_0']//button[@class='confirmDialogExecute btn btn--action']"), 1);
+		
     }
     
 

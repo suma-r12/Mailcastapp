@@ -2,51 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="StartChat" duration-ms="99369" started-at="2017-07-18T09:22:27Z" finished-at="2017-07-18T09:24:06Z">
+  <suite name="StartChat" duration-ms="94912" started-at="2017-07-18T13:30:16Z" finished-at="2017-07-18T13:31:51Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="96120" started-at="2017-07-18T09:22:27Z" finished-at="2017-07-18T09:24:03Z">
+    <test name="Firefox Browser" duration-ms="57902" started-at="2017-07-18T13:30:16Z" finished-at="2017-07-18T13:31:14Z">
       <class name="flockClient.startChat">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2017-07-18T14:52:27Z" finished-at="2017-07-18T14:52:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeClass" is-config="true" duration-ms="15053" started-at="2017-07-18T14:52:27Z" finished-at="2017-07-18T14:52:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeMethod" is-config="true" duration-ms="1403" started-at="2017-07-18T14:52:42Z" finished-at="2017-07-18T14:52:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@57baeedf]" name="f" duration-ms="75468" started-at="2017-07-18T14:52:43Z" finished-at="2017-07-18T14:53:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-07-18T14:53:59Z" finished-at="2017-07-18T14:53:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterClass" is-config="true" duration-ms="4126" started-at="2017-07-18T14:53:59Z" finished-at="2017-07-18T14:54:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-18T14:54:06Z" finished-at="2017-07-18T14:54:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- flockClient.startChat -->
-    </test> <!-- Chorme Browser -->
-    <test name="Firefox Browser" duration-ms="99369" started-at="2017-07-18T09:22:27Z" finished-at="2017-07-18T09:24:06Z">
-      <class name="flockClient.startChat">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@29774679]" name="beforeClass" is-config="true" duration-ms="39568" started-at="2017-07-18T14:52:27Z" finished-at="2017-07-18T14:53:06Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@29774679]" name="beforeClass" is-config="true" duration-ms="21634" started-at="2017-07-18T19:00:16Z" finished-at="2017-07-18T19:00:37Z">
           <params>
             <param index="0">
               <value>
@@ -57,23 +18,62 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@29774679]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T14:53:06Z" finished-at="2017-07-18T14:53:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@29774679]" name="f" duration-ms="29865" started-at="2017-07-18T14:53:06Z" finished-at="2017-07-18T14:53:36Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@29774679]" name="f" duration-ms="31759" started-at="2017-07-18T19:00:37Z" finished-at="2017-07-18T19:01:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@29774679]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-18T14:53:36Z" finished-at="2017-07-18T14:53:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@29774679]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:00:37Z" finished-at="2017-07-18T19:00:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@29774679]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:01:09Z" finished-at="2017-07-18T19:01:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@29774679]" name="afterClass" is-config="true" duration-ms="29902" started-at="2017-07-18T14:53:36Z" finished-at="2017-07-18T14:54:06Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@29774679]" name="afterClass" is-config="true" duration-ms="4489" started-at="2017-07-18T19:01:09Z" finished-at="2017-07-18T19:01:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- flockClient.startChat -->
     </test> <!-- Firefox Browser -->
+    <test name="Chorme Browser" duration-ms="94912" started-at="2017-07-18T13:30:16Z" finished-at="2017-07-18T13:31:51Z">
+      <class name="flockClient.startChat">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeSuite" is-config="true" duration-ms="23" started-at="2017-07-18T19:00:16Z" finished-at="2017-07-18T19:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeClass" is-config="true" duration-ms="10781" started-at="2017-07-18T19:00:16Z" finished-at="2017-07-18T19:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="beforeMethod" is-config="true" duration-ms="928" started-at="2017-07-18T19:00:27Z" finished-at="2017-07-18T19:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:flockClient.startChat@57baeedf]" name="f" duration-ms="79187" started-at="2017-07-18T19:00:27Z" finished-at="2017-07-18T19:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterClass" is-config="true" duration-ms="3982" started-at="2017-07-18T19:01:47Z" finished-at="2017-07-18T19:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-18T19:01:47Z" finished-at="2017-07-18T19:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.startChat@57baeedf]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-07-18T19:01:51Z" finished-at="2017-07-18T19:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- flockClient.startChat -->
+    </test> <!-- Chorme Browser -->
   </suite> <!-- StartChat -->
 </testng-results>

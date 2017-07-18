@@ -15,13 +15,13 @@ public class startChat extends BaseTestSuite{
 	
 	private GenericMethods gm;
 	private OnBoardingUtils onboard;
-	//private SignOutUtils signOut;
+	private SignOutUtils signOut;
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		gm = new GenericMethods(driver);
 		onboard = new OnBoardingUtils(driver);
-		//signOut = new SignOutUtils(driver);
+		signOut = new SignOutUtils(driver);
 		
 	
 	}
@@ -30,9 +30,9 @@ public class startChat extends BaseTestSuite{
 	public void f() throws Exception {
 		
 		onboard.setUpUserAccount();
-		Thread.sleep(2000);
-		System.out.println("Test");
-		gm.click(By.xpath("//div[@id='shell_appMenu_AppMenu_0']//div[@class='app_menu_icon']"), 2);
+		Thread.sleep(5000);
+		signOut.vanillaLogout();
+		
 		
 		
 	}
