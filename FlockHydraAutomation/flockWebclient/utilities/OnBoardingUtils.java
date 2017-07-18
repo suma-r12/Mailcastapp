@@ -42,7 +42,7 @@ public class OnBoardingUtils {
 
 	    public void handleLanguageAlert() {
 	        System.out.println("Inside handle language alert");
-	        gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 60);
+	        gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 10);
 	        try {
 	            Thread.sleep(15 * 1000);
 	        } catch (InterruptedException e) {

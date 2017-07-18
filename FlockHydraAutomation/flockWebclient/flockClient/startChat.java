@@ -32,6 +32,7 @@ public class startChat extends BaseTestSuite{
 		onboard.setUpUserAccount();
 		Thread.sleep(2000);
 		System.out.println("Test");
+		gm.click(By.xpath("//div[@id='shell_appMenu_AppMenu_0']//div[@class='app_menu_icon']"), 2);
 		
 		
 	}

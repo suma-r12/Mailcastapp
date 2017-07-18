@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="MultiBrowser" thread-count="4" parallel ="tests">
 <listeners>
-		<listener class-name="utilities.SeleniumListener">
+		<!-- <listener class-name="utilities.SeleniumListener"> -->
+		<listener class-name="utilities.CustomListeners">
 		</listener>
 	</listeners> 
     <test name="Firefox Browser">
