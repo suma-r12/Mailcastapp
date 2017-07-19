@@ -152,18 +152,18 @@ public class GenericMethods {
 		}
 	}
 
-	public boolean elementDisplayed(By Locator) {
+	public boolean elementDisplayed(By Locator, String elementName) {
 		WebElement element = driver.findElement(Locator);
 		if (element.getSize() != null) {
-			log.info("The element at loction: " + Locator + " is displayed");
+			log.info("The "+elementName+" element at loction: " + Locator + " is displayed");
 			return true;
 		} else {
-			log.error("The element at loction: " + Locator + " is displayed");
+			log.error("The "+elementName+" element at loction: " + Locator + " is displayed");
 			return false;
 		}
 	}
 
-	public boolean elementIsDisplayed(By locator) {
+	/*public boolean elementIsDisplayed(By locator) {
 		boolean display = driver.findElement(locator).isDisplayed();
 		if (display) {
 			log.info("The element: " + locator + " is displayed.");
@@ -172,7 +172,7 @@ public class GenericMethods {
 			log.error("The element: " + locator + " is NOT displayed.");
 			return false;
 		}
-	}
+	}*/
 
 	public void navigateBack() {
 		driver.navigate().back();

@@ -4,6 +4,22 @@
   <listeners>
     <listener class-name="utilities.SeleniumListener"/>
   </listeners>
+  <test name="Firefox Browser(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="flockClient.startChat">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="afterSuite"/>
+          <include name="testMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- flockClient.startChat -->
+    </classes>
+  </test> <!-- Firefox Browser(failed) -->
   <test name="Chorme Browser(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
@@ -13,9 +29,9 @@
           <include name="afterMethod"/>
           <include name="afterClass"/>
           <include name="afterSuite"/>
+          <include name="testMethod"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="f"/>
         </methods>
       </class> <!-- flockClient.startChat -->
     </classes>

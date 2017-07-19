@@ -18,7 +18,7 @@ public class OnBoardingUtils {
 	    /**
 	     * Will login directly to a test account
 	     */
-	    public void vanillaLogin() {
+	    public void flockSignIn() {
 	        gm.SwitchToiFrameNo(0);
 	        WebElement element = gm.getElement("//input[@placeholder='Enter your work email']", "xpath");
 	        element.sendKeys(DefaultStrings.DIRECTI_TESTER_002_Email);
@@ -33,7 +33,7 @@ public class OnBoardingUtils {
 	    public void setUpUserAccount() {
 	        if (!gm.isElementPresent("//*[@id=\"globalButtonApps\"]/div[1]", "xpath")) {
 	            System.out.println("App not logged in. Try logging in default test account.");
-	            vanillaLogin();
+	            flockSignIn();
 	        } else {
 	            System.out.println("App user already logged in. Continue with tests as it is");
 	        }
@@ -43,11 +43,6 @@ public class OnBoardingUtils {
 	    public void handleLanguageAlert() {
 	        System.out.println("Inside handle language alert");
 	        gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 10);
-	        try {
-	            Thread.sleep(15 * 1000);
-	        } catch (InterruptedException e) {
-	            e.printStackTrace();
-	        }
 	    }
 
 }

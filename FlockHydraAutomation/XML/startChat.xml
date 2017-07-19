@@ -2,7 +2,7 @@
 <suite name="StartChat" thread-count="2" parallel ="tests">
 <listeners>
 		<!-- <listener class-name="utilities.SeleniumListener"> -->
-		<listener class-name="utilities.CustomListeners">
+		<listener class-name="utilities.SeleniumListener">
 		</listener>
 	</listeners> 
      <test name="Firefox Browser">

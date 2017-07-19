@@ -20,29 +20,35 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 	// Belongs to ISuiteListener - it executes before Suite start
 		@Override
 		public void onStart(ISuite arg0) {
-			Reporter.log("onStart Suite - About to begin executing Suite " + arg0.getName(), true);
+			Reporter.log("Starting the Suite (onStart Suite): " + arg0.getName(), true);
 		}
 
 		// Belongs to ISuiteListener - it executes once the Suite is finished
 		@Override
 		public void onFinish(ISuite arg0) {
-			Reporter.log("onFinish Suite - About to end executing Suite " + arg0.getName(), true);
+			Reporter.log("Completed the Suite (onFinish Suite): " + arg0.getName(), true);
 		}
 
 		// Belongs to ITestListener - it executes before starting of set of Tests
 		public void onStart(ITestContext arg0) {
-			Reporter.log("onStart Test - About to begin executing Test set " + arg0.getName(), true);
+			Reporter.log("Starting <test> tag with name(onStart Test): " + arg0.getName(), true);
+			ITestNGMethod methods[] = arg0.getAllTestMethods();
+			Reporter.log("The following methods from the <test> tag will be executed: ");
+			for (ITestNGMethod method : methods) {
+				Reporter.log(method.getMethodName(), true);
+			}
 		}
 
 		// Belongs to ITestListener - it executes once set of Tests is finished
 		public void onFinish(ITestContext arg0) {
-			Reporter.log("onFinish Test - Completed executing Test set " + arg0.getName(), true);
+			Reporter.log("Completed the Suite (onFinish Test): " + arg0.getName(), true);
 		}
 
 		// Belongs to ITestListener - it executes only when the test is pass
 		public void onTestSuccess(ITestResult arg0) {
 			// This is calling the printTestResults method
-			Object currentClass = arg0.getInstance();
+			Reporter.log("Successful Test (onTestSuccess): " + arg0.getName(), true);
+			/*Object currentClass = arg0.getInstance();
 	        WebDriver driver = ((SignIn.FlockSignInDetailed)currentClass).getDriver();
 
 			try {
@@ -50,14 +56,15 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			printTestResults(arg0);
+			printTestResults(arg0);*/
 		}
 
 		// Belongs to ITestListener - it executes only when the test fail
 		// (@Test)
 		public void onTestFailure(ITestResult arg0) {
 			// This is calling the printTestResults method
-			Object currentClass = arg0.getInstance();
+			Reporter.log("Failed Test (onTestFailure): " + arg0.getName(), true);
+			/*Object currentClass = arg0.getInstance();
 	        WebDriver driver = ((SignIn.FlockSignInDetailed)currentClass).getDriver();
 	        
 			try {
@@ -65,17 +72,18 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			printTestResults(arg0);
+			printTestResults(arg0);*/
 		}
 
 		// Belongs to ITestListener - it executes before the test (@Test) start
 		public void onTestStart(ITestResult arg0) {
-			System.out.println("onTestStart - The execution of the main test starts now");
+			Reporter.log("Starting Test (onTestStart): " + arg0.getName(), true);
+			//System.out.println("onTestStart - The execution of the main test starts now");
 		}
 
 		// Belongs to ITestListener - it executes only if test (@Test) is skipped
 		public void onTestSkipped(ITestResult arg0) {
-			printTestResults(arg0);
+			Reporter.log("Skipped Test (onTestSkipped): " + arg0.getName(), true);
 		}
 
 		// This is the method which will be executed in case of test pass or fail
@@ -101,16 +109,14 @@ public class SeleniumListener implements ITestListener, ISuiteListener, IInvoked
 		// Belongs to IInvokedMethodListener - it executes before every
 		// method including @Before @After @Test
 		public void beforeInvocation(IInvokedMethod arg0, ITestResult arg1) {
-			String textMsg = "beforeInvocation - About to begin executing following method : "
-					+ returnMethodName(arg0.getTestMethod());
+			String textMsg = "About to begin executing following method (beforeInvocation): " + arg1.getTestClass().getName() + " => " + arg0.getTestMethod().getMethodName();
 			Reporter.log(textMsg, true);
 		}
 
 		// Belongs to IInvokedMethodListener - it executes after every
 		// method including @Before @After @Test
 		public void afterInvocation(IInvokedMethod arg0, ITestResult arg1) {
-			String textMsg = "afterIncovation - Completed executing following method : "
-					+ returnMethodName(arg0.getTestMethod());
+			String textMsg = "Finished executing the following method (afterInvocation): " + arg1.getTestClass().getName() + " => " + arg0.getTestMethod().getMethodName();
 			Reporter.log(textMsg, true);
 		}
 
