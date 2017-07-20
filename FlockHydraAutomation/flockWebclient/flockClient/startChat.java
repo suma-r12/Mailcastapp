@@ -28,36 +28,31 @@ public class startChat extends BaseTestSuite{
 	@Test
 	public void testMethod() throws Exception {
 		
-		onboard.setUpUserAccount();
 		Thread.sleep(5000);
 		gm.elementDisplayed(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), "Univerl-Search-Plus-Icon");
 		gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);
 		Thread.sleep(2000);
 		boolean universalSearchInviteButton = gm.isElementPresent("//table[@id='widgets_Menu_0']", "xpath");
 		if(universalSearchInviteButton){
-			boolean option1 = gm.isElementPresent("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]", "xpath");
+			boolean option1 = gm.isElementPresent("//table[@id='widgets_Menu_0']", "xpath");
 			System.out.println(option1);
 			//if(option1){
-				gm.elementDisplayed(By.xpath("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[@class='plus-item__icon group']"), "Create-Channel-icon");
-				gm.elementDisplayed(By.xpath("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[@class='plus-item__label']"), "Create-Channel-label");
-				gm.getText(By.xpath("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[@class='plus-item__label']"));
-				gm.elementDisplayed(By.xpath("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[@class='plus-item__sublabel']"), "Create-Channel-sublabel");
-				gm.getText(By.xpath("//div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[@class='plus-item__sublabel']"));
+				gm.elementDisplayed(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[1]"), "Create-Channel-icon");
+				gm.elementDisplayed(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label']"), "Create-Channel-label");
+				gm.getText(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label']"));
+				gm.elementDisplayed(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel']"), "Create-Channel-sublabel");
+				gm.getText(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel']"));
 				
-			/*}else{
+			}else{
 				System.out.println("If loop was not exeeccuted");
-			}*/
+			}
 		}
 	
-		
-		
-		
-	}
 
 	@AfterMethod
 	public void afterMethod() throws Exception {
 		signOut.vanillaLogout();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 	}
 
 }

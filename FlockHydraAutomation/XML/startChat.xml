@@ -11,7 +11,7 @@
 			<class name="flockClient.startChat">
 			</class>
 		</classes>
-	</test>  
+	</test> 
 	 <test name="Chorme Browser">
 		<parameter name="browser" value="chrome" />
 		<classes>

@@ -1,0 +1,435 @@
+11:52:47.471 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+11:52:57.622 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+11:52:57.622 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+11:52:57.911 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+11:52:58.302 INFO  utilities.GenericMethods -Element clicked on the webpage
+11:52:58.303 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+11:52:59.714 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+11:53:00.428 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+11:53:00.675 INFO  utilities.GenericMethods -Element clicked on the webpage
+11:53:00.676 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+11:53:01.274 INFO  utilities.GenericMethods -Value Entered in the place holder
+11:53:01.275 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+11:53:01.841 INFO  utilities.GenericMethods -Element clicked on the webpage
+11:53:01.853 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+11:53:01.853 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+11:53:10.708 ERROR utilities.GenericMethods -Element not clicked on the webpage
+11:53:25.448 ERROR utilities.GenericMethods -Element not clicked on the webpage
+11:53:25.449 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+11:53:30.823 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+11:53:30.903 INFO  utilities.GenericMethods -The element: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed.
+11:53:30.903 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+11:53:31.272 INFO  utilities.GenericMethods -Element clicked on the webpage
+11:53:55.498 ERROR utilities.GenericMethods -Element not clicked on the webpage
+11:54:15.538 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+11:54:15.577 INFO  utilities.GenericMethods -The element: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed.
+11:54:15.577 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+11:54:15.763 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:04.443 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:11:05.699 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:11:06.347 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+16:11:14.528 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:11:14.528 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:11:14.752 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:11:15.020 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:15.020 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:11:16.548 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:11:17.208 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:17.208 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:11:17.434 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:11:17.434 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:11:17.752 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:11:17.760 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+16:11:17.760 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:11:31.564 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:11:31.587 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+16:11:41.051 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:11:41.052 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+16:11:41.607 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:12:02.973 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+16:12:03.512 INFO  utilities.GenericMethods -The element: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed.
+16:12:03.513 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:12:04.615 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:12:06.616 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+16:12:11.179 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:12:26.188 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:12:26.234 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+16:12:56.295 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:13:16.363 INFO  utilities.GenericMethods -The element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+16:13:16.442 INFO  utilities.GenericMethods -The element: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed.
+16:13:16.443 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:13:16.708 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:13:18.709 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:38:07.845 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:38:17.952 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:38:17.952 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:38:18.193 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:38:18.453 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:38:18.453 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:38:21.685 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:38:21.686 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:38:21.936 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:38:21.936 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:38:22.202 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:38:22.211 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:38:22.211 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:38:27.575 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:38:27.831 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:38:37.891 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:38:39.245 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:38:39.246 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:38:52.912 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:38:52.945 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:39:02.966 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:39:09.290 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:39:23.076 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:39:23.101 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:39:23.101 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:39:23.480 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:39:24.294 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:39:24.328 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:39:25.481 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:39:25.498 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:39:54.394 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:40:14.434 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:40:14.454 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:40:14.454 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:40:14.630 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:40:16.631 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:40:16.658 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:47:32.169 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:47:42.320 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:47:42.320 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:47:43.036 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:47:43.584 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:47:43.584 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:47:46.087 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:47:46.087 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:47:46.675 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:47:46.676 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:47:47.098 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:47:47.103 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:47:47.103 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:47:47.481 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:47:47.616 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:47:57.679 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:48:01.797 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:48:01.797 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:48:12.689 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:48:12.704 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:48:22.734 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:48:31.833 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:48:42.841 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:48:42.865 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:48:42.865 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:48:43.243 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:48:45.244 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:48:45.281 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:48:46.837 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:48:46.868 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:49:16.893 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:49:36.940 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:49:36.962 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:49:36.962 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:49:37.165 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:49:39.166 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:49:39.187 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:53:30.871 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:53:40.989 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:53:40.989 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:53:42.365 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:53:42.714 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:53:42.714 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:53:44.734 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:53:44.734 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:53:45.061 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:53:45.061 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:53:45.373 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:53:45.379 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:53:45.379 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:53:46.264 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:53:48.516 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:53:56.613 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:53:56.614 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:53:58.574 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:54:13.579 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:54:13.590 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:54:23.618 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:54:26.658 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:54:41.669 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:54:41.730 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:54:43.694 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:54:43.724 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:54:43.724 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:54:44.106 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:54:46.106 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:54:46.120 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:55:11.772 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:55:31.807 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:55:31.826 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:55:31.826 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:55:31.973 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:55:33.974 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:55:33.996 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:57:52.409 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:58:02.606 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+17:58:02.606 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+17:58:03.296 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:58:03.659 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:58:03.659 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:58:05.643 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:58:05.643 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+17:58:05.923 INFO  utilities.GenericMethods -Value Entered in the place holder
+17:58:05.923 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:58:06.211 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:58:06.218 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+17:58:06.218 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+17:58:10.020 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:58:10.430 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:58:16.953 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:58:16.953 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:58:20.464 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:58:35.483 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:58:35.504 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:58:45.611 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:58:47.005 ERROR utilities.GenericMethods -Element not clicked on the webpage
+17:59:02.016 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+17:59:02.073 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+17:59:05.693 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:59:05.718 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+17:59:05.718 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+17:59:06.108 INFO  utilities.GenericMethods -Element clicked on the webpage
+17:59:08.108 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+17:59:08.121 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+17:59:32.124 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:00:06.231 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:00:16.470 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:00:16.470 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:00:17.312 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:00:17.698 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:00:17.699 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:00:19.520 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:00:19.521 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:00:19.823 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:00:19.824 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:00:20.135 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:00:20.145 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:00:20.145 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:00:21.215 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:00:23.490 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:00:31.422 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:00:31.422 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:00:33.674 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:00:48.682 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:00:48.696 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:00:58.716 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:01:01.450 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:01:16.454 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:01:16.481 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:01:18.807 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:01:18.837 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:01:18.837 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:01:19.221 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:01:21.222 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:01:21.237 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:01:46.517 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:02:06.588 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:02:06.609 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:02:06.609 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:02:06.768 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:02:08.768 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:02:08.839 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:03:33.941 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:03:44.038 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:03:44.038 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:03:44.869 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:03:45.630 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:03:45.630 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:03:47.434 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:03:47.434 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:03:47.809 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:03:47.810 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:03:48.203 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:03:48.213 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:03:48.213 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:03:52.068 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:03:52.501 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:03:59.345 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:03:59.346 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:04:02.525 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:04:17.546 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:04:17.568 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:04:27.583 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:04:29.414 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:04:44.417 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:04:44.440 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:04:47.661 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:04:47.687 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:04:47.688 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:04:48.062 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:04:50.063 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:04:50.085 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:05:00.105 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:05:00.507 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:05:00.507 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:05:00.884 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:05:00.884 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:05:01.261 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:05:14.509 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:05:34.577 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:05:34.596 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:05:34.596 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:05:34.758 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:05:36.760 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:05:36.799 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:06:06.866 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:06:07.058 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:06:07.059 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:06:07.260 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:06:07.260 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:06:07.480 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:07:53.651 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:08:03.804 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:08:03.804 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:08:04.167 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:08:04.526 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:08:04.526 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:08:06.508 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:08:06.509 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:08:06.802 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:08:06.802 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:08:07.121 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:08:07.126 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:08:07.127 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:08:10.983 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:08:11.042 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:08:19.491 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:08:19.492 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:08:21.063 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:08:36.071 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:08:36.089 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:08:46.110 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:08:49.570 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:09:04.576 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:09:04.615 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:09:06.197 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:09:06.221 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:09:06.221 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:09:06.572 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:09:08.573 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:09:08.586 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:09:18.602 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:09:19.044 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:09:19.044 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:09:19.408 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:09:19.409 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:09:19.816 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:09:34.643 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:09:54.703 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:09:54.723 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:09:54.724 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:09:54.869 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:09:56.870 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:09:56.922 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:10:26.987 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:10:27.162 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:10:27.162 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:10:27.331 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:10:27.332 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:10:27.548 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:13:32.417 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:13:42.510 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:13:42.511 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:13:42.797 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:13:43.097 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:13:43.097 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:13:45.579 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:13:45.579 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:13:45.912 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:13:45.912 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:13:46.180 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:13:46.193 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:13:46.193 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:13:52.086 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:13:52.532 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:13:57.939 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:13:57.939 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:14:02.615 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:14:17.621 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:14:17.639 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:14:27.655 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:14:28.005 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:14:43.016 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:14:43.063 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:14:47.759 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:14:47.791 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:14:47.791 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:14:48.145 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:14:50.145 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:15:00.213 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:15:00.591 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:15:00.591 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:15:00.987 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:15:00.987 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:15:01.406 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:15:13.115 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:15:33.178 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:15:33.205 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:15:33.205 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:15:33.361 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:15:35.362 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:16:05.486 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:16:05.682 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:16:05.683 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:16:05.850 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:16:05.851 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:16:06.053 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:11.861 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:21:21.941 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+18:21:21.942 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+18:21:22.357 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:23.761 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:23.761 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:25.895 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:25.895 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+18:21:26.186 INFO  utilities.GenericMethods -Value Entered in the place holder
+18:21:26.186 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:21:26.587 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:21:26.609 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+18:21:26.609 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:21:29.963 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:21:30.434 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:21:36.102 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:36.102 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:21:40.446 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:21:55.455 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:21:55.471 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:22:05.526 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:22:07.045 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:22:22.053 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+18:22:22.101 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+18:22:25.629 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:22:25.651 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:22:25.651 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:22:25.988 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:22:27.989 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:22:28.030 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:22:48.127 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:22:48.469 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:22:48.469 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:22:48.888 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:22:48.889 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:22:49.262 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:22:52.151 ERROR utilities.GenericMethods -Element not clicked on the webpage
+18:23:12.193 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:23:12.217 INFO  utilities.GenericMethods -The null element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+18:23:12.217 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:23:12.422 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:23:14.423 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+18:23:14.457 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__WidgetsInTemplateMixin_2']/td[2]
+18:24:14.529 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+18:24:14.727 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:24:14.727 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:24:14.906 INFO  utilities.GenericMethods -Element clicked on the webpage
+18:24:14.907 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+18:24:15.118 INFO  utilities.GenericMethods -Element clicked on the webpage

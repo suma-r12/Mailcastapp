@@ -38,11 +38,23 @@ public class OnBoardingUtils {
 	            System.out.println("App user already logged in. Continue with tests as it is");
 	        }
 	        handleLanguageAlert();
+	        skipFeatureTour();
 	    }
 
 	    public void handleLanguageAlert() {
 	        System.out.println("Inside handle language alert");
 	        gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 10);
+	    }
+	    
+	    public void skipFeatureTour(){
+	    	gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);
+	    	gm.waitForElement(By.xpath("//div[@id='dijit__Templated_34']"), 12);
+	    	if(gm.isElementPresent("//div[@id='dijit__Templated_34']", "xpath")){
+	    		System.out.println("Clicking on Feature Tour Skip");
+	    		gm.click(By.xpath("//div[@id='dijit__Templated_34']//span[@class='fcSkipButtonText']"), 12);
+	    	}else{
+	    		System.out.println("Feature tour not displayed");
+	    	}
 	    }
 
 }
