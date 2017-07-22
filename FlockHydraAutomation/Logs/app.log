@@ -52,3 +52,57 @@
 16:31:09.841 INFO  utilities.GenericMethods -Element clicked on the webpage
 16:31:09.841 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
 16:31:10.042 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:53:51.509 INFO  utilities.GenericMethods -Element found with xpath: //*[@id="globalButtonApps"]/div[1]
+16:54:01.586 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+16:54:01.586 INFO  utilities.GenericMethods -Element found with xpath: //input[@placeholder='Enter your work email']
+16:54:01.817 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:54:02.086 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:54:02.087 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:54:06.898 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:54:06.899 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+16:54:07.044 INFO  utilities.GenericMethods -Value Entered in the place holder
+16:54:07.045 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:54:07.226 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:54:07.233 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+16:54:07.233 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:54:22.672 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:54:22.672 INFO  utilities.GenericMethods -Waiting for a max: 10 sec for the element to be clickable
+16:54:52.693 ERROR utilities.GenericMethods -Element not clicked on the webpage
+16:54:52.693 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:54:52.995 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:54:52.995 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to appear
+16:54:58.173 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+16:54:58.174 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__Templated_34']
+16:54:58.196 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to be clickable
+16:54:58.387 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:55:03.488 INFO  utilities.GenericMethods -The Univerl-Search-Plus-Icon element at loction: By.xpath: //div[@id='shell_plus_PlusWidget_0'] is displayed
+16:55:03.489 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:03.634 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:55:05.636 INFO  utilities.GenericMethods -Element found with xpath: //table[@id='widgets_Menu_0']
+16:55:05.787 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[1] is displayed
+16:55:05.822 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label'] is displayed
+16:55:05.846 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label'] is Create a new channel
+16:55:05.895 INFO  utilities.GenericMethods -The text: Create a new channel displayed is correct
+16:55:05.934 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is displayed
+16:55:05.959 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is For your projects or topics
+16:55:05.994 INFO  utilities.GenericMethods -The text: For your projects or topics displayed is correct
+16:55:06.023 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']/td[2]/div[1] is displayed
+16:55:06.053 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is displayed
+16:55:06.074 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is Join Public Channels (1)
+16:55:06.107 ERROR utilities.GenericMethods -The text: Join Public Channels (1) displayed is not correct
+16:55:06.125 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is displayed
+16:55:06.144 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is For your projects or topics
+16:55:06.165 ERROR utilities.GenericMethods -The text: For your projects or topics displayed is not correct
+16:55:06.194 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']/td[2]/div[1] is displayed
+16:55:06.225 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is displayed
+16:55:06.244 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is Invite contacts
+16:55:06.276 INFO  utilities.GenericMethods -The text: Invite contacts displayed is correct
+16:55:06.307 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is displayed
+16:55:06.327 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is Add members to your team
+16:55:06.360 INFO  utilities.GenericMethods -The text: Add members to your team displayed is correct
+16:55:06.362 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+16:55:06.557 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:55:06.558 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:06.721 INFO  utilities.GenericMethods -Element clicked on the webpage
+16:55:06.721 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+16:55:06.958 INFO  utilities.GenericMethods -Element clicked on the webpage

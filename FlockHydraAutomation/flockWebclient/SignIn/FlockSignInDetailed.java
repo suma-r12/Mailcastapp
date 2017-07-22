@@ -64,7 +64,7 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.waitForElement(By.xpath("//div[@id='uniqName_15_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h2"), "EmailPage-Header");
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h2"));
-		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h2"));
+		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h2"), "Get started with Flock");
 	}
 	
 	@Test(priority = 3)//check all elements from the contact support blurb
@@ -72,42 +72,42 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		
 		gm.elementDisplayed(By.xpath("//span[@class='feedbackLinkSpan']"), "ContactSupport-Footer");
 		gm.getText(By.xpath("//span[@class='feedbackLinkSpan']"));
-		gm.compareText(By.xpath("//span[@class='feedbackLinkSpan']"));
+		gm.compareText(By.xpath("//span[@class='feedbackLinkSpan']"), "Contact Support");
 		gm.click(By.xpath("//span[@class='feedbackLinkSpan']"), 2);
 		
 		gm.elementDisplayed(By.xpath("//div[@class='title']"), "ContactSupportModal-Header");
 		gm.getText(By.xpath("//div[@class='title']"));
-		gm.compareText(By.xpath("//div[@class='title']"));
+		gm.compareText(By.xpath("//div[@class='title']"), "How can we help you today?");
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"), "ContactSupportModal-EmailHeader");
 		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[1]/label"), "Email");
 		
 		gm.elementDisplayed(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"), "ContactSupportModal-NameHeader");
 		gm.getText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"));
-		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"));
+		gm.compareText(By.xpath("//div[@id='widgets_Dialog_0']//div[2]/div[2]/div[2]/label"), "Name");
 		
 		gm.elementDisplayed(By.xpath("//input[@placeholder='example@domain.com']"), "ContactSupportModal-EmailField");
 		gm.getText(By.xpath("//input[@placeholder='example@domain.com']"));
-		gm.compareText(By.xpath("//input[@placeholder='example@domain.com']"));
+		gm.compareText(By.xpath("//input[@placeholder='example@domain.com']"), "example@domain.com");
 		gm.SendKey(By.xpath("//input[@placeholder='example@domain.com']"), 2, "Test@mailinator.com");
 		
 		gm.elementDisplayed(By.xpath("//input[@placeholder='Enter your name']"), "ContactSupportModal-NameField");
 		gm.getText(By.xpath("//input[@placeholder='Enter your name']"));
-		gm.compareText(By.xpath("//input[@placeholder='Enter your name']"));
+		gm.compareText(By.xpath("//input[@placeholder='Enter your name']"), "Enter your name");
 		gm.SendKey(By.xpath("//input[@placeholder='Enter your name']"), 2, "Test Automator");
 		
 		gm.radioButtonIterate(By.xpath("//div[@id='widgets_Dialog_0']//input[@type='radio']"));
 		
 		gm.elementDisplayed(By.xpath("//textarea[@class='input']"), "ContactSupportModal-DescriptionField");
 		gm.getText(By.xpath("//textarea[@class='input']"));
-		gm.compareText(By.xpath("//textarea[@class='input']"));
+		gm.compareText(By.xpath("//textarea[@class='input']"), "Describe the issue and tell us a bit about your team for us to help better.");
 		gm.SendKey(By.xpath("//textarea[@class='input']"), 2, "Test Message in the body");
 		
 		gm.elementDisplayed(By.xpath("//span[@class='attachFileLogo']"), "ContactSupportModal-LogAttachLogo");
 		gm.elementDisplayed(By.xpath("//span[@class='uploadMessage']"), "ContactSupportModal-LogAttachMessage");
 		gm.getText(By.xpath("//span[@class='uploadMessage']"));
-		gm.compareText(By.xpath("//span[@class='uploadMessage']"));
+		gm.compareText(By.xpath("//span[@class='uploadMessage']"), "Log file attached");
 		
 		gm.clearField(By.xpath("//input[@placeholder='example@domain.com']"));
 		gm.clearField(By.xpath("//input[@placeholder='Enter your name']"));
@@ -115,20 +115,20 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		
 		gm.elementDisplayed(By.xpath("//button[@class='btn btn--action btn--reportBug']"), "ContactSupportModal-SendRequestButton");
 		gm.getText(By.xpath("//button[@class='btn btn--action btn--reportBug']"));
-		gm.compareText(By.xpath("//button[@class='btn btn--action btn--reportBug']"));
+		gm.compareText(By.xpath("//button[@class='btn btn--action btn--reportBug']"), "Send Request");
 		gm.click(By.xpath("//button[@class='btn btn--action btn--reportBug']"), 2);
 		
 		Thread.sleep(3000);
 		gm.elementDisplayed(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"), "ContactSupportModal-EmailError");
 		gm.getText(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"));
-		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"));
+		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_enteredEmailError']"), "Please enter your email address");
 		gm.elementDisplayed(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"), "ContactSupportModal-DescriptionError");
 		gm.getText(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"));
-		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"));
+		gm.compareText(By.xpath("//div[@data-dojo-attach-point='_descriptionError']"), "Please describe your issue");
 		
 		gm.elementDisplayed(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"), "ContactSupportModal-CancelButton");
 		gm.getText(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"));
-		gm.compareText(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"));
+		gm.compareText(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"), "Cancel");
 		gm.click(By.xpath("//button[@class='btn btn--action btn--cancel btn--reportBug']"), 2);
 
 	}
@@ -137,21 +137,21 @@ public class FlockSignInDetailed extends BaseTestSuite {
 	public void subHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_15_0']//h5"), "EmailPage-SubHeader");
 		gm.getText(By.xpath("//div[@id='uniqName_15_0']//h5"));
-		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h5"));
+		gm.compareText(By.xpath("//div[@id='uniqName_15_0']//h5"), "Enter your official email address to continue");
 	}
 	
 	@Test(priority = 5) //email place holder
 	public void emailPlaceHolder(){
 		gm.elementDisplayed(By.xpath("//input[@class='input']"), "EnterEmailField");
 		gm.getText(By.xpath("//input[@class='input']"));
-		gm.compareText(By.xpath("//input[@class='input']"));
+		gm.compareText(By.xpath("//input[@class='input']"), "Enter your work email");
 	}
 	
 	@Test(priority = 6) //login Button
 	public void loginButton(){
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"), "LoginButton");
 		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
-		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));	
+		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"), "Login or Create a Team");	
 	}
 	
 	@Test(priority = 7) //onboarding side bar
@@ -180,35 +180,35 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.waitForElement(By.xpath("//div[@id='uniqName_17_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_17_0']//h2"), "GoogleAuthPageHeader");
 		gm.getText(By.xpath("//div[@id='uniqName_17_0']//h2"));
-		gm.compareText(By.xpath("//div[@id='uniqName_17_0']//h2"));
+		gm.compareText(By.xpath("//div[@id='uniqName_17_0']//h2"), "directi.com uses Google apps");
 	}
 	
 	@Test(priority = 11)
 	public void googleAuthSubHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_17_0']//h5"), "GoogleAuthPageSubHeader");
 		gm.getText(By.xpath("//div[@id='uniqName_17_0']//h5"));
-		gm.compareText(By.xpath("//div[@id='uniqName_17_0']//h5"));
+		gm.compareText(By.xpath("//div[@id='uniqName_17_0']//h5"), "Connect with your Google account ");
 	}
 	
 	@Test(priority = 11)
 	public void googleAuthButton(){
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--block btn--google']"), "SignInWithGoogleButton");
 		gm.getText(By.xpath("//a[@class='btn btn--block btn--google']"));
-		gm.compareText(By.xpath("//a[@class='btn btn--block btn--google']"));
+		gm.compareText(By.xpath("//a[@class='btn btn--block btn--google']"), "Sign in with Google");
 	}
 	
 	@Test(priority = 11)
 	public void googleAuthSkipButton(){
 		gm.elementDisplayed(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"), "SkipGoogleAuthButton");
 		gm.getText(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"));
-		gm.compareText(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"));
+		gm.compareText(By.xpath("//a[@data-dojo-attach-event='onclick: _skipOAuth']"), "Skip this step");
 	}
 	
 	@Test(priority = 12)
 	public void googleAuthNote(){
 		gm.elementDisplayed(By.xpath("//div[@class='google-auth-blurb']"), "GoogleAuthNote");
 		gm.getText(By.xpath("//div[@class='google-auth-blurb']"));
-		gm.compareText(By.xpath("//div[@class='google-auth-blurb']"));
+		gm.compareText(By.xpath("//div[@class='google-auth-blurb']"), "Why sign in with Google?");
 	}
 	
 	@Test(priority =13)
@@ -222,35 +222,35 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.waitForElement(By.xpath("//div[@id='uniqName_16_0']//h2"), 10);
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//h2"), "OtpPageHeader");
 		gm.getText(By.xpath("//div[@id='uniqName_16_0']//h2"));
-		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h2"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h2"), "Please verify your email");
 	}
 	
 	@Test(priority = 15)
 	public void otpSubHeading(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//h5"), "OtpPageSubHeader");
 		gm.getText(By.xpath("//div[@id='uniqName_16_0']//h5"));
-		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h5"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//h5"), "We've sent you a six digit verification PIN at");
 	}
 	
 	@Test(priority = 16)
 	public void otpPlaceHolder(){
 		gm.elementDisplayed(By.xpath("//input[@class='input']"), "OtpInputField");
 		gm.getText(By.xpath("//input[@class='input']"));
-		gm.compareText(By.xpath("//input[@class='input']"));
+		gm.compareText(By.xpath("//input[@class='input']"), "Enter verification PIN");
 	}
 	
 	@Test(priority = 17)
 	public void resendOtpText(){
 		gm.elementDisplayed(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"), "ResendOtpText");
 		gm.getText(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"));
-		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"));
+		gm.compareText(By.xpath("//div[@id='uniqName_16_0']//div[2]/span"), "Didn't receive the pin?");
 	}
 	
 	@Test(priority = 18)
 	public void resendOtpHook(){
 		gm.elementDisplayed(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"), "ResendOtpButton");
 		gm.getText(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"));
-		gm.compareText(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"));
+		gm.compareText(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"), "Resend PIN");
 	}
 	
 	@Test(priority =19)
@@ -258,21 +258,21 @@ public class FlockSignInDetailed extends BaseTestSuite {
 		gm.click(By.xpath("//a[@data-dojo-attach-event='onclick: _resend']"), 2);
 		gm.elementDisplayed(By.xpath("//div[@class='resend-status']"), "ResendOtpSucessMessage");
 		gm.getText(By.xpath("//div[@class='resend-status']"));
-		gm.compareText(By.xpath("//div[@class='resend-status']"));
+		gm.compareText(By.xpath("//div[@class='resend-status']"), "PIN sent successfully");
 	}
 	
 	@Test(priority = 20)
 	public void verifyButton(){
 		gm.elementDisplayed(By.xpath("//a[@class='btn btn--action btn--block']"), "VerifyButton");
 		gm.getText(By.xpath("//a[@class='btn btn--action btn--block']"));
-		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"));
+		gm.compareText(By.xpath("//a[@class='btn btn--action btn--block']"), "Verify");
 	}
 	
 	@Test(priority = 20)
 	public void checkEditButton() throws Exception{
 		gm.elementDisplayed(By.xpath("//a[@data-dojo-attach-point='backLink']"), "EmailEditButton");
 		gm.getText(By.xpath("//a[@data-dojo-attach-point='backLink']"));
-		gm.compareText(By.xpath("//a[@data-dojo-attach-point='backLink']"));
+		gm.compareText(By.xpath("//a[@data-dojo-attach-point='backLink']"), "Edit");
 		gm.click(By.xpath("//a[@data-dojo-attach-point='backLink']"), 1);
 		Thread.sleep(2000);
 		gm.click(By.xpath("//a[@class='btn btn--action btn--block']"), 1);

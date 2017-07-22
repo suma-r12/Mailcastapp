@@ -2,13 +2,13 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Starting the Suite (onStart Suite): StartChat]]>
+      <![CDATA[Starting the Suite (onStart Suite): searchPlus]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => beforeSuite]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeSuite]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeSuite]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
     </line>
     <line>
       <![CDATA[Starting <test> tag with name(onStart Test): Chorme Browser]]>
@@ -20,61 +20,61 @@
       <![CDATA[testMethod]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => beforeClass]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeClass]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeClass]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => beforeMethod]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeMethod]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
       <![CDATA[Starting Test (onTestStart): testMethod]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => testMethod]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => testMethod]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => testMethod]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => testMethod]]>
     </line>
     <line>
       <![CDATA[Successful Test (onTestSuccess): testMethod]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => afterMethod]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterMethod]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => afterClass]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterClass]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterClass]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => afterSuite]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterSuite]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterSuite]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="StartChat" duration-ms="104583" started-at="2017-07-22T10:59:39Z" finished-at="2017-07-22T11:01:24Z">
+  <suite name="searchPlus" duration-ms="107858" started-at="2017-07-22T11:23:33Z" finished-at="2017-07-22T11:25:21Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="104583" started-at="2017-07-22T10:59:39Z" finished-at="2017-07-22T11:01:24Z">
-      <class name="flockClient.startChat">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.startChat@38102d01]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2017-07-22T16:29:39Z" finished-at="2017-07-22T16:29:39Z">
+    <test name="Chorme Browser" duration-ms="107858" started-at="2017-07-22T11:23:33Z" finished-at="2017-07-22T11:25:21Z">
+      <class name="flockClient.searchPlus">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2017-07-22T16:53:33Z" finished-at="2017-07-22T16:53:33Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeSuite]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.startChat@38102d01]" name="beforeClass" is-config="true" duration-ms="21736" started-at="2017-07-22T16:29:39Z" finished-at="2017-07-22T16:30:01Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeClass" is-config="true" duration-ms="18255" started-at="2017-07-22T16:53:33Z" finished-at="2017-07-22T16:53:51Z">
           <params>
             <param index="0">
               <value>
@@ -84,58 +84,58 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeClass]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.startChat@38102d01]" name="beforeMethod" is-config="true" duration-ms="60016" started-at="2017-07-22T16:30:01Z" finished-at="2017-07-22T16:31:01Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeMethod" is-config="true" duration-ms="66891" started-at="2017-07-22T16:53:51Z" finished-at="2017-07-22T16:54:58Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => beforeMethod]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:flockClient.startChat@38102d01]" name="testMethod" duration-ms="7899" started-at="2017-07-22T16:31:01Z" finished-at="2017-07-22T16:31:09Z">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="testMethod" duration-ms="7972" started-at="2017-07-22T16:54:58Z" finished-at="2017-07-22T16:55:06Z">
           <reporter-output>
             <line>
               <![CDATA[Starting Test (onTestStart): testMethod]]>
             </line>
             <line>
-              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => testMethod]]>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => testMethod]]>
             </line>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => testMethod]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => testMethod]]>
             </line>
             <line>
               <![CDATA[Successful Test (onTestSuccess): testMethod]]>
             </line>
             <line>
-              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.startChat => afterMethod]]>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.startChat@38102d01]" name="afterMethod" is-config="true" duration-ms="10588" started-at="2017-07-22T16:31:09Z" finished-at="2017-07-22T16:31:20Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterMethod" is-config="true" duration-ms="10596" started-at="2017-07-22T16:55:06Z" finished-at="2017-07-22T16:55:16Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterMethod]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.startChat@38102d01]" name="afterClass" is-config="true" duration-ms="4319" started-at="2017-07-22T16:31:20Z" finished-at="2017-07-22T16:31:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterClass" is-config="true" duration-ms="4115" started-at="2017-07-22T16:55:16Z" finished-at="2017-07-22T16:55:21Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterClass]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.startChat@38102d01]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-07-22T16:31:24Z" finished-at="2017-07-22T16:31:24Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-22T16:55:21Z" finished-at="2017-07-22T16:55:21Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.startChat => afterSuite]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- flockClient.startChat -->
+      </class> <!-- flockClient.searchPlus -->
     </test> <!-- Chorme Browser -->
-  </suite> <!-- StartChat -->
+  </suite> <!-- searchPlus -->
 </testng-results>

@@ -8,14 +8,14 @@
      <!-- <test name="Firefox Browser">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="flockClient.startChat">
+			<class name="flockClient.searchPlus">
 			</class>
 		</classes>
 	</test>  -->
 	 <test name="Chorme Browser">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="flockClient.startChat">
+			<class name="flockClient.searchPlus">
 			</class>
 		</classes>
 	</test>
