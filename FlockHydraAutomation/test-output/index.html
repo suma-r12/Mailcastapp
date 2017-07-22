@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-StartChat">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-StartChat" class="show-methods passed suite-StartChat"> (show)</a> <!-- show-methods passed suite-StartChat -->
                     </span>
                     <div class="method-list-content passed suite-StartChat">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-StartChat" title="flockClient.startChat" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-StartChat" title="flockClient.startChat" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
@@ -135,13 +130,6 @@
                   <span class="method-name">testMethod</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMethod">
-                  </a> <!-- testMethod -->
-                  <span class="method-name">testMethod</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-StartChat-class-passed -->
         </div> <!-- panel StartChat -->
@@ -157,12 +145,6 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.SeleniumListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test name=&quot;Firefox Browser&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;flockClient.startChat&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Firefox Browser --&gt;
   &lt;test name=&quot;Chorme Browser&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
@@ -179,9 +161,6 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">Firefox Browser (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">Chorme Browser (1 class)</span>
               </li>
@@ -209,20 +188,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMethod')
 data.setCell(0, 2, 'flockClient.startChat')
-data.setCell(0, 3, 8350);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMethod')
-data.setCell(1, 2, 'flockClient.startChat')
-data.setCell(1, 3, 7643);
+data.setCell(0, 3, 7899);
 window.suiteTableData['StartChat']= { tableData: data, tableDiv: 'times-div-StartChat'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-StartChat">
               </div> <!-- times-div-StartChat -->
             </div> <!-- times-div -->
@@ -233,16 +208,6 @@ return data;
             <span class="header-content">Reporter output for StartChat</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testMethod</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Starting Test (onTestStart): testMethod</span>
-                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.startChat => testMethod</span>
-                <span class="reporter-method-output">Finished executing the following method (afterInvocation): flockClient.startChat => testMethod</span>
-                <span class="reporter-method-output">Successful Test (onTestSuccess): testMethod</span>
-                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.startChat => afterMethod</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">testMethod</span>
               <div class="reporter-method-output-div">
@@ -274,48 +239,28 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <span class="method-name">beforeClass(firefox)</span>
-                <span class="method-start">27 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome)</span>
-                <span class="method-start">27 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">20237 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">43882 ms</span>
+                <span class="method-start">21770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethod</span>
-                <span class="method-start">74723 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testMethod</span>
-                <span class="method-start">80467 ms</span>
+                <span class="method-start">81786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">82367 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">88820 ms</span>
+                <span class="method-start">89687 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">93633 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">100427 ms</span>
+                <span class="method-start">100275 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">104534 ms</span>
+                <span class="method-start">104636 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

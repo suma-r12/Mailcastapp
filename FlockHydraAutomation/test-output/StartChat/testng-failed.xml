@@ -20,20 +20,4 @@
       </class> <!-- flockClient.startChat -->
     </classes>
   </test> <!-- Firefox Browser(failed) -->
-  <test name="Chorme Browser(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="flockClient.startChat">
-        <methods>
-          <include name="beforeSuite"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="afterSuite"/>
-          <include name="testMethod"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- flockClient.startChat -->
-    </classes>
-  </test> <!-- Chorme Browser(failed) -->
 </suite> <!-- Failed suite [StartChat] -->

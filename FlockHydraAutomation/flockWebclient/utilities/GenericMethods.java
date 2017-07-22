@@ -188,10 +188,16 @@ public class GenericMethods {
 		String Text = driver.findElement(locator).getText();
 		log.info("THe text at locator: " + locator + " is " + Text);
 	}
+	
+	public void getInnerText(By locator) {
+		String Text = driver.findElement(locator).getAttribute("innerText");
+		log.info("THe text at locator: " + locator + " is " + Text);
+	}
+	
 
-	public boolean compareText(By locator) {
+	public boolean compareText(By locator, String vdkText) {
 		String Text = driver.findElement(locator).getText();
-		if (driver.getPageSource().contains(Text)) {
+		if (vdkText.contains(Text)) {
 			log.info("The text: " + Text + " displayed is correct");
 			return true;
 		} else {
