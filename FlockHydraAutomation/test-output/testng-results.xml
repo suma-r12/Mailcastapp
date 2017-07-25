@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Starting the Suite (onStart Suite): searchPlus]]>
@@ -17,7 +17,13 @@
       <![CDATA[The following methods from the <test> tag will be executed: ]]>
     </line>
     <line>
-      <![CDATA[testMethod]]>
+      <![CDATA[searchPlusChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[searchPlusJoinChannelOption]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeClass]]>
@@ -32,16 +38,64 @@
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
-      <![CDATA[Starting Test (onTestStart): testMethod]]>
+      <![CDATA[Starting Test (onTestStart): searchPlusChannelOption]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => testMethod]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => testMethod]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
     </line>
     <line>
-      <![CDATA[Successful Test (onTestSuccess): testMethod]]>
+      <![CDATA[Successful Test (onTestSuccess): searchPlusChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Starting Test (onTestStart): searchPlusJoinChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusJoinChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusJoinChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[Failed Test (onTestFailure): searchPlusJoinChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[Failed Test (onTestFailure): searchPlusInviteOption]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
@@ -62,19 +116,19 @@
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="searchPlus" duration-ms="107858" started-at="2017-07-22T11:23:33Z" finished-at="2017-07-22T11:25:21Z">
+  <suite name="searchPlus" duration-ms="410365" started-at="2017-07-25T11:49:40Z" finished-at="2017-07-25T11:56:31Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="107858" started-at="2017-07-22T11:23:33Z" finished-at="2017-07-22T11:25:21Z">
+    <test name="Chorme Browser" duration-ms="410365" started-at="2017-07-25T11:49:40Z" finished-at="2017-07-25T11:56:31Z">
       <class name="flockClient.searchPlus">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2017-07-22T16:53:33Z" finished-at="2017-07-22T16:53:33Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-07-25T17:19:40Z" finished-at="2017-07-25T17:19:40Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeClass" is-config="true" duration-ms="18255" started-at="2017-07-22T16:53:33Z" finished-at="2017-07-22T16:53:51Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:flockClient.searchPlus@11fc564b]" name="beforeClass" is-config="true" duration-ms="10404" started-at="2017-07-25T17:19:40Z" finished-at="2017-07-25T17:19:51Z">
           <params>
             <param index="0">
               <value>
@@ -88,47 +142,183 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="beforeMethod" is-config="true" duration-ms="66891" started-at="2017-07-22T16:53:51Z" finished-at="2017-07-22T16:54:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="beforeMethod" is-config="true" duration-ms="760" started-at="2017-07-25T17:19:51Z" finished-at="2017-07-25T17:19:51Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="testMethod" duration-ms="7972" started-at="2017-07-22T16:54:58Z" finished-at="2017-07-22T16:55:06Z">
+        <test-method status="PASS" signature="searchPlusChannelOption()[pri:1, instance:flockClient.searchPlus@11fc564b]" name="searchPlusChannelOption" duration-ms="113727" started-at="2017-07-25T17:19:51Z" finished-at="2017-07-25T17:21:45Z">
           <reporter-output>
             <line>
-              <![CDATA[Starting Test (onTestStart): testMethod]]>
+              <![CDATA[Starting Test (onTestStart): searchPlusChannelOption]]>
             </line>
             <line>
-              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => testMethod]]>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
             </line>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => testMethod]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
             </line>
             <line>
-              <![CDATA[Successful Test (onTestSuccess): testMethod]]>
+              <![CDATA[Successful Test (onTestSuccess): searchPlusChannelOption]]>
             </line>
             <line>
               <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterMethod" is-config="true" duration-ms="10596" started-at="2017-07-22T16:55:06Z" finished-at="2017-07-22T16:55:16Z">
+        </test-method> <!-- searchPlusChannelOption -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="afterMethod" is-config="true" duration-ms="71072" started-at="2017-07-25T17:21:45Z" finished-at="2017-07-25T17:22:56Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterClass" is-config="true" duration-ms="4115" started-at="2017-07-22T16:55:16Z" finished-at="2017-07-22T16:55:21Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="beforeMethod" is-config="true" duration-ms="113" started-at="2017-07-25T17:22:56Z" finished-at="2017-07-25T17:22:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="searchPlusJoinChannelOption()[pri:2, instance:flockClient.searchPlus@11fc564b]" name="searchPlusJoinChannelOption" duration-ms="34607" started-at="2017-07-25T17:22:56Z" finished-at="2017-07-25T17:23:31Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at flockClient.searchPlus.searchPlusJoinChannelOptionsClick(searchPlus.java:163)
+	at flockClient.searchPlus.searchPlusJoinChannelOption(searchPlus.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Test (onTestStart): searchPlusJoinChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusJoinChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusJoinChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[Failed Test (onTestFailure): searchPlusJoinChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchPlusJoinChannelOption -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="afterMethod" is-config="true" duration-ms="70522" started-at="2017-07-25T17:23:31Z" finished-at="2017-07-25T17:24:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="beforeMethod" is-config="true" duration-ms="180" started-at="2017-07-25T17:24:42Z" finished-at="2017-07-25T17:24:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="searchPlusInviteOption()[pri:3, instance:flockClient.searchPlus@11fc564b]" name="searchPlusInviteOption" duration-ms="34221" started-at="2017-07-25T17:24:42Z" finished-at="2017-07-25T17:25:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at flockClient.searchPlus.searchPlusInviteOptionsClick(searchPlus.java:199)
+	at flockClient.searchPlus.searchPlusInviteOption(searchPlus.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[Failed Test (onTestFailure): searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchPlusInviteOption -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="afterMethod" is-config="true" duration-ms="70370" started-at="2017-07-25T17:25:16Z" finished-at="2017-07-25T17:26:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="afterClass" is-config="true" duration-ms="4338" started-at="2017-07-25T17:26:26Z" finished-at="2017-07-25T17:26:31Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@38102d01]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-22T16:55:21Z" finished-at="2017-07-22T16:55:21Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@11fc564b]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-25T17:26:31Z" finished-at="2017-07-25T17:26:31Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>

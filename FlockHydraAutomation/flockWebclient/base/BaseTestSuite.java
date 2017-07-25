@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -21,11 +20,16 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
 import resources.DefaultStrings;
 
 public class BaseTestSuite{
 	public WebDriver driver;
 	private ResourceBundle bundle;
+	ExtentReports report;
+	ExtentTest test;
 	
 	 @BeforeClass
 	@Parameters("browser")
@@ -73,6 +77,7 @@ public class BaseTestSuite{
 		 Thread.sleep(3000);
 		 if (driver != null) {
 	            driver.quit();
+	            
 	        }
 		}
 	 

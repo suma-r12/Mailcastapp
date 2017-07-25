@@ -3,39 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SignIn.FlockSignIn">
+      <class name="flockClient.CreateTodo">
         <methods>
-          <include name="contactSupport"/>
-          <include name="languageSwitcher"/>
-          <include name="Heading"/>
-          <include name="otpPlaceHolder"/>
-          <include name="beforeClass"/>
-          <include name="resendOtpHookClicked"/>
-          <include name="loginButton"/>
-          <include name="windowTitle"/>
-          <include name="afterTest"/>
-          <include name="googleAuthHeading"/>
-          <include name="otpErrorMessage" invocation-numbers="0 1 2"/>
-          <include name="otpErrorMessage1"/>
-          <include name="googleAuthNote"/>
+          <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="beforeTest"/>
+          <include name="openTodoByApplaunch"/>
           <include name="afterSuite"/>
-          <include name="googleAuthSkipButton"/>
-          <include name="resendOtpText"/>
-          <include name="otpSubHeading"/>
-          <include name="checkEditButton"/>
-          <include name="otpHeading"/>
-          <include name="errorMessage" invocation-numbers="0 1 2"/>
-          <include name="googleAuthSubHeading"/>
-          <include name="subHeading"/>
-          <include name="googleAuthButton"/>
-          <include name="emailPlaceHolder"/>
-          <include name="resendOtpHook"/>
-          <include name="onbaordingSideBar"/>
-          <include name="verifyButton"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- SignIn.FlockSignIn -->
+      </class> <!-- flockClient.CreateTodo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

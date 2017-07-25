@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-searchPlus">
-              <span class="suite-name border-passed">searchPlus</span>
+              <span class="suite-name border-failed">searchPlus</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-searchPlus" class="hide-methods failed suite-searchPlus"> (hide)</a> <!-- hide-methods failed suite-searchPlus -->
+                      <a href="#" panel-name="suite-searchPlus" class="show-methods failed suite-searchPlus"> (show)</a> <!-- show-methods failed suite-searchPlus -->
+                    </span>
+                    <div class="method-list-content failed suite-searchPlus">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-searchPlus" title="flockClient.searchPlus" hash-for-method="searchPlusInviteOption">searchPlusInviteOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-searchPlus" title="flockClient.searchPlus" hash-for-method="searchPlusJoinChannelOption">searchPlusJoinChannelOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-searchPlus -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +121,7 @@
                     <div class="method-list-content passed suite-searchPlus">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-searchPlus" title="flockClient.searchPlus" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-searchPlus" title="flockClient.searchPlus" hash-for-method="searchPlusChannelOption">searchPlusChannelOption</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-searchPlus -->
@@ -117,6 +136,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-searchPlus" class="panel searchPlus">
+          <div class="suite-searchPlus-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">flockClient.searchPlus</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPlusInviteOption">
+                  </a> <!-- searchPlusInviteOption -->
+                  <span class="method-name">searchPlusInviteOption</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at flockClient.searchPlus.searchPlusInviteOptionsClick(searchPlus.java:199)
+	at flockClient.searchPlus.searchPlusInviteOption(searchPlus.java:179)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchPlusJoinChannelOption">
+                  </a> <!-- searchPlusJoinChannelOption -->
+                  <span class="method-name">searchPlusJoinChannelOption</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at flockClient.searchPlus.searchPlusJoinChannelOptionsClick(searchPlus.java:163)
+	at flockClient.searchPlus.searchPlusJoinChannelOption(searchPlus.java:119)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-searchPlus-class-failed -->
           <div class="suite-searchPlus-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -125,9 +184,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testMethod">
-                  </a> <!-- testMethod -->
-                  <span class="method-name">testMethod</span>
+                  <a name="searchPlusChannelOption">
+                  </a> <!-- searchPlusChannelOption -->
+                  <span class="method-name">searchPlusChannelOption</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,16 +247,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testMethod')
+data.setCell(0, 1, 'searchPlusChannelOption')
 data.setCell(0, 2, 'flockClient.searchPlus')
-data.setCell(0, 3, 7972);
+data.setCell(0, 3, 113727);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchPlusJoinChannelOption')
+data.setCell(1, 2, 'flockClient.searchPlus')
+data.setCell(1, 3, 34607);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchPlusInviteOption')
+data.setCell(2, 2, 'flockClient.searchPlus')
+data.setCell(2, 3, 34221);
 window.suiteTableData['searchPlus']= { tableData: data, tableDiv: 'times-div-searchPlus'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-searchPlus">
               </div> <!-- times-div-searchPlus -->
             </div> <!-- times-div -->
@@ -209,12 +276,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testMethod</span>
+              <span class="reporter-method-name">searchPlusChannelOption</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Starting Test (onTestStart): testMethod</span>
-                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => testMethod</span>
-                <span class="reporter-method-output">Finished executing the following method (afterInvocation): flockClient.searchPlus => testMethod</span>
-                <span class="reporter-method-output">Successful Test (onTestSuccess): testMethod</span>
+                <span class="reporter-method-output">Starting Test (onTestStart): searchPlusChannelOption</span>
+                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusChannelOption</span>
+                <span class="reporter-method-output">Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusChannelOption</span>
+                <span class="reporter-method-output">Successful Test (onTestSuccess): searchPlusChannelOption</span>
+                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchPlusInviteOption</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting Test (onTestStart): searchPlusInviteOption</span>
+                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption</span>
+                <span class="reporter-method-output">Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption</span>
+                <span class="reporter-method-output">Failed Test (onTestFailure): searchPlusInviteOption</span>
+                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchPlusJoinChannelOption</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Starting Test (onTestStart): searchPlusJoinChannelOption</span>
+                <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusJoinChannelOption</span>
+                <span class="reporter-method-output">Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusJoinChannelOption</span>
+                <span class="reporter-method-output">Failed Test (onTestFailure): searchPlusJoinChannelOption</span>
                 <span class="reporter-method-output">About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterMethod</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -240,27 +327,55 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome)</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">18293 ms</span>
+                <span class="method-start">10450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testMethod</span>
-                <span class="method-start">85184 ms</span>
+                <span class="method-name">searchPlusChannelOption</span>
+                <span class="method-start">11211 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">93158 ms</span>
+                <span class="method-start">124939 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">196014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchPlusJoinChannelOption</span>
+                <span class="method-start">196127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">230739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">301262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchPlusInviteOption</span>
+                <span class="method-start">301444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">335667 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">103755 ms</span>
+                <span class="method-start">406041 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">107925 ms</span>
+                <span class="method-start">410444 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
