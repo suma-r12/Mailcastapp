@@ -15,25 +15,39 @@ import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 import resources.DefaultStrings;
+import utilities.ExtentFactory;
+import utilities.GenericMethods;
+import utilities.OnBoardingUtils;
+import utilities.SignOutUtils;
 
 public class BaseTestSuite{
+	
 	public WebDriver driver;
 	private ResourceBundle bundle;
-	ExtentReports report;
-	ExtentTest test;
+	protected ExtentReports report;
+	protected ExtentTest test;
+	protected GenericMethods gm;
+	protected OnBoardingUtils onboard;
+	protected SignOutUtils signOut;
 	
-	 @BeforeClass
+	
+	 @BeforeTest
 	@Parameters("browser")
-	public void beforeClass(@Optional(DefaultStrings.CHROME) String browser) {
+	public void beforeTest(@Optional(DefaultStrings.CHROME) String browser) {
+		 
+		 
 		bundle = ResourceBundle.getBundle("config", Locale.getDefault());
 		System.out.println("BaseTestSuite -> Before Class");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
@@ -56,8 +70,17 @@ public class BaseTestSuite{
             System.out.println("Not able to initialise driver! Failing tests explicitly");
             fail();
         }
-
+		
+		report = ExtentFactory.getInstance();
+		gm = new GenericMethods(driver);
+		test = report.startTest("Search Plus");
+		onboard = new OnBoardingUtils(driver, test);
+		signOut = new SignOutUtils(driver, test);
 	}
+	 @BeforeClass
+	 public void beforeClass() throws InterruptedException{
+		 onboard.setUpUserAccount();
+	 }
 	 
 	 private DesiredCapabilities getDesiredCapabilities() {
 	        System.out.println("Inside getDesiredCapabilities");
@@ -72,14 +95,21 @@ public class BaseTestSuite{
 	 
 
 	 @AfterClass
-		public void afterClass() throws InterruptedException {
+		public void afterClass() throws Exception {
+		 signOut.clearUserAccount();
+		 test.log(LogStatus.INFO, "Signed Out from the Client");
 		 System.out.println("BaseTestSuite -> After Class");
+		}
+	 
+	 @AfterTest
+	 public void afterTest() throws Exception{
 		 Thread.sleep(3000);
 		 if (driver != null) {
 	            driver.quit();
-	            
+	            report.endTest(test);
+	    		report.flush();
 	        }
-		}
+	 }
 	 
 	 @BeforeSuite
 		public void beforeSuite() {
