@@ -4,21 +4,23 @@
   <listeners>
     <listener class-name="utilities.SeleniumListener"/>
   </listeners>
-  <test name="Chorme Browser(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
+  <test name="Firefox Browser(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="flockClient.searchPlus">
         <methods>
+          <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
+          <include name="beforeClas"/>
+          <include name="beforeTest"/>
           <include name="searchPlusInviteOption"/>
           <include name="searchPlusJoinChannelOption"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
+          <include name="searchPlusChannelOption"/>
         </methods>
       </class> <!-- flockClient.searchPlus -->
     </classes>
-  </test> <!-- Chorme Browser(failed) -->
+  </test> <!-- Firefox Browser(failed) -->
 </suite> <!-- Failed suite [searchPlus] -->

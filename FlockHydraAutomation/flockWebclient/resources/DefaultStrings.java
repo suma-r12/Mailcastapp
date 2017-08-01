@@ -15,5 +15,7 @@ public class DefaultStrings {
 	
 	public static final String DIRECTI_TESTER_002_Email = "directitester002@directi.com";
 	public static final String OTP = "654321";
+	
+	public static String Extent_Report_SearchPlus = "C:\\Users\\farzan.s.DIRECTI\\Desktop\\FlockHydra-Automation\\ExtentReport\\searchPlus.html";
 
 }

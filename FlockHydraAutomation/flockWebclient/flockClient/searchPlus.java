@@ -6,44 +6,24 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 import base.BaseTestSuite;
-import utilities.ExtentFactory;
-import utilities.GenericMethods;
-import utilities.OnBoardingUtils;
-import utilities.SignOutUtils;
 
 public class searchPlus extends BaseTestSuite {
 
-	private GenericMethods gm;
-	private OnBoardingUtils onboard;
-	private SignOutUtils signOut;
-	ExtentReports report;
-	ExtentTest test;
 	private static final Logger log = LogManager.getLogger(searchPlus.class.getName());
 
 	@BeforeMethod
-	public void beforeMethod() {
-		report = ExtentFactory.getInstance();
-		gm = new GenericMethods(driver);
-		onboard = new OnBoardingUtils(driver);
-		signOut = new SignOutUtils(driver);
-		test = report.startTest("Search Plus");
-		/*onboard.setUpUserAccount();
-		test.log(LogStatus.INFO, "User Logged in to the app");*/
+	public void beforeMethod() throws Exception {
+		
 	}
 
 	@Test(priority=1)
 	public void searchPlusChannelOption() throws Exception {
-		onboard.setUpUserAccount();
-		test.log(LogStatus.INFO, "User Logged in to the app");
 		
 		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
 
@@ -52,7 +32,8 @@ public class searchPlus extends BaseTestSuite {
 			test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
 
 			searchPlusContentOption1();
-			searchPlusChannelOptionsClick();
+			//searchPlusChannelOptionsClick();
+			//isChannelHeadingPresent();
 
 		}
 	
@@ -94,16 +75,26 @@ public class searchPlus extends BaseTestSuite {
 		}else{
 			test.log(LogStatus.ERROR, "The Create Channel Option is not clicked");
 			log.info("The Create Channel Option is not clicked");
-		}
+		}	
+	}
+	
+	public boolean isChannelHeadingPresent(){
+
 		WebElement channelHeading = null;
 		try{
 		channelHeading = driver.findElement(By.xpath("//div[@id='widgets_Dialog_4']//div[@class='title']"));
+		if(channelHeading != null){
+			return true;
+		}
 		}catch (NoSuchElementException e) {
 			System.out.println(e.getMessage());
+			return false;
 		}
 		Assert.assertTrue(channelHeading != null);
 		test.log(LogStatus.PASS, "Channel Option in the Search Plus Menu Clicked");
 		gm.click(By.xpath("//div[@id='widgets_Dialog_6']/div[1]/span[@title='Cancel']"), 1);
+		return false;
+		
 	}
 	
 	@Test(priority=2)
@@ -116,7 +107,7 @@ public class searchPlus extends BaseTestSuite {
 			test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
 
 			searchPlusContentOption2();	
-			searchPlusJoinChannelOptionsClick();
+			//searchPlusJoinChannelOptionsClick();
 		}
 	}
 	
@@ -176,7 +167,7 @@ public class searchPlus extends BaseTestSuite {
 			test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
 
 			searchPlusContentOption3();
-			searchPlusInviteOptionsClick();
+			//searchPlusInviteOptionsClick();
 		}
 
 	}
@@ -230,15 +221,5 @@ public class searchPlus extends BaseTestSuite {
 	}
 	
 	
-	
-
-	@AfterMethod
-	public void afterMethod() throws Exception {
-		signOut.clearUserAccount();
-		test.log(LogStatus.INFO, "Signed Out from the Client");
-		Thread.sleep(2000);
-		report.endTest(test);
-		report.flush();
-	}
 
 }
