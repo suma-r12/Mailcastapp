@@ -27,10 +27,10 @@ public class searchPlus extends BaseTestSuite{
 		
 		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
 			
-			//ce.clickUniverlSearchPlusIcon();
+			ce.clickUniverlSearchPlusIcon();
 
-			gm.elementDisplayed(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), "Univerl-Search-Plus-Icon");
-			gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);
+			/*gm.elementDisplayed(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), "Univerl-Search-Plus-Icon");
+			gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);*/
 			//test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
 
 			searchPlusContentOption1();

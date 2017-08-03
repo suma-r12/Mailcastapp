@@ -42,9 +42,10 @@ public class BaseTestSuite{
 	protected GenericMethods gm;
 	protected OnBoardingUtils onboard;
 	protected SignOutUtils signOut;
+	protected clientElement ce;
 	
 	
-	 @BeforeTest
+	@BeforeTest
 	@Parameters("browser")
 	public void beforeTest(@Optional(DefaultStrings.CHROME) String browser) {
 		 
@@ -77,6 +78,8 @@ public class BaseTestSuite{
 		test = report.startTest("Search Plus");
 		onboard = new OnBoardingUtils(driver, test);
 		signOut = new SignOutUtils(driver, test);
+		ce = new clientElement(driver, test);
+		
 	}
 	 @BeforeClass
 	 public void beforeClass() throws InterruptedException{
