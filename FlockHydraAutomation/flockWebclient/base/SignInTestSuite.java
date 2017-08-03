@@ -31,17 +31,15 @@ import utilities.ExtentFactory;
 import utilities.GenericMethods;
 import utilities.OnBoardingUtils;
 import utilities.SignOutUtils;
-import utilities.clientElement;
 
-public class BaseTestSuite{
+public class SignInTestSuite{
 	
 	public WebDriver driver;
 	private ResourceBundle bundle;
 	protected ExtentReports report;
 	protected ExtentTest test;
 	protected GenericMethods gm;
-	protected OnBoardingUtils onboard;
-	protected SignOutUtils signOut;
+	
 	
 	
 	 @BeforeTest
@@ -75,13 +73,7 @@ public class BaseTestSuite{
 		report = ExtentFactory.getInstance();
 		gm = new GenericMethods(driver);
 		test = report.startTest("Search Plus");
-		onboard = new OnBoardingUtils(driver, test);
-		signOut = new SignOutUtils(driver, test);
 	}
-	 @BeforeClass
-	 public void beforeClass() throws InterruptedException{
-		 onboard.setUpUserAccount();
-	 }
 	 
 	 private DesiredCapabilities getDesiredCapabilities() {
 	        System.out.println("Inside getDesiredCapabilities");
@@ -94,13 +86,6 @@ public class BaseTestSuite{
 	        return capabilities;
 	    }
 	 
-
-	 @AfterClass
-		public void afterClass() throws Exception {
-		 signOut.clearUserAccount();
-		 test.log(LogStatus.INFO, "Signed Out from the Client");
-		 System.out.println("BaseTestSuite -> After Class");
-		}
 	 
 	 @AfterTest
 	 public void afterTest() throws Exception{

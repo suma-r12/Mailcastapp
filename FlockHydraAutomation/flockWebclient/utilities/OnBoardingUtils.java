@@ -11,8 +11,6 @@ import org.openqa.selenium.WebElement;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import resources.DefaultStrings;
-
 public class OnBoardingUtils {
 	ExtentTest test;
 	WebDriver driver = null;
@@ -57,7 +55,7 @@ public class OnBoardingUtils {
 	}
 
 	public void handleLanguageAlert() throws InterruptedException {
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 		if(gm.isElementPresent(".//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']", "xpath")){
 		log.info("Inside language conflict modal");
 		gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 1);

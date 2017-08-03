@@ -13,7 +13,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import base.BaseTestSuite;
 
-public class searchPlus extends BaseTestSuite {
+public class searchPlus extends BaseTestSuite{
 
 	private static final Logger log = LogManager.getLogger(searchPlus.class.getName());
 
@@ -26,13 +26,15 @@ public class searchPlus extends BaseTestSuite {
 	public void searchPlusChannelOption() throws Exception {
 		
 		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
+			
+			//ce.clickUniverlSearchPlusIcon();
 
 			gm.elementDisplayed(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), "Univerl-Search-Plus-Icon");
 			gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);
-			test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
+			//test.log(LogStatus.INFO, "Clicked on the searchPlusWidget");
 
 			searchPlusContentOption1();
-			//searchPlusChannelOptionsClick();
+			searchPlusChannelOptionsClick();
 			//isChannelHeadingPresent();
 
 		}
@@ -68,6 +70,8 @@ public class searchPlus extends BaseTestSuite {
 	}
 	
 	public void searchPlusChannelOptionsClick(){
+		//ce.clickSearchPlusCreateChannel();
+		
 		if (gm.isElementPresent("//tr[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[1]", "xpath")){
 			gm.click(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[1]"), 1);
 			test.log(LogStatus.INFO, "The Create Channel Option is clicked");
@@ -97,7 +101,7 @@ public class searchPlus extends BaseTestSuite {
 		
 	}
 	
-	@Test(priority=2)
+/*	@Test(priority=2)
 	public void searchPlusJoinChannelOption() throws Exception {
 		
 		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
@@ -219,7 +223,7 @@ public class searchPlus extends BaseTestSuite {
 		}
 		
 	}
-	
+	*/
 	
 
 }

@@ -1,12 +1,11 @@
 package utilities;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import resources.DefaultStrings;;
+import com.relevantcodes.extentreports.ExtentReports;;
 
 public class ExtentFactory {
 	public static ExtentReports getInstance(){
 		ExtentReports extent;
-		String path = DefaultStrings.Extent_Report_SearchPlus;
+		String path = "C:\\Users\\farzan.s.DIRECTI\\Desktop\\FlockHydra-Automation\\ExtentReport\\searchPlus.html";
 		extent = new ExtentReports(path, false);
 		extent
 		.addSystemInfo("Selenium Version", "3.4.0")

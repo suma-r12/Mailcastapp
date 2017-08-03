@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="3" failed="0" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Starting the Suite (onStart Suite): searchPlus]]>
@@ -11,7 +11,7 @@
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
     </line>
     <line>
-      <![CDATA[Starting <test> tag with name(onStart Test): Firefox Browser]]>
+      <![CDATA[Starting <test> tag with name(onStart Test): Chorme Browser]]>
     </line>
     <line>
       <![CDATA[The following methods from the <test> tag will be executed: ]]>
@@ -20,53 +20,71 @@
       <![CDATA[searchPlusChannelOption]]>
     </line>
     <line>
-      <![CDATA[searchPlusInviteOption]]>
-    </line>
-    <line>
-      <![CDATA[searchPlusJoinChannelOption]]>
-    </line>
-    <line>
       <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeTest]]>
     </line>
     <line>
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeTest]]>
     </line>
     <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeClas]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeClass]]>
     </line>
     <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClas]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClass]]>
     </line>
     <line>
-      <![CDATA[Skipped Test (onTestSkipped): searchPlusChannelOption]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
-      <![CDATA[Skipped Test (onTestSkipped): searchPlusJoinChannelOption]]>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
-      <![CDATA[Skipped Test (onTestSkipped): searchPlusInviteOption]]>
+      <![CDATA[Starting Test (onTestStart): searchPlusChannelOption]]>
     </line>
     <line>
-      <![CDATA[Completed the Suite (onFinish Test): Firefox Browser]]>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[Successful Test (onTestSuccess): searchPlusChannelOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterClass]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterTest]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterSuite]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="searchPlus" duration-ms="37264" started-at="2017-07-31T12:15:59Z" finished-at="2017-07-31T12:16:37Z">
+  <suite name="searchPlus" duration-ms="167036" started-at="2017-08-03T06:28:22Z" finished-at="2017-08-03T06:31:09Z">
     <groups>
     </groups>
-    <test name="Firefox Browser" duration-ms="37264" started-at="2017-07-31T12:15:59Z" finished-at="2017-07-31T12:16:37Z">
+    <test name="Chorme Browser" duration-ms="167036" started-at="2017-08-03T06:28:22Z" finished-at="2017-08-03T06:31:09Z">
       <class name="flockClient.searchPlus">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2017-07-31T17:45:59Z" finished-at="2017-07-31T17:45:59Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeSuite" is-config="true" duration-ms="37" started-at="2017-08-03T11:58:22Z" finished-at="2017-08-03T11:58:22Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeTest" is-config="true" duration-ms="19819" started-at="2017-07-31T17:45:59Z" finished-at="2017-07-31T17:46:19Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeTest" is-config="true" duration-ms="25524" started-at="2017-08-03T11:58:22Z" finished-at="2017-08-03T11:58:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
@@ -76,302 +94,58 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="beforeClas()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeClas" is-config="true" duration-ms="17357" started-at="2017-07-31T17:46:19Z" finished-at="2017-07-31T17:46:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
-	at utilities.GenericMethods.getElementList(GenericMethods.java:54)
-	at utilities.GenericMethods.isElementPresent(GenericMethods.java:71)
-	at utilities.OnBoardingUtils.handleLanguageAlert(OnBoardingUtils.java:61)
-	at utilities.OnBoardingUtils.setUpUserAccount(OnBoardingUtils.java:54)
-	at base.BaseTestSuite.beforeClas(BaseTestSuite.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeClass" is-config="true" duration-ms="62670" started-at="2017-08-03T11:58:47Z" finished-at="2017-08-03T11:59:50Z">
           <reporter-output>
             <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClas]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClass]]>
             </line>
           </reporter-output>
-        </test-method> <!-- beforeClas -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="searchPlusChannelOption()[pri:1, instance:flockClient.searchPlus@76ed1b7c]" name="searchPlusChannelOption" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
-	at utilities.GenericMethods.getElementList(GenericMethods.java:54)
-	at utilities.GenericMethods.isElementPresent(GenericMethods.java:71)
-	at utilities.OnBoardingUtils.handleLanguageAlert(OnBoardingUtils.java:61)
-	at utilities.OnBoardingUtils.setUpUserAccount(OnBoardingUtils.java:54)
-	at base.BaseTestSuite.beforeClas(BaseTestSuite.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-03T11:59:50Z" finished-at="2017-08-03T11:59:50Z">
           <reporter-output>
             <line>
-              <![CDATA[Skipped Test (onTestSkipped): searchPlusChannelOption]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchPlusChannelOption()[pri:1, instance:flockClient.searchPlus@76ed1b7c]" name="searchPlusChannelOption" duration-ms="4043" started-at="2017-08-03T11:59:50Z" finished-at="2017-08-03T11:59:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Test (onTestStart): searchPlusChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusChannelOption]]>
+            </line>
+            <line>
+              <![CDATA[Successful Test (onTestSuccess): searchPlusChannelOption]]>
             </line>
           </reporter-output>
         </test-method> <!-- searchPlusChannelOption -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="searchPlusJoinChannelOption()[pri:2, instance:flockClient.searchPlus@76ed1b7c]" name="searchPlusJoinChannelOption" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
-	at utilities.GenericMethods.getElementList(GenericMethods.java:54)
-	at utilities.GenericMethods.isElementPresent(GenericMethods.java:71)
-	at utilities.OnBoardingUtils.handleLanguageAlert(OnBoardingUtils.java:61)
-	at utilities.OnBoardingUtils.setUpUserAccount(OnBoardingUtils.java:54)
-	at base.BaseTestSuite.beforeClas(BaseTestSuite.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterClass" is-config="true" duration-ms="68958" started-at="2017-08-03T11:59:54Z" finished-at="2017-08-03T12:01:03Z">
           <reporter-output>
             <line>
-              <![CDATA[Skipped Test (onTestSkipped): searchPlusJoinChannelOption]]>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- searchPlusJoinChannelOption -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="searchPlusInviteOption()[pri:3, instance:flockClient.searchPlus@76ed1b7c]" name="searchPlusInviteOption" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: can't access dead object
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\rust_mozprofile.3hHq2qJ2Bsgy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=13772.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: c35c4a56-0bcf-4d1e-ab82-5d0c459bf720
-*** Element info: {Using=xpath, value=.//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:513)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
-	at utilities.GenericMethods.getElementList(GenericMethods.java:54)
-	at utilities.GenericMethods.isElementPresent(GenericMethods.java:71)
-	at utilities.OnBoardingUtils.handleLanguageAlert(OnBoardingUtils.java:61)
-	at utilities.OnBoardingUtils.setUpUserAccount(OnBoardingUtils.java:54)
-	at base.BaseTestSuite.beforeClas(BaseTestSuite.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Skipped Test (onTestSkipped): searchPlusInviteOption]]>
-            </line>
-            <line>
-              <![CDATA[Completed the Suite (onFinish Test): Firefox Browser]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchPlusInviteOption -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
-          <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterTest" is-config="true" duration-ms="5746" started-at="2017-08-03T12:01:03Z" finished-at="2017-08-03T12:01:09Z">
           <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterTest]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-07-31T17:46:37Z" finished-at="2017-07-31T17:46:37Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@76ed1b7c]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-08-03T12:01:09Z" finished-at="2017-08-03T12:01:09Z">
           <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- flockClient.searchPlus -->
-    </test> <!-- Firefox Browser -->
+    </test> <!-- Chorme Browser -->
   </suite> <!-- searchPlus -->
 </testng-results>
