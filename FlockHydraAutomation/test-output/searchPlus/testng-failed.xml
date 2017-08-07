@@ -15,8 +15,9 @@
           <include name="afterSuite"/>
           <include name="beforeMethod"/>
           <include name="beforeTest"/>
+          <include name="searchPlusInviteOption"/>
+          <include name="searchPlusJoinChannelOption"/>
           <include name="beforeClass"/>
-          <include name="searchPlusChannelOption"/>
         </methods>
       </class> <!-- flockClient.searchPlus -->
     </classes>

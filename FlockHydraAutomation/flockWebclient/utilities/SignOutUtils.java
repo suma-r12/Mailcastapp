@@ -21,9 +21,9 @@ public class SignOutUtils {
     }
     
     public void flockSignOut() throws Exception{
-    	gm.click(By.xpath("//div[@id='shell_appMenu_AppMenu_0']//div[@class='app_menu_icon']"), 2);
-		gm.click(By.xpath("//div[@id='app-menu-item-sing-out']"), 1);
-		gm.click(By.xpath("//div[@id='widgets_SignoutDialog_0']//button[@data-dojo-attach-point='okButton']"), 1);
+    	gm.click(By.xpath("//div[@class='app_menu_icon']"), 2);
+		gm.click(By.id("app-menu-item-sing-out"), 1);
+		gm.click(By.xpath("//div[@class='action__buttons']//button[contains(text(),'Sign out')]"), 1);
 		log.info("The test user has been signed out");
 		test.log(LogStatus.INFO, "The test user has been signed out");
 		Thread.sleep(8000);

@@ -55,17 +55,14 @@ public class OnBoardingUtils {
 	}
 
 	public void handleLanguageAlert() throws InterruptedException {
-		//Thread.sleep(5000);
-		if(gm.isElementPresent(".//div[@style='position: absolute; opacity: 1; left: 750px; top: 106px; z-index: 950;']/div[@class='dijitDialogPaneContent']", "xpath")){
-		log.info("Inside language conflict modal");
-		gm.click(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 1);
-		log.info("Clicked on the switch to locale button");
-		test.log(LogStatus.INFO, "Clicked on the switch to locale button");
-		}else{
-			log.info("Language conflict modal not shown");
-			test.log(LogStatus.INFO, "Language conflict modal not shown");
-		}
-	}
+		 log.debug("Inside handle language alert");
+	        gm.waitAndClick(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 120);
+	        try {
+	            Thread.sleep(15 * 1000);
+	        } catch (InterruptedException e) {
+	            e.printStackTrace();
+	        }
+    }
 
 	public void skipFeatureTour() {
 		gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);

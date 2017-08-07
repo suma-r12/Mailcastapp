@@ -300,4 +300,17 @@ public class GenericMethods {
 			logger.info("The option in the drop down is: " + optionName);
 		}
 	}
+	
+	public void waitAndClick(By locator, long timeoutInSeconds) {
+        try {
+            logger.debug("Waiting for a max: " + timeoutInSeconds + " seconds for the element to become " +
+                    "clickable");
+            WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+            WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+            element.click();
+            logger.info("Element clicked on the web page");
+        } catch (Exception e) {
+            logger.info("Not able to waitAndClick on the element");
+        }
+    }
 }
