@@ -56,7 +56,7 @@ public class OnBoardingUtils {
 
 	public void handleLanguageAlert() throws InterruptedException {
 		 log.debug("Inside handle language alert");
-	        gm.waitAndClick(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 120);
+	        gm.waitAndClick(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 30);
 	        try {
 	            Thread.sleep(15 * 1000);
 	        } catch (InterruptedException e) {

@@ -62,7 +62,7 @@ public class clientElement {
 		}		
 	}
 	
-	@FindBy(xpath="//div[@id='widgets_Dialog_4']//span[@role='button']")
+	@FindBy(xpath="//div[contains(@class,'channel-type-dialog')]//span[@role='button']")
 	WebElement startNewChannelCancel;
 	
 	public void  clickStartChannelModalClose(){
@@ -90,23 +90,15 @@ public class clientElement {
 		}		
 	}
 	
-	@FindBy(xpath="//div[@id='widgets_Dialog_4']//span[@role='button']")
+	@FindBy(xpath="//div[contains(@class,'group-discovery')]//span[contains(@role,'button')]")
 	WebElement joinChannelCancel;
 	
-	@FindBy(xpath="//div[@id='widgets_Dialog_5']//span[@role='button']")
-	WebElement noJoinChannelCancel;
-	
 	public void  clickJoinChannelModalClose(){
-		if(joinChannelCancel.isDisplayed()){
+		if(joinChannelCancel.getSize() != null){
 			joinChannelCancel.click();
 			test.log(LogStatus.INFO, "The Cancle option in Join Channel Modal is clicked");
 			log.info("The Cancle option in Join Channel Modal is clicked");
-		}else if(noJoinChannelCancel.isDisplayed()){
-			noJoinChannelCancel.click();
-			test.log(LogStatus.INFO, "The Cancle option in No Channel to Join Modal is clicked");
-			log.info("The Cancle option in No Channel to Join Modal is clicked");
 		}
-		
 		else{
 			test.log(LogStatus.ERROR, "The Cancle option in Join Channel Modal is not clicked");
 			log.info("The Cancle option in Join Channel Modal is not clicked");
@@ -127,7 +119,7 @@ public class clientElement {
 		}		
 	}
 
-	@FindBy(xpath="//div[@id='widgets_Dialog_5']//span[@role='button']")
+	@FindBy(xpath="//div[contains(@class,'invite-dialog')]//span[@role='button']")
 	WebElement inviteContactCancel;
 	
 	public void  clickInviteContactCancel(){

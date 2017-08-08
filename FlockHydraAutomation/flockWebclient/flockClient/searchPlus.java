@@ -67,7 +67,7 @@ public class searchPlus extends BaseTestSuite{
 			}		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void searchPlusJoinChannelOption() throws Exception {
 		Thread.sleep(3000);
 		
@@ -98,12 +98,12 @@ public class searchPlus extends BaseTestSuite{
 			gm.compareText(By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label']"),
 					"Join Public Channels");
 			gm.elementDisplayed(
-					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel']"),
+					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel']"),
 					"Create-Channel-sublabel");
 			gm.getInnerText(
-					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel']"));
+					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel']"));
 			gm.compareText(
-					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel']"),
+					By.xpath("//tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel']"),
 					"Discover shared interests");
 			test.log(LogStatus.INFO, "The join a channel option is present");
 		} else {
@@ -112,7 +112,7 @@ public class searchPlus extends BaseTestSuite{
 		
 	}
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	public void searchPlusInviteOption() throws Exception {
 		Thread.sleep(3000);
 		

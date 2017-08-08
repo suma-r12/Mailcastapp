@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Starting the Suite (onStart Suite): searchPlus]]>
@@ -62,6 +62,24 @@
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
     </line>
     <line>
+      <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[Successful Test (onTestSuccess): searchPlusInviteOption]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+    </line>
+    <line>
       <![CDATA[Starting Test (onTestStart): searchPlusJoinChannelOption]]>
     </line>
     <line>
@@ -72,24 +90,6 @@
     </line>
     <line>
       <![CDATA[Failed Test (onTestFailure): searchPlusJoinChannelOption]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
-    </line>
-    <line>
-      <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
-    </line>
-    <line>
-      <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
-    </line>
-    <line>
-      <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
-    </line>
-    <line>
-      <![CDATA[Failed Test (onTestFailure): searchPlusInviteOption]]>
     </line>
     <line>
       <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => afterClass]]>
@@ -110,19 +110,19 @@
       <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
     </line>
   </reporter-output>
-  <suite name="searchPlus" duration-ms="160211" started-at="2017-08-07T09:55:09Z" finished-at="2017-08-07T09:57:50Z">
+  <suite name="searchPlus" duration-ms="132006" started-at="2017-08-08T07:26:54Z" finished-at="2017-08-08T07:29:06Z">
     <groups>
     </groups>
-    <test name="Chorme Browser" duration-ms="160211" started-at="2017-08-07T09:55:09Z" finished-at="2017-08-07T09:57:50Z">
+    <test name="Chorme Browser" duration-ms="132006" started-at="2017-08-08T07:26:54Z" finished-at="2017-08-08T07:29:06Z">
       <class name="flockClient.searchPlus">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2017-08-07T15:25:09Z" finished-at="2017-08-07T15:25:09Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2017-08-08T12:56:54Z" finished-at="2017-08-08T12:56:54Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeSuite]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeTest" is-config="true" duration-ms="11284" started-at="2017-08-07T15:25:09Z" finished-at="2017-08-07T15:25:21Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeTest" is-config="true" duration-ms="10313" started-at="2017-08-08T12:56:54Z" finished-at="2017-08-08T12:57:04Z">
           <params>
             <param index="0">
               <value>
@@ -136,14 +136,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeClass" is-config="true" duration-ms="35518" started-at="2017-08-07T15:25:21Z" finished-at="2017-08-07T15:25:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeClass" is-config="true" duration-ms="66986" started-at="2017-08-08T12:57:04Z" finished-at="2017-08-08T12:58:11Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="searchPlusChannelOption()[pri:1, instance:flockClient.searchPlus@21b2e768]" name="searchPlusChannelOption" duration-ms="2989" started-at="2017-08-07T15:25:56Z" finished-at="2017-08-07T15:25:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-08T12:58:11Z" finished-at="2017-08-08T12:58:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchPlusChannelOption()[pri:1, instance:flockClient.searchPlus@21b2e768]" name="searchPlusChannelOption" duration-ms="3037" started-at="2017-08-08T12:58:11Z" finished-at="2017-08-08T12:58:14Z">
           <reporter-output>
             <line>
               <![CDATA[Starting Test (onTestStart): searchPlusChannelOption]]>
@@ -159,47 +166,63 @@
             </line>
           </reporter-output>
         </test-method> <!-- searchPlusChannelOption -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-07T15:25:56Z" finished-at="2017-08-07T15:25:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-08T12:58:14Z" finished-at="2017-08-08T12:58:14Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-07T15:25:59Z" finished-at="2017-08-07T15:25:59Z">
+        <test-method status="PASS" signature="searchPlusInviteOption()[pri:2, instance:flockClient.searchPlus@21b2e768]" name="searchPlusInviteOption" duration-ms="3875" started-at="2017-08-08T12:58:14Z" finished-at="2017-08-08T12:58:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
+            </line>
+            <line>
+              <![CDATA[Successful Test (onTestSuccess): searchPlusInviteOption]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchPlusInviteOption -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-08-08T12:58:18Z" finished-at="2017-08-08T12:58:18Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="searchPlusJoinChannelOption()[pri:2, instance:flockClient.searchPlus@21b2e768]" name="searchPlusJoinChannelOption" duration-ms="34183" started-at="2017-08-07T15:25:59Z" finished-at="2017-08-07T15:26:33Z">
+        <test-method status="FAIL" signature="searchPlusJoinChannelOption()[pri:3, instance:flockClient.searchPlus@21b2e768]" name="searchPlusJoinChannelOption" duration-ms="33979" started-at="2017-08-08T12:58:18Z" finished-at="2017-08-08T12:58:52Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='widgets_Dialog_4']//span[@role='button']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'channel-type-dialog')]//span[@role='button']"}
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir808_4015}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 5dd5907a27ac54d5689327362a4a5963
-*** Element info: {Using=xpath, value=//div[@id='widgets_Dialog_4']//span[@role='button']}]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir9232_1246}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: dc5cd3091438ce41d978b6589359108e
+*** Element info: {Using=xpath, value=//div[contains(@class,'channel-type-dialog')]//span[@role='button']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='widgets_Dialog_4']//span[@role='button']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'channel-type-dialog')]//span[@role='button']"}
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.05 seconds
+Command duration or timeout: 30.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
 System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir808_4015}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 5dd5907a27ac54d5689327362a4a5963
-*** Element info: {Using=xpath, value=//div[@id='widgets_Dialog_4']//span[@role='button']}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir9232_1246}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: dc5cd3091438ce41d978b6589359108e
+*** Element info: {Using=xpath, value=//div[contains(@class,'channel-type-dialog')]//span[@role='button']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -254,106 +277,21 @@ Session ID: 5dd5907a27ac54d5689327362a4a5963
             </line>
           </reporter-output>
         </test-method> <!-- searchPlusJoinChannelOption -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-08-07T15:26:33Z" finished-at="2017-08-07T15:26:33Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => beforeMethod]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="searchPlusInviteOption()[pri:3, instance:flockClient.searchPlus@21b2e768]" name="searchPlusInviteOption" duration-ms="3136" started-at="2017-08-07T15:26:33Z" finished-at="2017-08-07T15:26:37Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <div class="plus-icon dijitDownArrowButton protip-item" id="shell_plus_PlusWidget_0" widgetid="shell_plus_PlusWidget_0" data-protip-id="2" popupactive="true"></div> is not clickable at point (288, 137). Other element would receive the click: <div class="dijitDialogUnderlay dialogWidget_underlay adder_dialog_underlay new-channel-dialog_underlay group-create-dialog_underlay group-discovery_underlay" data-dojo-attach-point="node" id="widgets_Dialog_5_underlay" style="width: 1366px; height: 623px;"></div>
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir808_4015}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 5dd5907a27ac54d5689327362a4a5963]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <div class="plus-icon dijitDownArrowButton protip-item" id="shell_plus_PlusWidget_0" widgetid="shell_plus_PlusWidget_0" data-protip-id="2" popupactive="true"></div> is not clickable at point (288, 137). Other element would receive the click: <div class="dijitDialogUnderlay dialogWidget_underlay adder_dialog_underlay new-channel-dialog_underlay group-create-dialog_underlay group-discovery_underlay" data-dojo-attach-point="node" id="widgets_Dialog_5_underlay" style="width: 1366px; height: 623px;"></div>
-  (Session info: chrome=59.0.3071.115)
-  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 63 milliseconds
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'MDVLFARZANS', ip: '172.16.138.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\FARZAN~1.DIR\AppData\Local\Temp\scoped_dir808_4015}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 5dd5907a27ac54d5689327362a4a5963
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy31.click(Unknown Source)
-	at utilities.clientElement.clickUniverlSearchPlusIcon(clientElement.java:42)
-	at flockClient.searchPlus.searchPlusInviteOption(searchPlus.java:122)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Starting Test (onTestStart): searchPlusInviteOption]]>
-            </line>
-            <line>
-              <![CDATA[About to begin executing following method (beforeInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
-            </line>
-            <line>
-              <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => searchPlusInviteOption]]>
-            </line>
-            <line>
-              <![CDATA[Failed Test (onTestFailure): searchPlusInviteOption]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchPlusInviteOption -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterClass" is-config="true" duration-ms="68281" started-at="2017-08-07T15:26:37Z" finished-at="2017-08-07T15:27:45Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterClass" is-config="true" duration-ms="8782" started-at="2017-08-08T12:58:52Z" finished-at="2017-08-08T12:59:01Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterTest" is-config="true" duration-ms="4780" started-at="2017-08-07T15:27:45Z" finished-at="2017-08-07T15:27:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterTest" is-config="true" duration-ms="4965" started-at="2017-08-08T12:59:01Z" finished-at="2017-08-08T12:59:06Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-08-07T15:27:50Z" finished-at="2017-08-07T15:27:50Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:flockClient.searchPlus@21b2e768]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-08-08T12:59:06Z" finished-at="2017-08-08T12:59:06Z">
           <reporter-output>
             <line>
               <![CDATA[Finished executing the following method (afterInvocation): flockClient.searchPlus => afterSuite]]>
