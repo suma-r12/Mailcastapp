@@ -15,6 +15,7 @@ public class OnBoardingUtils {
 	ExtentTest test;
 	WebDriver driver = null;
 	private GenericMethods gm;
+	private clientElement ce;
 	
 	private static final Logger log = LogManager.getLogger(OnBoardingUtils.class.getName());
 
@@ -22,6 +23,7 @@ public class OnBoardingUtils {
 		this.driver = webDriver;
 		this.test = test;
 		gm = new GenericMethods(this.driver);
+		ce = new clientElement(this.driver, this.test);
 		
 	}
 
@@ -39,7 +41,7 @@ public class OnBoardingUtils {
 		test.log(LogStatus.INFO, "Test User Signed In");
 	}
 
-	public void setUpUserAccount() throws InterruptedException {
+	public void setUpUserAccount() throws Exception {
 		if (!gm.isElementPresent("//div[@id=\"globalButtonApps\"]/div[1]", "xpath")) {
 			log.info("App not logged in. Try logging in default test account.");
 			test.log(LogStatus.INFO, "App not logged in. Try logging in default test account.");
@@ -56,7 +58,7 @@ public class OnBoardingUtils {
 
 	public void handleLanguageAlert() throws InterruptedException {
 		 log.debug("Inside handle language alert");
-	        gm.waitAndClick(By.xpath("//*[@id=\"widgets_LanguageConflictDialog_0\"]/div[3]/button[1]"), 30);
+	        gm.waitAndClick(By.xpath("//div[contains(@class,'language-conflict-dialog')]"), 30);
 	        try {
 	            Thread.sleep(15 * 1000);
 	        } catch (InterruptedException e) {
@@ -64,10 +66,12 @@ public class OnBoardingUtils {
 	        }
     }
 
-	public void skipFeatureTour() {
-		gm.click(By.xpath("//div[@id='shell_plus_PlusWidget_0']"), 1);
-		gm.waitForElement(By.xpath("//div[@id='dijit__Templated_20']"), 12);
-		if (gm.isElementPresent("//div[@id='dijit__Templated_20']", "xpath")) {
+	public void skipFeatureTour() throws Exception {
+		Thread.sleep(5000);
+		
+		gm.click(By.xpath("//div[@class='search__plus']"), 1);
+		gm.waitForElement(By.xpath("//div[contains(@class,'fcStartNewConversation')]"), 12);
+		if (gm.elementDisplayed(By.xpath("//div[contains(@class,'fcStartNewConversation')]"), "Feature Tour Card")) {
 			log.info("Clicking on Feature Tour Skip");
 			test.log(LogStatus.INFO, "Clicking on Feature Tour Skip");
 			gm.click(By.className("fcSkipButton"), 1);

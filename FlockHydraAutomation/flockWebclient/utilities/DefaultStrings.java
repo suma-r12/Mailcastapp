@@ -10,7 +10,7 @@ public class DefaultStrings {
 	public static final String FIREFOX = "firefox";
     public static final String CHROME = "chrome";
 
-	public static final String FLOCK_WEB_PREPROD = "https://updates.flock.co/fl_hydra_web/2.1.0.92/?s=qa&config=preprod";
+	public static final String FLOCK_WEB_PREPROD = "https://web.flock.com/?s=qa&config=preprod";
 	public static final String FLOCK_WEB_PROD = "https://web.flock.com/?s=qa&config=prod";
 	
 	public static final String DIRECTI_TESTER_002_Email = "directitester002@directi.com";

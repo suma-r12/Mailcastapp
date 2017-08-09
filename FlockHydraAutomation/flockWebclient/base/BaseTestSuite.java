@@ -82,7 +82,7 @@ public class BaseTestSuite{
 		
 	}
 	 @BeforeClass
-	 public void beforeClass() throws InterruptedException{
+	 public void beforeClass() throws Exception{
 		 onboard.setUpUserAccount();
 	 }
 	 

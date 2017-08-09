@@ -3,8 +3,6 @@ package flockClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,7 +12,11 @@ import com.relevantcodes.extentreports.LogStatus;
 import base.BaseTestSuite;
 
 public class searchPlus extends BaseTestSuite{
-
+	/*
+	Created on 9th August 2017
+	By Farzan Shaikh
+	*/
+	
 	private static final Logger log = LogManager.getLogger(searchPlus.class.getName());
 
 	@BeforeMethod
@@ -25,7 +27,7 @@ public class searchPlus extends BaseTestSuite{
 	@Test(priority=1)
 	public void searchPlusChannelOption() throws Exception {
 		
-		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
+		if (ce.univerlSearchPlusIconPresent()) {
 			
 			ce.clickUniverlSearchPlusIcon();
 
@@ -36,8 +38,11 @@ public class searchPlus extends BaseTestSuite{
 			Assert.assertTrue(result);
 			
 			ce.clickStartChannelModalClose();
+			
+			test.log(LogStatus.PASS, "searchPlusChannelOption Test Passed");
 		}
 	}
+	
 	
 	public void searchPlusContentOption1() throws Exception {
 
@@ -63,15 +68,16 @@ public class searchPlus extends BaseTestSuite{
 						"For your projects or topics");
 				test.log(LogStatus.INFO, "The create a channel option is present");
 			} else {
-				test.log(LogStatus.ERROR, "The create a channel option is not present");
+				test.log(LogStatus.FAIL, "The create a channel option is not present");
 			}		
 	}
 	
-	@Test(priority=3)
+	
+	@Test(priority=2)
 	public void searchPlusJoinChannelOption() throws Exception {
 		Thread.sleep(3000);
 		
-		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
+		if (ce.univerlSearchPlusIconPresent()) {
 			
 			ce.clickUniverlSearchPlusIcon();
 
@@ -82,9 +88,11 @@ public class searchPlus extends BaseTestSuite{
 			boolean result = driver.findElement(By.xpath("//div[contains(text(),'Public Channels')]")) != null;
 			Assert.assertTrue(result);
 			
-			ce.clickStartChannelModalClose();
+			ce.clickJoinChannelModalClose();
+			test.log(LogStatus.PASS, "searchPlusJoinChannelOption Test Passed");
 		}
 	}
+	
 	
 	public void searchPlusContentOption2() throws Exception{
 		if (gm.isElementPresent("dijit__WidgetsInTemplateMixin_1", "id")) {
@@ -107,16 +115,16 @@ public class searchPlus extends BaseTestSuite{
 					"Discover shared interests");
 			test.log(LogStatus.INFO, "The join a channel option is present");
 		} else {
-			test.log(LogStatus.ERROR, "The join a channel option is not present");
+			test.log(LogStatus.FAIL, "The join a channel option is not present");
 		}
-		
 	}
 	
-	@Test(priority=2)
+	
+	@Test(priority=3)
 	public void searchPlusInviteOption() throws Exception {
 		Thread.sleep(3000);
 		
-		if (gm.isElementPresent("//div[@id='shell_plus_PlusWidget_0']", "xpath")) {
+		if (ce.univerlSearchPlusIconPresent()) {
 			
 
 			ce.clickUniverlSearchPlusIcon();
@@ -129,6 +137,7 @@ public class searchPlus extends BaseTestSuite{
 			Assert.assertTrue(result);
 			
 			ce.clickInviteContactCancel();
+			test.log(LogStatus.PASS, "searchPlusInviteOption Test Passed");
 		}
 	}
 
@@ -154,9 +163,8 @@ public class searchPlus extends BaseTestSuite{
 					"Add members to your team");
 			test.log(LogStatus.INFO, "The invite option is present");
 		} else {
-			test.log(LogStatus.ERROR, "The invite option is not present");
+			test.log(LogStatus.FAIL, "The invite option is not present");
 		}
-		
 	}
 
 	

@@ -36,6 +36,18 @@ public class clientElement {
 	@FindBy(id="shell_plus_PlusWidget_0")
 	public WebElement univerlSearchPlusIcon;
 	
+	public boolean univerlSearchPlusIconPresent(){
+		if(univerlSearchPlusIcon != null){
+			log.info("The universal SearchPlus Icon is present");
+			test.log(LogStatus.INFO, "The universal SearchPlus Icon is present");
+			return true;
+		}else{
+			log.info("The universal SearchPlus Icon is present");
+			test.log(LogStatus.FAIL, "The universal SearchPlus Icon is present");
+			return false;
+		}
+	}
+	
 	public void clickUniverlSearchPlusIcon(){
 		if(univerlSearchPlusIcon.getSize() != null){
 		
@@ -132,4 +144,6 @@ public class clientElement {
 			log.info("The Cancle option in Invite Contact Modal is not clicked");
 		}		
 	}
+	
+	
 }
