@@ -5,13 +5,13 @@
 		<listener class-name="utilities.SeleniumListener">
 		</listener>
 	</listeners>
-	<!-- <test name="Firefox Browser">
+	<test name="Firefox Browser">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="flockClient.searchPlus">
 			</class>
 		</classes>
-	</test> -->
+	</test> 
 	<test name="Chorme Browser">
 		<parameter name="browser" value="chrome" />
 		<classes>

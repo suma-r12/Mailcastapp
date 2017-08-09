@@ -519,3 +519,227 @@
 12:58:52.964 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
 12:58:53.243 INFO  utilities.GenericMethods -Element clicked on the webpage
 12:58:53.244 INFO  utilities.SignOutUtils -The test user has been signed out
+14:22:37.585 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id="globalButtonApps"]/div[1]
+14:22:37.595 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id="globalButtonApps"]/div[1])
+14:22:47.676 INFO  utilities.GenericMethods -Element not found with xpath: //div[@id="globalButtonApps"]/div[1]
+14:22:47.677 INFO  utilities.OnBoardingUtils -App not logged in. Try logging in default test account.
+14:22:47.777 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:22:47.778 DEBUG utilities.GenericMethods -Searching element using By.xpath(//input[@placeholder='Enter your work email'])
+14:22:47.903 INFO  utilities.GenericMethods -Element not found with xpath: //input[@placeholder='Enter your work email']
+14:22:49.312 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:22:50.071 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:22:50.072 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:22:52.573 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:22:52.573 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:22:53.102 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:22:53.103 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:22:53.706 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:22:53.715 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+14:22:53.716 DEBUG utilities.OnBoardingUtils -Inside handle language alert
+14:22:53.716 DEBUG utilities.GenericMethods -Waiting for a max: 30 seconds for the element to become clickable
+14:23:07.451 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id="globalButtonApps"]/div[1]
+14:23:07.452 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id="globalButtonApps"]/div[1])
+14:23:22.578 INFO  utilities.GenericMethods -Element not found with xpath: //div[@id="globalButtonApps"]/div[1]
+14:23:22.578 INFO  utilities.OnBoardingUtils -App not logged in. Try logging in default test account.
+14:23:22.594 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:23:22.594 DEBUG utilities.GenericMethods -Searching element using By.xpath(//input[@placeholder='Enter your work email'])
+14:23:22.610 INFO  utilities.GenericMethods -Element not found with xpath: //input[@placeholder='Enter your work email']
+14:23:22.872 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:23:23.409 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:23.410 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:23:24.833 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:24.833 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:23:24.964 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:23:24.964 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:23:25.360 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:25.410 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+14:23:25.410 DEBUG utilities.OnBoardingUtils -Inside handle language alert
+14:23:25.410 DEBUG utilities.GenericMethods -Waiting for a max: 30 seconds for the element to become clickable
+14:23:29.609 INFO  utilities.GenericMethods -Not able to waitAndClick on the element
+14:23:35.328 INFO  utilities.GenericMethods -Not able to waitAndClick on the element
+14:23:44.611 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:23:44.631 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:23:44.631 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to appear
+14:23:44.655 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+14:23:44.655 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='dijit__Templated_20']
+14:23:44.655 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='dijit__Templated_20'])
+14:23:50.329 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:23:50.548 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:50.548 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to appear
+14:23:50.627 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+14:23:50.627 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='dijit__Templated_20']
+14:23:50.627 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='dijit__Templated_20'])
+14:23:50.646 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__Templated_20']
+14:23:50.646 INFO  utilities.OnBoardingUtils -Clicking on Feature Tour Skip
+14:23:50.646 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:23:55.841 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:23:55.851 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:23:55.852 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:23:55.886 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:23:56.244 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:23:58.245 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_2
+14:23:58.245 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_2)
+14:23:58.285 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_2
+14:23:58.340 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //div[@class='plus-item__icon group'] is displayed
+14:23:58.403 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label'] is displayed
+14:23:58.466 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //*[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[2] is Create a new channel
+14:23:58.544 INFO  utilities.GenericMethods -The text: Create a new channel displayed is correct
+14:23:58.654 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is displayed
+14:23:58.742 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is For your projects or topics
+14:23:58.822 INFO  utilities.GenericMethods -The text: For your projects or topics displayed is correct
+14:23:59.107 INFO  utilities.clientElement -The Create Channel Option is not clicked
+14:23:59.650 INFO  utilities.clientElement -The Cancle option in StartNewChannel Modal is clicked
+14:24:02.654 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:24:02.654 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:24:02.670 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:24:02.760 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:24:02.760 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_3
+14:24:02.761 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_3)
+14:24:02.801 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_3
+14:24:02.842 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //div[@class='plus-item__icon invite'] is displayed
+14:24:02.892 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is displayed
+14:24:02.926 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is Invite contacts
+14:24:02.989 INFO  utilities.GenericMethods -The text: Invite contacts displayed is correct
+14:24:03.039 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is displayed
+14:24:03.062 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is Add members to your team
+14:24:03.107 INFO  utilities.GenericMethods -The text: Add members to your team displayed is correct
+14:24:03.327 INFO  utilities.clientElement -The Invite Contact Button is clicked
+14:24:03.727 INFO  utilities.clientElement -The Cancle option in Invite Contact Modal is clicked
+14:24:06.733 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:24:06.733 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:24:06.750 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:24:06.877 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:24:06.878 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_1
+14:24:06.879 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_1)
+14:24:06.943 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_1
+14:24:07.013 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__icon join_channel'] is displayed
+14:24:07.074 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is displayed
+14:24:07.114 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is Join Public Channels (1)
+14:24:07.186 ERROR utilities.GenericMethods -The text: Join Public Channels (1) displayed is not correct
+14:24:07.277 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel'] is displayed
+14:24:07.327 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel'] is Discover shared interests
+14:24:07.402 INFO  utilities.GenericMethods -The text: Discover shared interests displayed is correct
+14:24:07.640 INFO  utilities.clientElement -The Join Channel Button is clicked
+14:24:37.747 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_appLogo_AppLogo_0']
+14:24:37.747 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_appLogo_AppLogo_0'])
+14:24:37.795 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_appLogo_AppLogo_0']
+14:24:37.796 INFO  utilities.SignOutUtils -App not logged out. Try logging out from the default test account.
+14:24:37.796 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:24:38.001 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:24:38.001 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:25:08.037 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:25:08.038 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:25:38.078 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:25:38.078 INFO  utilities.SignOutUtils -The test user has been signed out
+14:30:57.727 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id="globalButtonApps"]/div[1]
+14:30:57.735 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id="globalButtonApps"]/div[1])
+14:31:07.891 INFO  utilities.GenericMethods -Element not found with xpath: //div[@id="globalButtonApps"]/div[1]
+14:31:07.891 INFO  utilities.OnBoardingUtils -App not logged in. Try logging in default test account.
+14:31:07.980 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:31:07.980 DEBUG utilities.GenericMethods -Searching element using By.xpath(//input[@placeholder='Enter your work email'])
+14:31:08.085 INFO  utilities.GenericMethods -Element not found with xpath: //input[@placeholder='Enter your work email']
+14:31:08.789 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:31:09.890 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:09.890 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:31:11.994 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:11.994 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:31:12.599 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:31:12.599 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:31:13.233 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:13.241 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+14:31:13.241 DEBUG utilities.OnBoardingUtils -Inside handle language alert
+14:31:13.241 DEBUG utilities.GenericMethods -Waiting for a max: 30 seconds for the element to become clickable
+14:31:15.144 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id="globalButtonApps"]/div[1]
+14:31:15.144 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id="globalButtonApps"]/div[1])
+14:31:28.193 INFO  utilities.GenericMethods -Element not found with xpath: //div[@id="globalButtonApps"]/div[1]
+14:31:28.193 INFO  utilities.OnBoardingUtils -App not logged in. Try logging in default test account.
+14:31:28.215 INFO  utilities.GenericMethods -Switched to iframe by int : 0
+14:31:28.215 DEBUG utilities.GenericMethods -Searching element using By.xpath(//input[@placeholder='Enter your work email'])
+14:31:28.234 INFO  utilities.GenericMethods -Element not found with xpath: //input[@placeholder='Enter your work email']
+14:31:28.488 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:31:29.124 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:29.124 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:31:30.535 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:30.535 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be send key
+14:31:30.724 INFO  utilities.GenericMethods -Value Entered in the place holder
+14:31:30.724 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:31:31.144 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:31:31.190 INFO  utilities.GenericMethods -Implicitly waiting for 30secs
+14:31:31.190 DEBUG utilities.OnBoardingUtils -Inside handle language alert
+14:31:31.190 DEBUG utilities.GenericMethods -Waiting for a max: 30 seconds for the element to become clickable
+14:31:34.523 INFO  utilities.GenericMethods -Not able to waitAndClick on the element
+14:31:49.524 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:31:49.567 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:31:49.567 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to appear
+14:31:49.584 ERROR utilities.GenericMethods -The Element that you waited for is not displayed on the webpage
+14:31:49.585 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='dijit__Templated_20']
+14:31:49.585 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='dijit__Templated_20'])
+14:31:51.333 INFO  utilities.GenericMethods -Not able to waitAndClick on the element
+14:32:06.334 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:32:06.497 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:32:06.497 INFO  utilities.GenericMethods -Waiting for a max: 12 sec for the element to appear
+14:32:06.572 INFO  utilities.GenericMethods -The Element that you waited for is now displayed on the webpage
+14:32:06.573 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='dijit__Templated_20']
+14:32:06.573 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='dijit__Templated_20'])
+14:32:06.586 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='dijit__Templated_20']
+14:32:06.587 INFO  utilities.OnBoardingUtils -Clicking on Feature Tour Skip
+14:32:06.587 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:32:11.727 INFO  utilities.GenericMethods -Element clicked on the webpage
+14:32:11.734 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:32:11.735 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:32:11.750 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:32:11.837 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:32:13.837 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_2
+14:32:13.837 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_2)
+14:32:13.898 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_2
+14:32:14.009 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //div[@class='plus-item__icon group'] is displayed
+14:32:14.115 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__label'] is displayed
+14:32:14.164 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //*[@id='dijit__WidgetsInTemplateMixin_2']/td[2]/div[2] is Create a new channel
+14:32:14.207 INFO  utilities.GenericMethods -The text: Create a new channel displayed is correct
+14:32:14.248 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is displayed
+14:32:14.272 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_2']//div[@class='plus-item__sublabel'] is For your projects or topics
+14:32:14.316 INFO  utilities.GenericMethods -The text: For your projects or topics displayed is correct
+14:32:14.483 INFO  utilities.clientElement -The Create Channel Option is not clicked
+14:32:14.840 INFO  utilities.clientElement -The Cancle option in StartNewChannel Modal is clicked
+14:32:17.844 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:32:17.844 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:32:17.882 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:32:17.984 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:32:17.985 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_3
+14:32:17.985 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_3)
+14:32:18.017 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_3
+14:32:18.054 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //div[@class='plus-item__icon invite'] is displayed
+14:32:18.095 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is displayed
+14:32:18.117 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__label'] is Invite contacts
+14:32:18.156 INFO  utilities.GenericMethods -The text: Invite contacts displayed is correct
+14:32:18.193 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is displayed
+14:32:18.216 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_3']//div[@class='plus-item__sublabel'] is Add members to your team
+14:32:18.253 INFO  utilities.GenericMethods -The text: Add members to your team displayed is correct
+14:32:18.398 INFO  utilities.clientElement -The Invite Contact Button is clicked
+14:32:18.625 INFO  utilities.clientElement -The Cancle option in Invite Contact Modal is clicked
+14:32:21.632 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_plus_PlusWidget_0']
+14:32:21.632 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_plus_PlusWidget_0'])
+14:32:21.667 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_plus_PlusWidget_0']
+14:32:21.771 INFO  utilities.clientElement -Clicked on the Universal Search Button
+14:32:21.771 DEBUG utilities.GenericMethods -Type: id, Locator: dijit__WidgetsInTemplateMixin_1
+14:32:21.771 DEBUG utilities.GenericMethods -Searching element list using By.id(dijit__WidgetsInTemplateMixin_1)
+14:32:21.809 INFO  utilities.GenericMethods -Element found with id: dijit__WidgetsInTemplateMixin_1
+14:32:21.866 INFO  utilities.GenericMethods -The Create-Channel-icon element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__icon join_channel'] is displayed
+14:32:21.923 INFO  utilities.GenericMethods -The Create-Channel-label element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is displayed
+14:32:21.963 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__label'] is Join Public Channels (1)
+14:32:22.039 ERROR utilities.GenericMethods -The text: Join Public Channels (1) displayed is not correct
+14:32:22.095 INFO  utilities.GenericMethods -The Create-Channel-sublabel element at loction: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel'] is displayed
+14:32:22.130 INFO  utilities.GenericMethods -THe text at locator: By.xpath: //tr[@id='dijit__WidgetsInTemplateMixin_1']//div[@class='plus-item__sublabel'] is Discover shared interests
+14:32:22.194 INFO  utilities.GenericMethods -The text: Discover shared interests displayed is correct
+14:32:22.394 INFO  utilities.clientElement -The Join Channel Button is clicked
+14:32:52.541 DEBUG utilities.GenericMethods -Type: xpath, Locator: //div[@id='shell_appLogo_AppLogo_0']
+14:32:52.541 DEBUG utilities.GenericMethods -Searching element list using By.xpath(//div[@id='shell_appLogo_AppLogo_0'])
+14:32:52.580 INFO  utilities.GenericMethods -Element found with xpath: //div[@id='shell_appLogo_AppLogo_0']
+14:32:52.580 INFO  utilities.SignOutUtils -App not logged out. Try logging out from the default test account.
+14:32:52.581 INFO  utilities.GenericMethods -Waiting for a max: 2 sec for the element to be clickable
+14:32:52.727 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:32:52.727 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:33:22.757 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:33:22.757 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
+14:33:45.184 ERROR utilities.GenericMethods -Element not clicked on the webpage
+14:33:45.185 INFO  utilities.SignOutUtils -The test user has been signed out
