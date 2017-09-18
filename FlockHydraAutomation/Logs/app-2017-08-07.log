@@ -1,5 +1,0 @@
-15:26:37.276 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-15:27:07.299 ERROR utilities.GenericMethods -Element not clicked on the webpage
-15:27:07.300 INFO  utilities.GenericMethods -Waiting for a max: 1 sec for the element to be clickable
-15:27:37.358 ERROR utilities.GenericMethods -Element not clicked on the webpage
-15:27:37.359 INFO  utilities.SignOutUtils -The test user has been signed out

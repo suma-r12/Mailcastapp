@@ -1,1 +1,7 @@
-/bin/
+.metadata
+.metadata/
+.recommenders
+RemoteSystemsTempFiles 
+*.log
+ FlockHydraAutomation/test-output/*
+ 

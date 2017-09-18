@@ -1,5 +1,7 @@
 package utilities;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,18 +11,12 @@ import org.testng.annotations.BeforeMethod;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import base.BaseTestSuite;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.junit.Before;
-
 public class clientElement {
 	ExtentTest test;
 	WebDriver driver;
 	WebElement element = null ;
 	
-	private static GenericMethods gm ;
+	//private static GenericMethods gm ;
 	private static final Logger log = LogManager.getLogger(clientElement.class.getName());
 	
 	public clientElement(WebDriver driver, ExtentTest test){
@@ -74,7 +70,7 @@ public class clientElement {
 		}		
 	}
 	
-	@FindBy(xpath="//div[contains(@class,'channel-type-dialog')]//span[@role='button']")
+	@FindBy(xpath="//span[@class='modal-box__close']")
 	WebElement startNewChannelCancel;
 	
 	public void  clickStartChannelModalClose(){

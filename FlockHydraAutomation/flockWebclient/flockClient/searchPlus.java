@@ -33,8 +33,9 @@ public class searchPlus extends BaseTestSuite{
 
 			searchPlusContentOption1();
 			ce.clickSearchPlusCreateChannel();
+			gm.SwitchToiFrameNo(1);
 			
-			boolean result = driver.findElement(By.xpath("//div[contains(text(),'Start a New Channel')]")) != null;
+			boolean result = driver.findElement(By.xpath("//h2[contains(text(),'Start a New Channel')]")) != null;
 			Assert.assertTrue(result);
 			
 			ce.clickStartChannelModalClose();
