@@ -1,7 +1,4 @@
 package utilities;
-import java.io.IOException;
-
-import org.openqa.selenium.WebDriver;
 import org.testng.IInvokedMethod;
 import org.testng.IInvokedMethodListener;
 import org.testng.ISuite;
@@ -11,8 +8,6 @@ import org.testng.ITestListener;
 import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
 import org.testng.Reporter;
-
-import utilities.ScreenShots;
 
 public class SeleniumListener implements ITestListener, ISuiteListener, IInvokedMethodListener {
 	

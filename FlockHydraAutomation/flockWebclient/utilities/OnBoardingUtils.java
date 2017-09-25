@@ -15,7 +15,7 @@ public class OnBoardingUtils {
 	ExtentTest test;
 	WebDriver driver = null;
 	private GenericMethods gm;
-	private clientElement ce;
+	//private clientElement ce;
 	
 	private static final Logger log = LogManager.getLogger(OnBoardingUtils.class.getName());
 
@@ -23,7 +23,7 @@ public class OnBoardingUtils {
 		this.driver = webDriver;
 		this.test = test;
 		gm = new GenericMethods(this.driver);
-		ce = new clientElement(this.driver, this.test);
+		//ce = new clientElement(this.driver, this.test);
 		
 	}
 

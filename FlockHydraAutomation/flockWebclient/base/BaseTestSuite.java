@@ -2,8 +2,6 @@ package base;
 
 import static org.testng.Assert.fail;
 
-import java.util.Locale;
-import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -36,7 +34,7 @@ import utilities.clientElement;
 public class BaseTestSuite{
 	
 	public WebDriver driver;
-	private ResourceBundle bundle;
+	//private ResourceBundle bundle;
 	protected ExtentReports report;
 	protected ExtentTest test;
 	protected GenericMethods gm;
@@ -50,7 +48,7 @@ public class BaseTestSuite{
 	public void beforeTest(@Optional(DefaultStrings.CHROME) String browser) {
 		 
 		 
-		bundle = ResourceBundle.getBundle("config", Locale.getDefault());
+		//bundle = ResourceBundle.getBundle("config", Locale.getDefault());
 		System.out.println("BaseTestSuite -> Before Class");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
 			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);

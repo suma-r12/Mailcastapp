@@ -1,7 +1,5 @@
 package flockClient;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -17,7 +15,7 @@ public class searchPlus extends BaseTestSuite{
 	By Farzan Shaikh
 	*/
 	
-	private static final Logger log = LogManager.getLogger(searchPlus.class.getName());
+	//private static final Logger log = LogManager.getLogger(searchPlus.class.getName());
 
 	@BeforeMethod
 	public void beforeMethod() throws Exception {

@@ -2,8 +2,6 @@ package base;
 
 import static org.testng.Assert.fail;
 
-import java.util.Locale;
-import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -13,10 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.internal.ProfilesIni;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
@@ -24,18 +20,15 @@ import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 
 import utilities.DefaultStrings;
 import utilities.ExtentFactory;
 import utilities.GenericMethods;
-import utilities.OnBoardingUtils;
-import utilities.SignOutUtils;
 
 public class SignInTestSuite{
 	
 	public WebDriver driver;
-	private ResourceBundle bundle;
+	//private ResourceBundle bundle;
 	protected ExtentReports report;
 	protected ExtentTest test;
 	protected GenericMethods gm;
@@ -47,7 +40,7 @@ public class SignInTestSuite{
 	public void beforeTest(@Optional(DefaultStrings.CHROME) String browser) {
 		 
 		 
-		bundle = ResourceBundle.getBundle("config", Locale.getDefault());
+		//bundle = ResourceBundle.getBundle("config", Locale.getDefault());
 		System.out.println("BaseTestSuite -> Before Class");
 		if (browser.equalsIgnoreCase(DefaultStrings.FIREFOX)) {
 			System.getProperty(DefaultStrings.FIREFOX_DRIVER_KEY, DefaultStrings.FIREFOX_DRIVER_PATH);

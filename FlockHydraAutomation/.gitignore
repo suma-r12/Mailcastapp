@@ -5,3 +5,4 @@ RemoteSystemsTempFiles
 *.log
  FlockHydraAutomation/test-output/*
  
+/bin/
